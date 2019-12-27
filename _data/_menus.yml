@@ -8,6 +8,7 @@ main:
     - page_id: _pages/offers.html
     - page_id: _pages/gallery.html
     - page_id: _pages/contact.html
+    - page_id: _pages/attractions.html
     # - url_localized:
     #     en: https://www.google.com
     #     es: https://www.google.es

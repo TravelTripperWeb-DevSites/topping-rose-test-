@@ -1,5 +1,5 @@
 ---
-layout: gallery_layout
+layout: generic
 title: Gallery
 meta_description:
 permalink: /gallery/
@@ -20,10 +20,6 @@ meta_tags:
   Usage:
 
     Create a new gallery from the 'manage galleries' tab, then display the
-    images by looping over the gallery items, referenced by the gallery name.
-
-    eg. {% for photo in site.data._galleries.GALLERY_NAME.photos %}
-          <img src="{{ photo.url }}" alt="{{ photo.description }}">
-        {% endfor %}
-
+    images by adding a "galleries" region in the UI
+  
 {% endcomment %}

@@ -1,0 +1,7 @@
+crs_source: reztrip #or rvng or synxis - must be all lowercase
+root_path: https://rt3api-prd.ttaws.com
+_hotel_id: KEY24N #SNBOX #KEY24N #HODE NYCSTW
+_portal_id: 24northhotel #sandbox #demo
+
+
+__EDITABLE_FIELDS__: []

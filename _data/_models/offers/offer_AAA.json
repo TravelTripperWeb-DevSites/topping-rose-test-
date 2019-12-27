@@ -3,6 +3,7 @@
     "en": "AAA ",
     "es": "Bed and Breakfast "
   },
+  
   "short_description_localized": {
     "en": "Includes continental breakfast ",
     "es": "Includes continental breakfast "
@@ -34,10 +35,13 @@
       "original_url": "https://d31f902anbz5po.cloudfront.net/1025/67725_1_yankee_large.jpg"
     }
   ],
-  "reztrip_offer_id": "AAA",
-  "order": 1,
+  "reztrip_offer_id": "DSAAA",
+  "order": 2,
   "featured": true,
-  "featured_order": 1,
+  "featured_order": 2,
+  "addons": [
+    "b"
+  ],
   "image": {
     "name": "Bed-and-Breakfast--Continental-Breakfast---Lounge-",
     "content_type": null,

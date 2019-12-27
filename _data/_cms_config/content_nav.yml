@@ -1,0 +1,27 @@
+items:
+  - id: __pages__
+  - id: __menus__
+  # - id: room_data
+  #   label:
+  #     en: Rooms
+  #   items:
+  #   - id: rooms
+  #   - id: room_amenities
+  #   - id: room_bed_types
+      
+  # - id: offers
+  - id: attractions
+  - id: blogs
+    label: Blogs
+    items:
+      - id: posts
+        label: Blog Posts
+      - id: post_categories
+        label: Categories
+      - id: post_tags
+        label: Tags
+  # - id: conversion_plus_messages
+  - id: events
+  - id: dining
+  - id: __galleries__
+  - id: reviews
