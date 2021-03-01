@@ -1,15 +1,15 @@
 ---
-latitude: 40.750613
-longitude: -73.977095
+latitude: 40.9381899
+longitude: -72.3002588
 map_zoom: 15
 name: Topping Rose House
-email: support@traveltripper.com
+email: guestservice@toppingrosehouse.com
 phone_number: 434-979-3440
 address:
-  street1: 701 Club Drive  /  Keswick, Virginia
+  street1: One Bridgehampton - Sag Harbor Turnpike
   state: NY
-  city: New York
-  zip_code: 22947
+  city: Bridgehampton
+  zip_code: '11932'
 default_currency: USD
 default_timezone: America/New_York
 __EDITABLE_FIELDS__:
@@ -48,6 +48,29 @@ __EDITABLE_FIELDS__:
     type: float
 get_directions: https://goo.gl/maps/qLhg6kYXBTKJtqxUA
 logo:
+  name: topping-rose-black
+  content_type: image/png
+  date_added: 2021-03-01-061830
+  url_thumb: "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1614597510/hipka58qza75yxwtzpje.png"
+  url_xsmall: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1614597510/hipka58qza75yxwtzpje.png"
+  url_small: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1614597510/hipka58qza75yxwtzpje.png"
+  url_medium: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1614597510/hipka58qza75yxwtzpje.png"
+  url_large: "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1614597510/hipka58qza75yxwtzpje.png"
+  url_xlarge: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1614597510/hipka58qza75yxwtzpje.png"
+  url: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614597510/hipka58qza75yxwtzpje.png"
+  width: 184
+  height: 260
+  format: png
+  url_raw: "//res.cloudinary.com/traveltripperweb/image/upload/v1614597510/hipka58qza75yxwtzpje.png"
+  resource_type: image
+  size: 13165
+  git_file_name: _assets/image_data/topping-rose-black.png.json
+  path: "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614597510/hipka58qza75yxwtzpje.png"
+  file_size: 
+  alt: Topping Rose House
+  caption: ''
+  description: ''
+logo_secondary:
   name: topping-rose-white
   content_type: image/png
   date_added: 2021-03-01-061830
@@ -70,31 +93,294 @@ logo:
   alt: Topping Rose House
   caption: ''
   description: ''
-logo_secondary:
-  name: Kewsick-Logo-light
-  content_type: image/svg+xml
-  date_added: 2020-03-05-053628
-  format: 
-  url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583404588/sgaxwjebjsh2wmzsmutr.svg"
-  url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583404588/sgaxwjebjsh2wmzsmutr.svg"
-  resource_type: raw
-  size: 12405
-  path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583404588/sgaxwjebjsh2wmzsmutr.svg"
-  file_size: 
-  alt: Keswick Hall
-  caption: ''
-  description: ''
 logo_mobile:
-  name: Keswick-horizontal-Logo-white
-  content_type: image/svg+xml
-  date_added: 2020-03-05-062312
-  format: 
-  url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583407392/uph0gzbqs7ft4uwsskjp.svg"
-  url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583407392/uph0gzbqs7ft4uwsskjp.svg"
-  resource_type: raw
-  size: 3718
-  path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583407392/uph0gzbqs7ft4uwsskjp.svg"
-  file_size: 
-  alt: Keswick Hall
+  alt: ''
   caption: ''
   description: ''
+google_location:
+  name: Topping Rose House
+  address: 1 Bridgehampton-Sag Harbor Turnpike, Bridgehampton, NY 11932, USA
+  phone: "(631) 808-2000"
+  place_id: ChIJc-QCIdm96IkRL0OB-VmHlQ4
+  reference: ChIJc-QCIdm96IkRL0OB-VmHlQ4
+  latitude: 40.93818989999999
+  longitude: -72.3002588
+  google_place:
+    address_components:
+    - long_name: '1'
+      short_name: '1'
+      types:
+      - street_number
+    - long_name: Bridgehampton-Sag Harbor Turnpike
+      short_name: Bridgehampton-Sag Harbor Turnpike
+      types:
+      - route
+    - long_name: Bridgehampton
+      short_name: Bridgehampton
+      types:
+      - locality
+      - political
+    - long_name: Southampton
+      short_name: Southampton
+      types:
+      - administrative_area_level_3
+      - political
+    - long_name: Suffolk County
+      short_name: Suffolk County
+      types:
+      - administrative_area_level_2
+      - political
+    - long_name: New York
+      short_name: NY
+      types:
+      - administrative_area_level_1
+      - political
+    - long_name: United States
+      short_name: US
+      types:
+      - country
+      - political
+    - long_name: '11932'
+      short_name: '11932'
+      types:
+      - postal_code
+    adr_address: <span class="street-address">1 Bridgehampton-Sag Harbor Turnpike</span>,
+      <span class="locality">Bridgehampton</span>, <span class="region">NY</span>
+      <span class="postal-code">11932</span>, <span class="country-name">USA</span>
+    business_status: OPERATIONAL
+    formatted_address: 1 Bridgehampton-Sag Harbor Turnpike, Bridgehampton, NY 11932,
+      USA
+    formatted_phone_number: "(631) 808-2000"
+    geometry:
+      location:
+        lat: 40.93818989999999
+        lng: -72.3002588
+      viewport:
+        south: 40.93668951970849
+        west: -72.3017672802915
+        north: 40.93938748029149
+        east: -72.2990693197085
+    icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+    international_phone_number: "+1 631-808-2000"
+    name: Topping Rose House
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2030'
+          hours: 20
+          minutes: 30
+          nextDate: 1615167000000
+        open:
+          day: 0
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1615118400000
+      - close:
+          day: 1
+          time: '2030'
+          hours: 20
+          minutes: 30
+          nextDate: 1614648600000
+        open:
+          day: 1
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1614600000000
+      - close:
+          day: 2
+          time: '2030'
+          hours: 20
+          minutes: 30
+          nextDate: 1614735000000
+        open:
+          day: 2
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1614686400000
+      - close:
+          day: 3
+          time: '2030'
+          hours: 20
+          minutes: 30
+          nextDate: 1614821400000
+        open:
+          day: 3
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1614772800000
+      - close:
+          day: 4
+          time: '2030'
+          hours: 20
+          minutes: 30
+          nextDate: 1614907800000
+        open:
+          day: 4
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1614859200000
+      - close:
+          day: 5
+          time: '2130'
+          hours: 21
+          minutes: 30
+          nextDate: 1614997800000
+        open:
+          day: 5
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1614945600000
+      - close:
+          day: 6
+          time: '2130'
+          hours: 21
+          minutes: 30
+          nextDate: 1615084200000
+        open:
+          day: 6
+          time: '0700'
+          hours: 7
+          minutes: 0
+          nextDate: 1615032000000
+      weekday_text:
+      - 'Monday: 7:00 am – 8:30 pm'
+      - 'Tuesday: 7:00 am – 8:30 pm'
+      - 'Wednesday: 7:00 am – 8:30 pm'
+      - 'Thursday: 7:00 am – 8:30 pm'
+      - 'Friday: 7:00 am – 9:30 pm'
+      - 'Saturday: 7:00 am – 9:30 pm'
+      - 'Sunday: 7:00 am – 8:30 pm'
+    photos:
+    - height: 1220
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 1800
+    - height: 1772
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 2658
+    - height: 3024
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/104315068710794114411">Santiago
+        Capa</a>
+      width: 4032
+    - height: 3024
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/113497402214585954503">Daniel
+        Swerdlow</a>
+      width: 4032
+    - height: 4872
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 6496
+    - height: 642
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 960
+    - height: 660
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 1020
+    - height: 2176
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 2720
+    - height: 4450
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 3020
+    - height: 3264
+      html_attributions:
+      - <a href="https://maps.google.com/maps/contrib/111022914662022758648">Topping
+        Rose House</a>
+      width: 4896
+    place_id: ChIJc-QCIdm96IkRL0OB-VmHlQ4
+    plus_code:
+      compound_code: WMQX+7V Bridgehampton, NY, USA
+      global_code: 87G9WMQX+7V
+    price_level: 4
+    rating: 4.3
+    reference: ChIJc-QCIdm96IkRL0OB-VmHlQ4
+    reviews:
+    - author_name: Rogelio Cambiasso
+      author_url: https://www.google.com/maps/contrib/102692233780118767792/reviews
+      language: en
+      profile_photo_url: https://lh4.googleusercontent.com/-ZtkuUSEi6MU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnK0XLCLKVAH3f9T4b302CTgrrY0g/s128-c0x00000000-cc-rp-mo/photo.jpg
+      rating: 1
+      relative_time_description: 4 weeks ago
+      text: This is a review for the restaurant. Worst brunch we’ve had in years.
+        The pancakes were not even fresh. The omelette was very dry, potatoes overcooked
+        and tasteless and the salad   came straight from a Trader Joe’s box. The eggs
+        were mediocre and cold. Zero creativity in taste and presentation. Any diner
+        in 2nd Avenue does better than this. Unwelcoming service. Bathrooms dirty
+        and unattended. Super disappointed with this JG restaurant. Will not be back
+      time: 1612037749
+    - author_name: Daniel Swerdlow
+      author_url: https://www.google.com/maps/contrib/113497402214585954503/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AOh14Gjdx-Ro0CzdT5p8FTHBoEAwPvQM48HvMBbBi_Btg7A=s128-c0x00000000-cc-rp-mo-ba3
+      rating: 5
+      relative_time_description: a month ago
+      text: Where to begin... The Topping Rose House exceeds any and every expectation.  The
+        staff is extraordinarily accommodating, polite, friendly and helpful.  The
+        accommodations and atmosphere really are everything you could want, in the
+        eyes of formal luxury.
+      time: 1610913074
+    - author_name: LESTER B SCOTT
+      author_url: https://www.google.com/maps/contrib/113075334472218060839/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AOh14GgVWV7xW0qLuYhG5peTgA-4aTgzqttXKuDwD3JK=s128-c0x00000000-cc-rp-mo
+      rating: 5
+      relative_time_description: 2 weeks ago
+      text: The most special places that we enjoy, and our stay at Topping Rose House
+        couldn’t have been any better. Excellent service and accommodations and the
+        staff was one of the most professional I have ever experienced.
+      time: 1612971166
+    - author_name: Cara Killackey Lee
+      author_url: https://www.google.com/maps/contrib/108524290577019110713/reviews
+      language: en
+      profile_photo_url: https://lh3.googleusercontent.com/a-/AOh14GgM41IU4VODwsgKlsd7Qe4GdtkIR1AWou1CrVwKhQ=s128-c0x00000000-cc-rp-mo
+      rating: 5
+      relative_time_description: 3 weeks ago
+      text: Wonderful stay. Food was impeccable and the spa was great; ask for Tai
+        she did such a great job!
+      time: 1612221489
+    - author_name: Fatma L
+      author_url: https://www.google.com/maps/contrib/118202078093095500647/reviews
+      language: en
+      profile_photo_url: https://lh6.googleusercontent.com/-sN5TF4KZzyY/AAAAAAAAAAI/AAAAAAAAXmM/AMZuucl8zumsx5OkJvNhDh3o_HtxNpMqAA/s128-c0x00000000-cc-rp-mo/photo.jpg
+      rating: 1
+      relative_time_description: 2 months ago
+      text: This review is for the spa not the hotel itself. It is probably the worse
+        massage I have ever gotten. The person who gave me a massage just put lotion
+        on and barely massaged me- she kept putting her hand or elbow on one spot
+        and holding it for minutes. It’s definitely a waste of money.
+      time: 1609276224
+    types:
+    - lodging
+    - restaurant
+    - food
+    - point_of_interest
+    - establishment
+    url: https://maps.google.com/?cid=1050894908568716079
+    user_ratings_total: 241
+    utc_offset: -300
+    vicinity: 1 Bridgehampton-Sag Harbor Turnpike, Bridgehampton
+    website: http://www.toppingrosehouse.com/
+    html_attributions: 
+    utc_offset_minutes: -300
