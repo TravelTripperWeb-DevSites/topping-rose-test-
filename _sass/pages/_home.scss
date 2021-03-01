@@ -118,7 +118,7 @@
       }
 
       &__inner {
-        padding: .75rem;
+        padding: 0 .75rem .75rem;
 
         @include media-breakpoint-up(md) {
           min-height: 240px;
@@ -138,7 +138,6 @@
 
         @include media-breakpoint-up(md) {
           margin-top: 24px;
-          margin-bottom: 30px;
         }
       }
     }
