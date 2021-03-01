@@ -30,14 +30,16 @@ html {
 }
 
 .intro {
-  padding: 60px 20px 0;
+  @include make-container;
+  max-width: 795px;
+  margin-top: 60px;
   text-align: center;
 
-  .h6 {
-    text-transform: uppercase;
+  .h4 {
+    margin-bottom: 24px;
   }
 
-  .h2 {
+  .h1 {
     color: $primary;
   }
 }

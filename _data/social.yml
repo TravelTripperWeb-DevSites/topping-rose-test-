@@ -1,15 +1,15 @@
 # Social Sharing
 twitter:
-  username: keswick_hall
+  username: ToppingRose
 pinterest:
-  username: keswickhall
+  username: 
 facebook:
-  username: KeswickHall
+  username: toppingrosehouse
   app_id:
   publisher:
-og_image: https://res.cloudinary.com/traveltripperweb/image/upload/v1591206200/obsqtzcebylcyja9hdio.jpg
+og_image: https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1614597737/g7cxsvtwqqcygqy6q26d.jpg
 instagram:
-  username: keswick_hall
+  username: toppingrosehouse
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

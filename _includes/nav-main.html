@@ -26,8 +26,8 @@
           {% endif %}
         </li>
         <li class="contact">
-          <span>RESERVATIONS & Hotel:</span> <a href="tel:{{site.data.hotel_settings.phone_number}}">{{site.data.hotel_settings.phone_number}}</a>
-          <span class="d-block"><a href="{{site.data.hotel_settings.get_directions}}" target="_blank">{{site.data.hotel_settings.address.street1}} {{site.data.hotel_settings.address.zip_code}}</a></span>
+          <span>RESERVATIONS & Hotel:</span> <a href="tel:{{site.data.hotel_settings.phone}}">{{site.data.hotel_settings.phone}}</a>
+          <span class="d-block"><a href="{{site.data.hotel_settings.google_location.google_place.url}}" target="_blank">{{site.data.hotel_settings.address.street1}}<br> {{site.data.hotel_settings.address.city}}, {{site.data.hotel_settings.address.state}} {{site.data.hotel_settings.address.zip_code}}</a></span>
         </li>
         <li class="reserve">
           {% comment %}
@@ -91,7 +91,7 @@
       {% include components/booking-widget-button %}
       {% endcomment %}
       {% unless page.url == '/gift-card/' %}
-      <a href="javascript:void(0);" class="btn btn--primary reserve-btn">
+      <a href="{{ site.booking_url }}" class="btn btn--primary reserve-btn" target="_blank">
         Reserve
       </a>
       {% endunless %}

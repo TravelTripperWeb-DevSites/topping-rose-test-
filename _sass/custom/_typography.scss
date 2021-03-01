@@ -12,6 +12,7 @@ ul {
 .h1, .h2, .h3, .h4, .h5, .h6, p, .p {
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 :focus {
@@ -51,11 +52,10 @@ ul {
 
 .h4 {
   font-family: $family-primary;
-  font-size: $display3-size;
-  font-weight: $display3-weight;
-  line-height: 48px;
+  font-size: $display4-size;
+  line-height: 24px;
   color: $secondary;
-  letter-spacing: 0;
+  letter-spacing: 1.5px;
 }
 
 .h5 {
@@ -74,6 +74,15 @@ ul {
   line-height: 24px;
   color: $primary;
   letter-spacing: 1.5px;
+}
+
+.special-heading  {
+  font-family: $family-primary;
+  font-size: $display8-size;
+  line-height: 42px;
+  color: $secondary;
+  text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .overline {

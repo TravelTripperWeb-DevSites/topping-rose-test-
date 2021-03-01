@@ -1,10 +1,11 @@
 # Site Settings
-title: "Resort & Golf Club | Charlottesville VA"
+title: "Topping Rose House | Full-Service Luxury Stays in the Hamptons"
 title_separator: "|"
-name: "Keswick Hall"
-description: "Keswick Hall resort will reopen in late summer 2020. The golf club remains open to members during renovations to preserve and update the historic buildings."
-url: https://www.keswick.com
-repository: TravelTripperWeb-Sites/keswick-full-site-
+name: "Topping Rose House"
+description: "The only full-service luxury hotel in the Hamptons, Topping Rose is a renovated 19th century mansion with contemporary accommodations. Stay in luxury with us."
+url: https://www.toppingrosehouse.com/
+repository: TravelTripperWeb-Sites/topping-rose-house
+booking_url: https://www.bookonthenet.net/east/premium/eresmain.aspx?id=fYyLsk%2fEkYipvgujrf1bTwHJTZ6nHMjVNBWssJbKFWk%3d#/search
 
 # Language Settings
 default_lang: 'en'
