@@ -28,8 +28,8 @@
         "caption": "",
         "description": ""
       },
-      "mask_color": "#000000",
-      "mask_opacity": ".35"
+      "mask_color": "",
+      "mask_opacity": ""
     },
     "skip_h1": true,
     "_template": "hero",
