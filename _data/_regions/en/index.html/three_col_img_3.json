@@ -1,25 +1,26 @@
 [
   {
     "content": {
-      "name": "Gather",
+      "name": "friends-yard",
       "content_type": "image/jpeg",
-      "date_added": "2020-03-12-071404",
-      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
-      "width": 5616,
-      "height": 3744,
+      "date_added": "2021-03-01-090948",
+      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
+      "width": 576,
+      "height": 590,
       "format": "jpg",
-      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
+      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
       "resource_type": "image",
-      "size": 9725168,
-      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584011644/f2w4jnx0d3req06tl7mw.jpg",
+      "size": 156272,
+      "git_file_name": "_assets/image_data/friends-yard.jpg.json",
+      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614607789/np7b0xxamvbkcuwrjttv.jpg",
       "file_size": null,
-      "alt": "Gather"
+      "alt": "friends-yard"
     },
     "_template": "image"
   }
