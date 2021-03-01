@@ -1,0 +1,194 @@
+.bg-white {
+  background-color: $white;
+}
+
+.form-group {
+  margin-bottom: 24px;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 32px;
+  }
+
+  label {
+    display: inline-block;
+    margin-top: 24px;
+    font-family: $family-secondary;
+    font-size: $display7-size;
+    line-height: 24px;
+    color: $white;
+  }
+}
+
+select {
+  &.form-control {
+    width: 100%;
+    height: 32px;
+    padding: 0 65px 0 12px;
+    font-family: $family-secondary;
+    font-size: $display4-size;
+    line-height: 30px;
+    color: $secondary;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1575011914/kjqijcfjzehbcjffmvm1.png") 97% no-repeat $secondary;
+    border: 0;
+    border-radius: 2px;
+  }
+}
+
+input, textarea {
+  &.form-control {
+    width: 100%;
+    height: 32px;
+    padding: 0 24px;
+    font-family: $family-secondary;
+    font-size: $display6-size;
+    line-height: 32px;
+    color: $white;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background: transparent;
+    border: 1px solid $white;
+    border-radius: 0;
+
+    &:focus {
+      color: $white;
+      background-color: transparent;
+      border: 1px solid $white;
+      border-radius: 0;
+    }
+
+    &:-webkit-input-placeholder {
+      color: $white;
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+      color: $white;
+      opacity: 1;
+    }
+
+    &::placeholder {
+      color: $white;
+      opacity: 1;
+    }
+  }
+}
+
+textarea {
+  &.form-control {
+    height: 160px !important;
+    resize: none;
+  }
+}
+
+.cstm-checkbox {
+  position: relative;
+  display: block;
+  margin-left: 0;
+  padding-left: 24px;
+  font-family: $family-secondary !important;
+  font-size: $display7-size !important;
+  line-height: 16px !important;
+  color: $white;
+  letter-spacing: .2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  input {
+    position: absolute;
+    // width: 0;
+    // height: 0;
+    cursor: pointer;
+    opacity: 0;
+
+    &:checked {
+      & ~ .checkmark {
+        background-color: transparent;
+
+        &:after {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    input {
+      & ~ .checkmark {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .checkmark {
+    &:after {
+      top: 1px;
+      left: 5px;
+      width: 5px;
+      height: 9px;
+      border: solid $white;
+      border-width: 0 1px 1px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.chck-cstm {
+  .text {
+    font-family: $family-secondary;
+    font-size: $display4-size;
+    line-height: 20px;
+    color: $secondary;
+  }
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 1px solid $white;
+  border-radius: 0;
+
+  &:after {
+    position: absolute;
+    display: none;
+    content: '';
+  }
+}
+
+.date {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+
+  &:after {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    width: 16px;
+    height: 16px;
+    content: '';
+    background: url('//res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1572951378/wvclir3i1gk76su6ph9h.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  input {
+    background-image: none;
+  }
+}

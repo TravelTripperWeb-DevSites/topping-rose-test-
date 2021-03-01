@@ -1,0 +1,43 @@
+{
+  "name": {
+    "required": true
+  },
+  "meta_title": {
+    "instructions": "Explicit SEO title used if this model generates dynamic pages"
+  },
+  "meta_title_prefix": {
+    "instructions": "First part of SEO title that gets combined with default site title values if this model generates dynamic pages"
+  },
+  "meta_description": {
+    "instructions": "SEO meta description used if this model generates dynamic pages"
+  },
+  "header_overline": {
+    "type": "text"
+  },
+  "header_title": {
+    "type": "text"
+  },
+  "short_description": {
+    "type": "richtext"
+  },
+  "description": {
+    "type": "richtext"
+  },
+  "image": {
+    "type": "image"
+  },
+  "banner_image": {
+    "type": "image"
+  },
+  "cta_text": {
+    "type": "text"
+  },
+  "url_friendly_name": {
+    "label": "URL Friendly Name",
+    "type": "url_slug"
+  },
+  "order": {
+    "type": "integer",
+    "required": true
+  }
+}

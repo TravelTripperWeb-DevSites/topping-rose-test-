@@ -1,0 +1,49 @@
+---
+layout: default
+title_localized:
+ en: A Luxury Hotel Charlottesville VA | Keswick Hall
+meta_description_localized:
+  en: Opening in November 2020, Keswick Hall is a luxury hotel, Charlottesville VA, carefully crafted to give you indelible memories and superlative sensory experiences.
+permalink_localized:
+  en: /experience/
+  es:
+meta_tags:
+  robots:
+published: false
+---
+
+{% region inner_hero, type:hero %}
+
+{% assign experience = site.data._models.experience | sort: "order" %}
+<div class="experience-wrap">
+  <div class="experience-wrap__inner">
+    {% for item in experience %}
+    <div class="experience-wrap__block">
+      <div class="experience-wrap__block__img">
+        <img src="{{ item.image.url_large }}" alt="{{ item.image.alt }}" class="d-none d-md-block">
+
+        <img src="{% if item.mobile_image.url_large and item.mobile_image.url_large != ' ' %}{{ item.mobile_image.url_large }}{% else %}{{ item.image.url_large }}{% endif %}" alt="{% if item.mobile_image.url_large and item.mobile_image.url_large != ' ' %}{{ item.mobile_image.alt }}{% else %}{{ item.image.alt }}{% endif %}" class="d-block d-md-none">
+        {% if item.order == 7  or item.order == 6 or item.order == 3 or item.order == 2 %}
+        <p style="top:auto; bottom:16px;" class="p" tabindex="0">{{ item.title }}</p>
+
+        {% else %}
+        <p class="p" tabindex="0">{{ item.title }}</p>
+
+        {% endif %}
+
+        <a class="overlay" href="javascript:void(0);"></a>
+        <a href="javascript:void(0);" class="book-btn book-btn--transparent">more info <i class="fas fa-plus"></i></a>
+      </div>
+      <div class="experience-wrap__block__mobile-title" tabindex="-1">
+        <p class="h6">{{ item.title }}</p>
+        <a href="javascript:void(0);" class="less-more"><i class="fas fa-plus"></i></a>
+      </div>
+      <div class="experience-wrap__block__morecontent">
+        <h3 class="h3" tabindex="0" aria-label="{{ item.description_title }}">{{ item.description_title }}</h3>
+        <p class="p" tabindex="0">{{ item.description_content }}</p>
+        <a href="javascript:void(0);" class="primary-cta">hide info <i class="fas fa-minus"></i></a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

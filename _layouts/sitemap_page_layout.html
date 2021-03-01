@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% region hero, type:hero %}
+<div class="sitemap-wrap">
+  <div class="main-menu">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+    </ul>
+    {% for menu in site.data._menus %}
+    <ul class="{{menu[0]}}">
+      {% assign items = menu[1].items %}
+      {% include nav/nav-item-list.html items=items %}
+    </ul>
+    {% endfor %}
+  </div>
+  <div class="footer-menu">
+    {% assign footerItems = site.data._menus.footer.items %}
+    <ul>
+      {% for footerItem in footerItems %}
+      <li>
+        <a href="{{footerItem.url}}">
+          {{footerItem.title}}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

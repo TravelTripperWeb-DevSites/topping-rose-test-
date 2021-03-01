@@ -1,0 +1,91 @@
+---
+latitude: 40.750613
+longitude: -73.977095
+map_zoom: 15
+name: Demo Hotel
+email: support@traveltripper.com
+phone_number: 434-979-3440
+get_directions: https://goo.gl/maps/qLhg6kYXBTKJtqxUA
+address:
+  street1: 701 Club Drive  /  Keswick, Virginia
+  state: NY
+  city: New York
+  zip_code: 22947
+default_currency: USD
+default_timezone: America/New_York
+__EDITABLE_FIELDS__:
+  name:
+    required: true
+  logo:
+    type: image
+  logo_secondary:
+    type: image
+  logo_mobile:
+    type: image
+  email:
+    type: string
+  phone:
+    type: string
+  default_currency:
+    required: true
+  address:
+    type: complex
+    fields:
+      street1:
+        type: string
+      state:
+        type: string
+      city:
+        type: string
+      zip_code:
+        type: string
+  google_location:
+    type: location
+  map_zoom:
+    type: integer
+  latitude:
+    type: float
+  longitude:
+    type: float
+logo:
+  name: Keswick-Logo-primary
+  content_type: image/svg+xml
+  date_added: 2020-03-04-080617
+  format:
+  url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583327177/ywzbssd5hkxvvta30hhw.svg"
+  url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583327177/ywzbssd5hkxvvta30hhw.svg"
+  resource_type: raw
+  size: 12589
+  path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583327177/ywzbssd5hkxvvta30hhw.svg"
+  file_size:
+  alt: Keswick Hall
+  caption: ''
+  description: ''
+logo_secondary:
+  name: Kewsick-Logo-light
+  content_type: image/svg+xml
+  date_added: 2020-03-05-053628
+  format:
+  url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583404588/sgaxwjebjsh2wmzsmutr.svg"
+  url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583404588/sgaxwjebjsh2wmzsmutr.svg"
+  resource_type: raw
+  size: 12405
+  path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583404588/sgaxwjebjsh2wmzsmutr.svg"
+  file_size:
+  alt: Keswick Hall
+  caption: ''
+  description: ''
+logo_mobile:
+  name: Keswick-horizontal-Logo-white
+  content_type: image/svg+xml
+  date_added: 2020-03-05-062312
+  format:
+  url: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583407392/uph0gzbqs7ft4uwsskjp.svg"
+  url_raw: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583407392/uph0gzbqs7ft4uwsskjp.svg"
+  resource_type: raw
+  size: 3718
+  path: "//res.cloudinary.com/traveltripperweb/raw/upload/v1583407392/uph0gzbqs7ft4uwsskjp.svg"
+  file_size:
+  alt: Keswick Hall
+  caption: ''
+  description: ''

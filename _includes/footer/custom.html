@@ -1,3 +1,79 @@
-<div class="copyright m-2">
-  &copy; {{ "now" | date: "%Y" }}
+{% assign hotel_data = site.data.hotel_settings %}
+{% assign footerItems = site.data._menus.footer.items %}
+
+<div class="footer-wrap">
+  <div class="footer-main">
+    <div class="footer-main__inner">
+      <div class="logo">
+        <a href="/">
+          <img src="//res.cloudinary.com/traveltripperweb/raw/upload/v1583219744/rkd9pit40vj0s8vmitdh.svg" alt="Keswick Hall">
+        </a>
+      </div>
+      <div class="footer-main__newsletter">
+        <p class="p">the latest and best from us</p>
+        {% include forms/jotform/newsletter.html %}
+      </div>
+      <div class="footer-main__socail-media">
+        <p class="p text-center d-none d-md-block">seasonal. social. sharing.</p>
+        <div class="footer-main__socail-media__icons">
+          {% if site.data.social.instagram.username %}
+            <a target="_blank" rel="nofollow" href="https://instagram.com/{{ site.data.social.instagram.username }}" title="Follow us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.data.social.facebook.username %}
+            <a target="_blank" rel="nofollow" href="https://facebook.com/{{ site.data.social.facebook.username }}" title="Follow us on Facebook"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.data.social.pinterest.username %}
+            <a target="_blank" rel="nofollow" href="https://pinterest.com/{{ site.data.social.pinterest.username }}" title="Follow us on Pinterest"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.data.social.twitter.username %}
+            <a target="_blank" rel="nofollow" href="https://twitter.com/{{ site.data.social.twitter.username }}" title="Follow us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="footer-main__reachout">
+        <p class="p d-none d-md-block">reach out and connect</p>
+        <p class="light">RESERVATIONS & Hotel: <a href="tel:{{hotel_data.phone_number}}">{{hotel_data.phone_number}}</a> <br>
+          <a href="{{ hotel_data.get_directions }}" target="_blank">{{ hotel_data.address.street1 }} {{ hotel_data.address.zip_code }}</a></p>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="footer-down">
+  <div class="footer-down__inner">
+    <div class="footer-down__links">
+      <ul>
+        {% for footerItem in footerItems %}
+        <li>
+          <a href="{{ footerItem.url }}"{% if footerItem.target and footerItem.target != "" %} target="{{ footerItem.target }}"{% endif %}>
+            {{ footerItem.label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="footer-down__gift-card-link">
+      <a href="/gift-card/">KESWICK HALL GIFT CARD</a>
+    </div>
+    <div class="footer-down__copy">&copy; Copyright {{ "now" | date: "%Y" }} Keswick Hall</div>
+  </div>
+</div>
+
+<div class="footer-fixed-menu d-flex justify-content-between d-md-none">
+  <div class="call">
+    <a href="tel:{{hotel_data.phone_number}}" title="{{hotel_data.phone_number}}"><i class="fas fa-phone"></i></a>
+  </div>
+  <div class="location">
+    <a href="{{ hotel_data.get_directions }}" title="{{ hotel_data.address.street1 }} {{ hotel_data.address.zip_code }}" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+  </div>
+  <!-- <div class="reserve"> -->
+    {% comment %}
+    {% include components/booking-widget-button %}
+    {% endcomment %}
+    <!-- <a href="javascript:void(0);" class="btn btn--primary reserve-btn">
+      Reserve
+    </a> -->
+  <!-- </div> -->
+</div>
+
+{% include reserve.html %}

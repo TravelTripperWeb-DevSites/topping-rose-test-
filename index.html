@@ -1,24 +1,202 @@
 ---
+body_class: home
 layout: home
-title_localized: 
-  en: Home
-meta_description:
+title_localized:
+  en: Keswick Hall | A Luxury Resort in Charlottesville Virginia
+meta_description: Keswick Hall is open to offer extraordinary luxury in its accommodations,
+  heightened culinary experiences, and sophisticated amenities.
 permalink:
 meta_tags:
   robots:
+published_localized:
+  en: true
+  es: true
+permalink_localized:
+  en: "/"
+meta_description_localized:
+  en: Keswick Hall is open to offer extraordinary luxury in its accommodations, heightened
+    culinary experiences, and sophisticated amenities.
+label: Home
+
 ---
 
-{% comment %}
-Example for using CMS to specify featured offer items by code. Use this component but pass in an offer_codes list (in a comma separated string) that comes from CMS content entry
-{% endcomment %}
-{% include components/offer/specific-featured-list offer_codes="NONREF, BBKG" %}
+{% region hero, type: hero %}
 
-<section class='container'>
-  <div class='row'>
-    <div class='col '>
-      <h3 class="h3">Edit this file</h3>
-      <p>This content is written directly into the index.html home page. You should replace it with editable regions and/or standard components</p>
+<section class="intro">
+  <div class="d-block d-md-none mobile-logo">
+    {% regionblock fox_logo, type: image %}
+    <img src="" alt="" />
+    {% endregionblock %}
+  </div>
+  {% regionblock intro_title, type: header %}
+  <h1 class="h1">Welcome to Topping Rose House</h1>
+  {% endregionblock %}
+  {% regionblock intro_tagline, type: header %}
+  <h2 class="h6 mb-3">A LUXURY EXPERIENCE IN THE HEART OF THE HAMPTONS</h2>
+  {% endregionblock %}
+  {% regionblock intro_content, type: header %}
+  <p>The only full-service luxury hotel in the Hamptons, Topping Rose is a renovated 19th century mansion and estate where traditional architecture, contemporary design and modern comforts come together in perfect harmony. We celebrate the spirit of this legendary part of Long Island with spacious rooms and suites, a restaurant by Jean-Georges, pool, Spa, and luxury cars to shuttle you around town and to the area’s magnificent beaches. Topping Rose House is a proud member of the Small Luxury Hotels of the World.</p>
+  {% endregionblock %}
+</section>
+
+<section class="three-col-block pb-0 pb-md-5">
+  <div class="three-col-block__container">
+    <div class="three-col-block__col">
+      <div class="image">
+        {% regionblock three_col_img_1, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235199/uc6eh4zaifc3qgdxomxs.jpg" alt="golf">
+        {% endregionblock %}
+      </div>
+
+      <div class="heading">
+      {% regionblock three_col_title_1, type: header %}
+      <h3 class="h4">Stay</h3>
+      {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_stay, type: text %}
+          <p>Imagine beginning each day in the plush comforts of a contemporary, sophisticated boutique hotel room where mountain vistas greet you every morning. Our luxury accommodations in Charlottesville, VA feature plush Duxiana mattresses and bespoke Red Flower amenities. Awaken refreshed and cap off the evening indulging in pure relaxation every night during your stay. Unwind in a retreat all your own at Keswick Hall.</p>
+          {% endregionblock %}
+          {% regionblock three_col_link_1, type: header %}
+          <a href="/stay/" class="primary-cta m-2">Learn More</a>
+          {% endregionblock %}
+        </div>
+      </div>
+    </div>
+
+    <div class="three-col-block__col mb-0">
+      <div class="image">
+        {% regionblock three_col_img_4, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235198/nd3b3pna9mfuep0ebuec.jpg" alt="golf">
+        {% endregionblock %}
+      </div>
+
+      <div class="heading">
+        {% regionblock three_col_title_4, type: header %}
+        <h3 class="h4">Jean-Georges at Keswick</h3>
+        {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_jean, type: text %}
+          <p>Toast to an occasion unlike any other set amid the scenic rolling valleys and lushly landscaped grounds of newly reimagined Charlottesville, VA destination, a cherished setting for your wedding, meeting, or event. Whether seeking an impressive venue for a corporate gathering or a romantic backdrop to exchange those sacred vows, this is where timeless memories are made.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_4, type: header %}
+        <a href="/dine/" class="primary-cta m-2">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+
+    <div class="three-col-block__col mb-0">
+      <div class="image">
+        {% regionblock three_col_img_3, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235198/nd3b3pna9mfuep0ebuec.jpg" alt="golf">
+        {% endregionblock %}
+      </div>
+
+      <div class="heading">
+        {% regionblock three_col_title_3, type: header %}
+        <h3 class="h4">Gather</h3>
+        {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_gatherings, type: text %}
+          <p>Toast to an occasion unlike any other set amid the scenic rolling valleys and lushly landscaped grounds of newly reimagined Charlottesville, VA destination, a cherished setting for your wedding, meeting, or event. Whether seeking an impressive venue for a corporate gathering or a romantic backdrop to exchange those sacred vows, this is where timeless memories are made.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_3, type: header %}
+        <a href="/gather/" class="primary-cta m-2">Explore Options</a>
+        {% endregionblock %}
+      </div>
+    </div>
+
+    <div class="three-col-block__col">
+      <div class="image">
+        {% regionblock three_col_img_2, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235198/fauwypevjlwkna0dmfaw.jpg" alt="golf">
+        {% endregionblock %}
+      </div>
+
+      <div class="heading">
+        {% regionblock three_col_title_2, type: header %}
+        <h3 class="h4">Experience</h3>
+        {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_2, type: text %}
+          <p>Keswick Hall welcomes you to a world of unforgettable experiences. Play a challenging front nine on our 18-hole Full Cry golf course or hand-pick the day’s harvest at the nearby Oakdale Farm. For an incomparable dining experience in Charlottesville, savor an inspired meal crafted by visionary Chef Jean-Georges Vongerichten, Pursue your passions at our iconic, over 100-year-old resort near the Blue Ridge mountains.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_2, type: header %}
+        <a href="/experience/" class="primary-cta m-2">Explore the Amenities</a>
+        {% endregionblock %}
+      </div>
     </div>
   </div>
 </section>
 
+<!-- <section class="twocol-cross-sell">
+  <div class="twocol-cross-sell__row">
+    <div class="twocol-cross-sell__item">
+      <div class="twocol-cross-sell__item__inner">
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1587074283/r3dmtdqktbejvpuqvssj.jpg" alt="Keswick">
+        <div class="twocol-cross-sell__item__content">
+          <p class="h5">Gallery</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+{% comment %}
+<section class="two-col-sec home--events" id="eventsCrossSell">
+  <div class="two-col-sec__inner">
+    <div class="two-col-sec__row">
+      <div class="two-col-sec__item">
+        <div class="two-col-sec__item__image">
+          {% regionblock three_col_image1, type: image %}
+          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1587074283/r3dmtdqktbejvpuqvssj.jpg" alt="Gallery">
+          {% endregionblock %}
+        </div>
+        <div class="two-col-sec__item__content text-center">
+          {% regionblock three_col_heading1, type: text %}
+            <h3 class="h5">Gallery</h3>
+          {% endregionblock %}
+          {% regionblock three_col_text1, type: text %}
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="/gallery/" class="primary-cta">Learn More</a>
+          {% endregionblock %}
+        </div>
+      </div>
+      <div class="two-col-sec__item">
+        <div class="two-col-sec__item__image">
+          {% regionblock three_col_image2, type: image %}
+            <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583229976/bmuephrzu9yhj4b5rjru.jpg" alt="Press">
+          {% endregionblock %}
+        </div>
+        <div class="two-col-sec__item__content text-center">
+          {% regionblock three_col_heading2, type: text %}
+            <p class="h5">Press</p>
+          {% endregionblock %}
+          {% regionblock three_col_text2, type: text %}
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="/press/" class="primary-cta">Learn More</a>
+          {% endregionblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endcomment %}
+
+<div class="common-accessibility">
+  <p>Keswick Hall welcomes guests of all abilities. Completely updated in 2020, the resort is fully accessible and compliant with the Department of Justice 2010 ADA Standards for Accessible Design. For more information on accessibility, please see our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

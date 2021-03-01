@@ -1,0 +1,12 @@
+[
+  {
+    "advanced_options": {
+      "custom_classes": "sitemap-hero"
+    },
+    "_template": "hero",
+    "hero_title": {
+      "content": "Thank You",
+      "_template": "header"
+    }
+  }
+]

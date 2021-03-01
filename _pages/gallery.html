@@ -1,25 +1,17 @@
 ---
-layout: generic
-title: Gallery
-meta_description:
-permalink: /gallery/
+layout: default
+title_localized:
+  en: Photo Gallery | Keswick Hall Hotel Rooms in Charlottesville
+meta_description_localized:
+  en: See our luxury hotel resort in Charlottesville in our media gallery. Once you're familiar with our accommodations, book your stay with us today.
+permalink_localized:
+  en: /gallery/
 meta_tags:
   robots:
 ---
 
-{% comment %}
+{% region inner_hero, type:hero %}
 
-  Name:
-
-    Gallery Page
-
-  Description:
-
-    Display gallery images from the media library.
-
-  Usage:
-
-    Create a new gallery from the 'manage galleries' tab, then display the
-    images by adding a "galleries" region in the UI
-  
-{% endcomment %}
+<section class="gallery-area">
+  {% region gallery, type:galleries %}
+</section>

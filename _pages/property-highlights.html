@@ -1,0 +1,45 @@
+---
+layout: default
+title_localized:
+  en: The Best of Keswick Hall | Property Highlights Luxury Resort
+meta_description_localized:
+  en: Keswick Hall offers a central location with nearby attractions and amenities
+    to please all tastes. Learn more about our property then book your stay with us
+    today.
+permalink_localized:
+  en: "/property-highlights/"
+meta_tags:
+  robots: 
+published_localized:
+  en: true
+  es: true
+
+---
+
+{% region inner_hero, type:hero %}
+
+<div class="common-tiles">
+  <div class="common-tiles__row">
+    {% assign items = site.data._models.property_highlights | sort: 'order' %}
+    {% for item in items %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        <a href="{% if item.details_page_url != 'faq' %}/property-highlights{% endif %}/{{ item.details_page_url }}/">
+          <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
+        </a>
+      </div>
+      <div class="common-tiles__content">
+        <h2 class="h5"><a href="{% if item.details_page_url != 'faq' %}/property-highlights{% endif %}/{{ item.details_page_url }}/">{{ item.name }}</a></h2>
+        <div tabindex="0">
+          {{ item.short_description }}
+        </div>
+        <a href="{% if item.details_page_url != 'faq' %}/property-highlights{% endif %}/{{ item.details_page_url }}/" class="secondary-cta">More</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="common-accessibility">
+  <p>Keswick Hall’s common areas, food and beverages outlets and pool are accessible; compliant with the Department of Justice 2010 ADA Standards for Accessible Design. For more information on accessibility, please see our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

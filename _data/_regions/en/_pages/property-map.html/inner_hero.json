@@ -1,0 +1,15 @@
+[
+  {
+    "advanced_options": {
+      "custom_classes": "inner-hero"
+    },
+    "hero_title": {
+      "content": "",
+      "_template": "header"
+    },
+    "_template": "hero",
+    "hero_html": {
+      "content": "<h1 class=\"h6\">EXPLORE THE BEST OF CHARLOTTESVILLE VIRGINIA - PLAN YOUR VISIT</h1>\n<h2 class=\"h2\">Plan Your Stay at Keswick Hall</h2>"
+    }
+  }
+]

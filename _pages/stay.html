@@ -1,0 +1,98 @@
+---
+layout: default
+sync_room_content: true
+title_localized:
+  en: Hotel Rooms Charlottesville VA | Keswick Hall Luxury Resort
+meta_description_localized:
+  en: Discover sumptuous hotel rooms in Charlottesville VA at Keswick Hall luxury
+    resort that offers the world's most enviable resort experience.
+permalink_localized:
+  en: "/stay/"
+meta_tags:
+  robots: 
+published_localized:
+  en: true
+  es: true
+
+---
+
+{% region inner_hero, type:hero %}
+
+<section class="common-tiles">
+  <div class="common-tiles__row">
+    {% assign items = site.data._models.room_categories | sort: 'order' %}
+    {% for item in items %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        <a href="/{{ item.url_friendly_name }}/">
+          <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
+        </a>
+      </div>
+      <div class="common-tiles__content">
+        <h2 class="h5"><a href="/{{ item.url_friendly_name }}/">{{ item.name }}</a></h2>
+        <div tabindex="0">
+          {{ item.short_description }}
+        </div>
+        <a href="/{{ item.url_friendly_name }}/" class="secondary-cta">More</a>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        {% regionblock common_tiles_property_highlights_image, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583307315/vbdjh5xej8mbnhg82oda.jpg" alt="">
+        {% endregionblock %}
+      </div>
+      <div class="common-tiles__content">
+        {% regionblock common_tiles_property_highlights_heading, type: header %}
+        <h2 class="h5">Property Highlights</h2>
+        {% endregionblock %}
+        {% regionblock common_tiles_property_highlights_content, type: text %}
+        <p>Awaken refreshed and renewed in any of our completely reimagined Estate Rooms. Adorned in light woods, timeless furnishings, and locally-inspired photography, the bedrooms feature luxurious Duxiana matresses as well as bespoke red flower</p>
+        <a href="/property-highlights/" class="secondary-cta">More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        {% regionblock common_tiles_plan_your_visit_image, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583307315/vbdjh5xej8mbnhg82oda.jpg" alt="">
+        {% endregionblock %}
+      </div>
+      <div class="common-tiles__content">
+        {% regionblock common_tiles_plan_your_visit_heading, type: header %}
+        <h2 class="h5">Plan your visit</h2>
+        {% endregionblock %}
+        {% regionblock common_tiles_plan_your_visit_content, type: text %}
+        <p>Awaken refreshed and renewed in any of our completely reimagined Estate Rooms. Adorned in light woods, timeless furnishings, and locally-inspired photography, the bedrooms feature luxurious Duxiana matresses as well as bespoke red flower</p>
+        <a href="/plan-your-visit/" class="secondary-cta">More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="common-listing">
+  <div class="common-listing__block our-story-block">
+    <div class="common-listing__block__img">
+        {% regionblock two_col_img_4, type: image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+        {% endregionblock %}
+    </div>
+    <div class="common-listing__block__content">
+      {% regionblock two_col_title_4, type: header %}
+      <h6 class="h5">our story</h6>
+      {% endregionblock %}
+      <div class="">
+        {% regionblock two_col_description_4, type: text %}
+        <p>Keswick Hall has been an icon of the Virginia countryside for over one hundred years. In order to preserve this landmark estate, co-owners Molly and Robert Hardie have partnered with some of the most coveted purveyors to bring Keswick Hall into the furure whilst paying homage to its storied past. Set amid a backdrop of natural splendour, the newly reimagined resort invites guests and locals to discover a sense of discrete luxury where they can retreat from the everyday into the calm comforts of a space all their own.</p>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="common-accessibility">
+  <p>Keswick Hall’s rooms and suites are ADA compliant with the Department of Justice 2010 ADA Standards for Accessible Design. Accessible rooms are available. We also invite you to view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

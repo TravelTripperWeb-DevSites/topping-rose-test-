@@ -1,29 +1,109 @@
+---
 main:
   depth: 2
   name: Top Menu
   items:
-    - page_id: index.html
-    - page_id: _pages/about.html
-    - page_id: _pages/rooms.html
-    - page_id: _pages/offers.html
-    - page_id: _pages/gallery.html
-    - page_id: _pages/contact.html
-    - page_id: _pages/attractions.html
-    # - url_localized:
-    #     en: https://www.google.com
-    #     es: https://www.google.es
-    #   label_localized:
-    #     en: g-US
-    #     es: g-ES
-    #   target: _NEW
-    # - label_localized:
-    #     en: Group
-    #     es: Group (ES)
-    #   folder: true
+  - folder: true
+    target: ''
+    page_id: _pages/stay.html
+    label_localized:
+      en: Stay
+    items:
+    - url: "/estate-rooms/"
+      label: Estate Rooms
+      items:
+      label_localized:
+        en: Luxury Guest Rooms
+      url_localized:
+        en: "/guest-rooms/"
+      target: ''
+    - url: "/premier-suites/"
+      label: Premier Suites
+      items:
+      label_localized:
+        en: Luxury Suites
+      url_localized:
+        en: "/luxury-suites/"
+      target: ''
+    - url: "/property-highlights/"
+      label: Property Highlights
+      items:
+    - url: "/plan-your-visit/"
+      label: Plan Your Visit
+      items:
+  - folder: false
+    target: ''
+    page_id: _pages/dine.html
+    label_localized:
+      en: Dine
+    items:
+  - folder: true
+    target: ''
+    page_id: _pages/gather.html
+    label_localized:
+      en: Gather
+    items:
+    - url: "/gather/weddings/"
+      label: Weddings
+      items:
+    - url: "/gather/meetings/"
+      label: Meetings
+      items:
+    - url: "/gather/events/"
+      label: Events
+      items:
+  - folder: false
+    target: ''
+    page_id: _pages/experience.html
+    label_localized:
+      en: Experience
+    items:
+    # - folder: false
+    #   page_id: _pages/attractions.html
+    #   label: Attractions
     #   items:
-    #     - page_id: _pages/about.html
-    #     - url: /test/
-    #       label_localized:
-    #         en: Test
-    #         es: Prueba
-    
+
+  - folder: false
+    target: ''
+    page_id: _pages/reside.html
+    url_localized:
+      en: "/reside/"
+    label_localized:
+      en: Reside
+    items:
+footer:
+  depth: 2
+  name: Footer Menu
+  items:
+  - folder: false
+    target: ''
+    page_id: _pages/careers.html
+    label_localized:
+      en: Careers
+    url_localized:
+      en: "/careers/"
+    items:
+  - folder: false
+    target: ''
+    page_id: _pages/sitemap.html
+    label_localized:
+      en: Sitemap
+    url_localized:
+      en: "/sitemap/"
+    items:
+  - folder: false
+    target: ''
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
+    url_localized:
+      en: "/privacy/"
+    items:
+  - folder: false
+    target: ''
+    page_id: _pages/accessibility.html
+    label_localized:
+      en: Accessibility
+    url_localized:
+      en: "/accessibility/"
+    items:

@@ -1,13 +1,23 @@
 ---
 layout: generic
-title_localized: 
+title_localized:
   en: Thank You
 meta_description_localized:
   en:
-permalink_localized: 
+permalink_localized:
   en: /thankyou/
 meta_tags:
   robots:
 sitemap:
   exclude: true
 ---
+
+
+{% region hero, type:hero %}
+<section class="static-content text-center">
+  <div class="static_data__wrap">
+    {% regionblock pp_static_content, type: text %}
+      <p class="h3 dark">Thank you for contacting us. We will get in touch with you shortly.</p>
+    {% endregionblock %}
+  </div>
+</section>

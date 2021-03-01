@@ -1,0 +1,78 @@
+// Reside page elements
+// =====================================================
+
+.reside-hero {
+  .h6 {
+    color: $secondary;
+  }
+
+  .h2 {
+    color: $primary;
+  }
+}
+
+.reside-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto 38px;
+
+  @include media-breakpoint-up(md) {
+    height: 542px;
+    margin: 0 auto 80px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__logo {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    max-width: 155px;
+    @include media-breakpoint-up(md) {
+      bottom: 20px;
+      max-width: 300px;
+    }
+  }
+}
+
+.reside-info {
+  @include make-container;
+  max-width: 800px;
+  padding-bottom: 48px;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 80px;
+  }
+
+  &__inner {
+    @include make-row;
+    padding: 0 15px;
+
+    @include media-breakpoint-up(md) {
+      padding: 0;
+    }
+
+    .h6 {
+      font-family: $family-senary;
+      color: $secondary;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .primary-cta {
+      // @extend .disabled;
+      // pointer-events: none;
+      // cursor: not-allowed;
+      // opacity: .5;
+    }
+  }
+}

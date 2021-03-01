@@ -1,0 +1,38 @@
+{% comment %}
+TODO:
+  Pin states for sub-navs?
+{% endcomment %}
+
+{% assign items=include.items %}
+
+{% for item in items %}
+  {% assign show_item = true %}
+  {% if item.page_id %}
+    {% assign show_item = false %}
+    {% assign item_page = site.page_map[item.page_id] %}
+    {% if item_page %}
+      {% assign show_item = true %}
+      {% assign url = item_page | permalink %}
+      {% assign text = item.label | default: item_page.title | default: item_page.name %}
+    {% endif %}
+  {% else %}
+    {% assign url = item.url %}
+    {% assign text = item.label %}
+  {% endif %}
+  {% if show_item %}
+    <li role="none" class="nav__item{% if item.items %} has-subnav{% endif %}" {% if item.items %} aria-label="{{text}} menu group"{% endif %}>
+      {% comment %}
+      {% if item.folder %}
+      <div class="menu-expand"></div>
+      {% endif %}
+      {% endcomment %}
+        <a class="nav__link{% if page.url == url %} active{% endif %}" href="{{url}}" {% if item.target %}target="{{ item.target }}" rel="noopener"{% endif %} {% if item.items %}aria-haspopup="true"{% endif %}>{{text}}{% if page.url == url %}<span class="sr-only">(current)</span>{% endif %}</a>
+      {% if item.items %}
+        <ul class="subnav">
+          {% include nav/nav-item-list.html items=item.items %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endif %}
+
+{% endfor %}
