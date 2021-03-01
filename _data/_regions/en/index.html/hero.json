@@ -27,7 +27,9 @@
         "alt": "hero-img",
         "caption": "",
         "description": ""
-      }
+      },
+      "mask_color": "#000000",
+      "mask_opacity": ".35"
     },
     "skip_h1": true,
     "_template": "hero",
