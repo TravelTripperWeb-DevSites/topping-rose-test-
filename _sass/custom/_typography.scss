@@ -9,7 +9,7 @@ ul {
   padding: 0;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, p, .p {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -59,21 +59,21 @@ ul {
 }
 
 .h5 {
-  font-family: $family-secondary;
-  font-size: $display4-size;
-  line-height: 30px;
+  font-family: $family-tertiary;
+  font-size: $display5-size;
+  line-height: 16px;
   color: $primary;
-  // letter-spacing: 2px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.75px;
 }
 
 .h6 {
-  font-family: $family-tertiary;
-  font-size: $display4-size;
+  font-family: $family-primary;
+  font-size: $display5-size;
   line-height: 24px;
   color: $primary;
-  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .special-heading  {
@@ -90,6 +90,7 @@ ul {
   font-size: $base-font-size;
   line-height: 24px;
   color: $secondary;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 

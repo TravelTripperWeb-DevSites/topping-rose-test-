@@ -37,7 +37,7 @@ label: Home
   {% endregionblock %}
 </section>
 
-<section class="three-col-block pb-0 pb-md-5">
+<section class="three-col-block">
   <div class="three-col-block__container">
     <div class="three-col-block__col">
       <div class="image">
@@ -59,7 +59,7 @@ label: Home
           {% endregionblock %}
         </div>
         {% regionblock three_col_link_1, type: header %}
-        <a href="/stay/" class="primary-cta m-2">Book Now</a>
+        <a href="/stay/" class="primary-cta">Book Now</a>
         {% endregionblock %}
       </div>
     </div>
@@ -84,7 +84,7 @@ label: Home
           {% endregionblock %}
         </div>
         {% regionblock three_col_link_2, type: header %}
-        <a href="/dine/" class="primary-cta m-2">Learn More</a>
+        <a href="/dine/" class="primary-cta">Learn More</a>
         {% endregionblock %}
       </div>
     </div>
@@ -109,7 +109,7 @@ label: Home
           {% endregionblock %}
         </div>
         {% regionblock three_col_link_3, type: header %}
-        <a href="/gather/" class="primary-cta m-2">Learn More</a>
+        <a href="/gather/" class="primary-cta">Learn More</a>
         {% endregionblock %}
       </div>
     </div>
@@ -134,25 +134,49 @@ label: Home
           {% endregionblock %}
         </div>
         {% regionblock three_col_link_4, type: header %}
-        <a href="/experience/" class="primary-cta m-2">Learn More</a>
+        <a href="/experience/" class="primary-cta">Learn More</a>
         {% endregionblock %}
       </div>
     </div>
   </div>
 </section>
 
-<!-- <section class="twocol-cross-sell">
+<section class="twocol-cross-sell">
   <div class="twocol-cross-sell__row">
     <div class="twocol-cross-sell__item">
-      <div class="twocol-cross-sell__item__inner">
+      <div class="twocol-cross-sell__item__image">
+        {% regionblock twocol_image_1, type:image %}
         <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1587074283/r3dmtdqktbejvpuqvssj.jpg" alt="Keswick">
-        <div class="twocol-cross-sell__item__content">
-          <p class="h5">Gallery</p>
-        </div>
+        {% endregionblock %}
+      </div>
+      <div class="twocol-cross-sell__item__content">
+        {% regionblock twocol_title_1, type:header %}
+        <p class="h2">Gallery</p>
+        {% endregionblock %}
+        {% regionblock twocol_content_1, type:text %}
+        <p>Historic architecture, modern design, rolling green lawns and sumptuous landscaping. Browse our gallery and get a taste of our luxurious hotel in the heart of the Hamptons, where every angle is a photo opportunity.</p>
+        <a href="/gallery/" class="primary-cta">Explore</a>
+        {% endregionblock %}
+      </div>
+    </div>
+    <div class="twocol-cross-sell__item">
+      <div class="twocol-cross-sell__item__image">
+        {% regionblock twocol_image_2, type:image %}
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1587074283/r3dmtdqktbejvpuqvssj.jpg" alt="Keswick">
+        {% endregionblock %}
+      </div>
+      <div class="twocol-cross-sell__item__content">
+        {% regionblock twocol_title_2, type:header %}
+        <p class="h2">Press</p>
+        {% endregionblock %}
+        {% regionblock twocol_content_2, type:text %}
+        <p>See the latest news about Topping Rose house, from awards to recognitions, reviews and all the ways our unique luxury Hampton hotel provides you with an experience you won’t find anywhere else.  </p>
+        <a href="/press/" class="primary-cta">View Press</a>
+        {% endregionblock %}
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
 {% comment %}
 <section class="two-col-sec home--events" id="eventsCrossSell">
@@ -194,7 +218,3 @@ label: Home
   </div>
 </section>
 {% endcomment %}
-
-<div class="common-accessibility">
-  <p>Keswick Hall welcomes guests of all abilities. Completely updated in 2020, the resort is fully accessible and compliant with the Department of Justice 2010 ADA Standards for Accessible Design. For more information on accessibility, please see our <a href="/accessibility/">Accessibility Statement</a>.</p>
-</div>
