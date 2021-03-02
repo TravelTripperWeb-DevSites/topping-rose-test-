@@ -139,4 +139,39 @@ readyDoc(function() {
     });
   }
 
+  // Amenities slider
+  if (document.getElementsByClassName('accolades__slider').length > 0) {
+
+    let brandSliders = document.getElementsByClassName('accolades__slider');
+    let prevBtns = document.querySelectorAll('.accolades__controls .iconbtn--left');
+    let nextBtns = document.querySelectorAll('.accolades__controls .iconbtn--right');
+
+    [].forEach.call(brandSliders, function (el, index) {
+      tns({
+        container: el,
+        mouseDrag: true,
+        nav: false,
+        loop: false,
+        controls: true,
+        swipeAngle: false,
+        items: 2,
+        gutter: 12,
+        prevButton: prevBtns[index], // previous button
+        nextButton: nextBtns[index], // next button
+        responsive: {
+          600: {
+            items: 3
+          },
+          768: {
+            items: 4
+          },
+          992: {
+            items: 6
+          }
+        }
+      });
+    });
+
+  }
+
 });
