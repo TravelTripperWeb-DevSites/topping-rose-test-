@@ -21,6 +21,10 @@
     "display_field": "name",
     "model_name": "room_categories"
   },
+  "sub_category": {
+    "type": "select",
+    "options": "['Guestrooms', 'Suites']"
+  },
   "featured_image": {
     "type": "image"
   },

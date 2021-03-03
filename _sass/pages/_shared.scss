@@ -341,9 +341,9 @@ html {
 
   &__row {
     @include make-row;
-    @include media-breakpoint-up(md) {
-      justify-content: center;
-    }
+    // @include media-breakpoint-up(md) {
+    //   justify-content: center;
+    // }
   }
 
   &__item {

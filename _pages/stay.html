@@ -24,16 +24,19 @@ published_localized:
     {% for item in items %}
     <div class="common-tiles__item">
       <div class="common-tiles__image">
-        <a href="/{{ item.url_friendly_name }}/">
-          <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
-        </a>
+        <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
       </div>
       <div class="common-tiles__content">
-        <h2 class="h2"><a href="/{{ item.url_friendly_name }}/">{{ item.name }}</a></h2>
+        <h2 class="h2">{{ item.name }}</h2>
         <div tabindex="0">
           {{ item.short_description }}
         </div>
-        <a href="/{{ item.url_friendly_name }}/" class="secondary-cta mr-3">Explore Guestrooms</a>
+        {% assign roomsItems = site.data._models.rooms | sort: 'order' %}
+        {% for roomItem in roomsItems %}
+        {% if roomItem.category.name == item.name %}
+        <a href="/stay/{{ roomItem.url_friendly_name }}/" class="secondary-cta mr-3">Explore Guestrooms</a>
+        {% endif %}
+        {% endfor %}
         <a href="/{{ item.url_friendly_name }}/" class="secondary-cta">Explore Suites</a>
       </div>
     </div>
