@@ -9,7 +9,7 @@ meta_description_localized:
 permalink_localized:
   en: "/stay/"
 meta_tags:
-  robots: 
+  robots:
 published_localized:
   en: true
   es: true
@@ -29,14 +29,16 @@ published_localized:
         </a>
       </div>
       <div class="common-tiles__content">
-        <h2 class="h5"><a href="/{{ item.url_friendly_name }}/">{{ item.name }}</a></h2>
+        <h2 class="h2"><a href="/{{ item.url_friendly_name }}/">{{ item.name }}</a></h2>
         <div tabindex="0">
           {{ item.short_description }}
         </div>
-        <a href="/{{ item.url_friendly_name }}/" class="secondary-cta">More</a>
+        <a href="/{{ item.url_friendly_name }}/" class="secondary-cta mr-3">Explore Guestrooms</a>
+        <a href="/{{ item.url_friendly_name }}/" class="secondary-cta">Explore Suites</a>
       </div>
     </div>
     {% endfor %}
+    {% comment %}
     <div class="common-tiles__item">
       <div class="common-tiles__image">
         {% regionblock common_tiles_property_highlights_image, type: image %}
@@ -69,6 +71,7 @@ published_localized:
         {% endregionblock %}
       </div>
     </div>
+    {% endcomment %}
   </div>
 </section>
 

@@ -1,0 +1,39 @@
+{
+  "name": {
+    "required": true
+  },
+  "meta_title": {
+    "instructions": "Explicit SEO title used if this model generates dynamic pages"
+  },
+  "meta_title_prefix": {
+    "instructions": "First part of SEO title that gets combined with default site title values if this model generates dynamic pages"
+  },
+  "meta_description": {
+    "instructions": "SEO meta description used if this model generates dynamic pages"
+  },
+  "url_friendly_name": {
+    "label": "URL Friendly Name",
+    "type": "url_slug"
+  },
+  "category": {
+    "type": "model",
+    "multiple": false,
+    "display_field": "name",
+    "model_name": "room_categories"
+  },
+  "featured_image": {
+    "type": "image"
+  },
+  "short_description": {
+    "type": "richtext"
+  },
+  "description": {
+    "type": "richtext"
+  },
+  "banner_image": {
+    "type": "image"
+  },
+  "order": {
+    "type": "order"
+  }
+}

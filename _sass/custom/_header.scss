@@ -56,10 +56,10 @@
   }
 
   &__menu {
-    width: 18%;
+    width: 88px;
 
     @include media-breakpoint-up(md) {
-      width: auto;
+      width: 120px;
       order: inherit;
     }
   }

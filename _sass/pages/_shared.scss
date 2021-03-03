@@ -7,7 +7,7 @@ html {
   @include make-container;
   max-width: 1224px;
   margin-top: 54px;
-  margin-bottom: 42px;
+  margin-bottom: 58px;
 
   @include media-breakpoint-up(md) {
     margin-top: 20px;
@@ -24,6 +24,7 @@ html {
   }
 
   .h6 {
+    margin-bottom: 24px;
     color: $secondary;
     text-transform: uppercase;
   }
@@ -336,7 +337,7 @@ html {
 
 .common-tiles {
   @include make-container;
-  max-width: 1224px;
+  max-width: 1248px;
 
   &__row {
     @include make-row;
@@ -348,6 +349,7 @@ html {
   &__item {
     @include make-col-ready;
     margin-bottom: 40px;
+    padding: 0 12px;
 
     @include media-breakpoint-up(md) {
       @include make-col(6);
@@ -357,10 +359,10 @@ html {
 
   &__image {
     height: 264px;
-    margin-bottom: 36px;
+    margin-bottom: 24px;
 
     @include media-breakpoint-up(md) {
-      height: 380px;
+      height: 404px;
     }
 
     img {
@@ -375,10 +377,10 @@ html {
   }
 
   &__content {
-    padding: 0 26px;
+    padding: 0 48px;
 
-    .h5 {
-      margin-bottom: 30px;
+    .h2 {
+      margin-bottom: 24px;
       text-transform: uppercase;
       letter-spacing: 1px;
 
@@ -392,10 +394,10 @@ html {
     }
 
     p {
-      margin-bottom: 24px;
       height: auto;
+
       @include media-breakpoint-up(md) {
-        height: 100px;
+        height: 96px;
       }
     }
   }
