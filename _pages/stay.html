@@ -34,10 +34,9 @@ published_localized:
         {% assign roomsItems = site.data._models.rooms | sort: 'order' %}
         {% for roomItem in roomsItems %}
         {% if roomItem.category.name == item.name %}
-        <a href="/stay/{{ roomItem.url_friendly_name }}/" class="secondary-cta mr-3">Explore Guestrooms</a>
+        <a href="/stay/{{ roomItem.url_friendly_name }}/" class="secondary-cta mr-3">Explore {{ roomItem.sub_category }}</a>
         {% endif %}
         {% endfor %}
-        <a href="/{{ item.url_friendly_name }}/" class="secondary-cta">Explore Suites</a>
       </div>
     </div>
     {% endfor %}

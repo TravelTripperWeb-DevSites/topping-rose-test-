@@ -97,9 +97,9 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #   sort_reverse: true
 
 page_gen: #
-  - data: 'room_categories'
-    template: 'room_categories_layout'
-    dir: ''
+  - data: 'rooms'
+    template: 'room_layout'
+    dir: 'stay'
   - data: 'posts'
     template: 'blog_layout'
     dir: 'blog'

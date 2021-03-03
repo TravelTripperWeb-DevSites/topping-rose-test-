@@ -446,22 +446,13 @@ html {
     margin-bottom: 70px;
   }
 
-  .h5 {
-    margin-bottom: 36px;
+  .h2 {
+    margin-bottom: 24px;
   }
 
   &__description {
-    p {
-      margin-bottom: 36px;
-      font-size: $display5-size;
-      line-height: 24px;
-      letter-spacing: 1px;
-
-      strong {
-        font-family: $family-senary;
-        font-size: $display4-size;
-        color: $primary;
-      }
+    h2, h3 {
+      @extend .h2;
     }
   }
 
