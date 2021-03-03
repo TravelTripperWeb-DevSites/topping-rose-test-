@@ -24,14 +24,15 @@
   "featured_image": {
     "type": "image"
   },
+  "banner_image": {
+    "type": "image",
+    "multiple": true
+  },
   "short_description": {
     "type": "richtext"
   },
   "description": {
     "type": "richtext"
-  },
-  "banner_image": {
-    "type": "image"
   },
   "order": {
     "type": "order"
