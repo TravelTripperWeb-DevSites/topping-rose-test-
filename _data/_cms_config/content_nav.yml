@@ -5,6 +5,7 @@ items:
     label:
       en: Rooms
     items:
+    - id: rooms
     - id: room_categories
 
   # - id: offers
