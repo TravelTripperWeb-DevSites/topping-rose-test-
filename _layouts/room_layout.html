@@ -18,7 +18,14 @@ meta_tags:
 </section>
 
 <div class="inner-banner">
-  <img src="{{ item.banner_image.url }}" alt="{{ item.name }}">
+  <div class="inner-banner__slider">
+    {% assign slides = item.banner_image %}
+    {% for slide in slides %}
+    <div class="inner-banner__slider__item">
+      <img src="{{ slide.url_large }}" alt="{{ slide.alt }}">
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 <section class="common-details">
@@ -26,6 +33,8 @@ meta_tags:
     <h1 class="h2" tabindex="0">{{ item.name }}</h1>
     <div class="common-details__description" tabindex="0">
       {{ item.description }}
+      <p class="h3">Amenities</p>
+      {{ item.amenities }}
     </div>
   </div>
 </section>

@@ -32,9 +32,6 @@
     "type": "image",
     "multiple": true
   },
-  "short_description": {
-    "type": "richtext"
-  },
   "description": {
     "type": "richtext"
   },

@@ -174,4 +174,18 @@ readyDoc(function() {
 
   }
 
+  // Room details hero slider
+  if (document.getElementsByClassName('inner-banner__slider').length > 0) {
+    var introSlider = tns({
+      container: '.inner-banner__slider',
+      items: 1,
+      mouseDrag: true,
+      nav: true,
+      loop: false,
+      gutter: 24,
+      controls: false,
+      swipeAngle: false
+    });
+  }
+
 });
