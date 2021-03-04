@@ -1,15 +1,14 @@
 ---
 layout: default
 title_localized:
-  en: Dining Experiences at Keswick Hall | Charlottesville Hotel
+  en: Jean-Georges at Topping Rose House | Hamptons Restaurant
 meta_description_localized:
-  en: Keswick Hall offers heightened culinary experiences from Chef Jean-Georges Vongerichten.
-    Enjoy hand-crafted cocktails or delectable dinners. Book your reservation.
+  en: Jean-Georges at Topping Rose is the restaurant and bar within Topping Rose House serving seasonal farm to table dishes from local providers. Reserve today.
 permalink_localized:
   en: "/dine/"
-  es: 
+  es:
 meta_tags:
-  robots: 
+  robots:
 published_localized:
   en: true
   es: true
@@ -19,28 +18,42 @@ label: Dine
 
 {% region inner_hero, type:hero %}
 
-<div class="inner-banner">
-  {% regionblock page_banner, type: image %}
-  <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1604492229/qjvrgywqe2xrnfo7hgtv.jpg" alt="Jean-Georges at Keswick">
-  {% endregionblock %}
-</div>
-
-<section class="common-details">
-  <div class="common-details__inner">
-    {% regionblock main_title, type: header %}
-    <h1 class="h5" tabindex="0">Jean-Georges at Keswick</h1>
-    {% endregionblock %}
-    <div class="common-details__description" tabindex="0">
-      {% regionblock page_content, type: text %}
-      <p>Celebrate in timeless style in any of Keswick Hall’s newly unveiled spaces. Outdoors, lush landscaping and valley vistas set a backdrop for unforgettable weddings. A natural amphitheater and outdoor-tented area can host up to 400 guests, while indoors a classic ballroom is wrapped in windows for daylit gatherings or enchanting evening affairs</p>
-      <ul>
-        <li>Floral arrangements</li>
-        <li>Catering by Jean-Georges</li>
-        <li>Wedding cakes and desserts</li>
-        <li>Bridal suites</li>
-        <li>Specialty lighting and music</li>
-      </ul>
+<div class="common-listing">
+  <div class="common-listing__block">
+    <div class="common-listing__block__img">
+      {% regionblock two_col_img_1, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
       {% endregionblock %}
     </div>
+    <div class="common-listing__block__content">
+      {% regionblock two_col_title_1, type: header %}
+      <h2 class="h2 text-center">JEAN-GEORGES</h2>
+      {% endregionblock %}
+      <div class="text-center">
+        {% regionblock two_col_description_1, type: text %}
+        <p>Jean-Georges at Topping Rose House is a casually elegant restaurant that celebrates the seasons, presenting farm-to-table cuisine using ingredients grown on the property's one acre farm and sourced from the area's reputable fishermen and farmers. Open year-round for breakfast, lunch and dinner, Jean-Georges at Topping Rose House offers sensible fare paired with a contemporary Hamptons vibe, making it a welcoming restaurant for all ages, whether you’re looking to enjoy a simple bite or a polished dinner.</p>
+        <a href="/property-map/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
   </div>
-</section>
+  <div class="common-listing__block">
+    <div class="common-listing__block__img">
+      {% regionblock two_col_img_2, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+      {% endregionblock %}
+    </div>
+    <div class="common-listing__block__content">
+      {% regionblock two_col_title_2, type: header %}
+      <h2 class="h2 text-center">Bar & Lounge</h2>
+      {% endregionblock %}
+      <div class="text-center">
+        {% regionblock two_col_description_2, type: text %}
+        <p>Stocked with top shelf spirits, local herbs and produce, our bar and lounge is the perfect place to begin or end your evening. Relax in the sensual lighting as you enjoy a seasonal blend mixed up by our expert mixologists, or take a glass of Topping Rose Rosé outdoors to drink up the fresh air. The Topping Rose Bar & Lounge is also available for semi-private events and meetings. We look forward to serving you.</p>
+        <p>Bar and Lounge also available for Semi-Private Events & Meetings
+        Email: <a href="mailto:trhevents@toppingrosehouse.com">trhevents@toppingrosehouse.com</a></p>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</div>

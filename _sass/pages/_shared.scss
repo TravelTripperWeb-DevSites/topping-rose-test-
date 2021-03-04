@@ -54,19 +54,20 @@ html {
     @include make-row;
     display: flex;
     align-items: center;
-    margin: 0 0 40px;
+    margin: 0 0 24px;
 
     @include media-breakpoint-up(md) {
-      margin: 0 0 80px;
+      margin: 0 0 48px;
     }
 
     &__img {
       @include make-col-ready;
       height: 264px;
       padding: 0 0 28px;
+      line-height: normal;
 
       @include media-breakpoint-up(md) {
-        @include make-col(8);
+        @include make-col(7.62);
         align-self: stretch;
         height: auto;
         padding: 0;
@@ -87,10 +88,10 @@ html {
         height: 100%;
         object-fit: cover;
       }
-      
+
       &.image-height {
         @include media-breakpoint-up(md) {
-          height: 416px;
+          min-height: 416px;
         }
       }
     }
@@ -110,7 +111,7 @@ html {
       // text-align: center;
 
       @include media-breakpoint-up(md) {
-        @include make-col(4);
+        @include make-col(4.38);
       }
 
       .h2 {
@@ -837,8 +838,7 @@ html {
 
 .common-accessibility {
   @include make-container;
-  max-width: 1000px;
-  margin-bottom: 60px;
+  max-width: 705px;
   text-align: center;
 
   p {
