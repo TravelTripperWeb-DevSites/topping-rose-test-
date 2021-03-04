@@ -322,7 +322,7 @@
           }
         }
 
-        &:hover, &:focus, &:active {
+        &:hover, &:focus, &:active, &.active {
           color: $white;
           text-decoration: none;
 
@@ -494,7 +494,7 @@
 
 .main {
   &.nav-is-fixed-top {
-    padding-top: 24px 48px !important;
+    padding-top: 58px !important;
 
     @include media-breakpoint-up(md) {
       padding-top: 182px !important;

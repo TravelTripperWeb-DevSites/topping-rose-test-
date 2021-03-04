@@ -25,6 +25,10 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
+{% if page.url contains '/stay/' and page.url != '/stay/' %}
+  {% assign seo_title = seo_title | append: " | Topping Rose House" %}
+{% endif %}
+
 <title>{{ seo_title | normalize_whitespace }}</title>
 
 {% assign seo_description = page.meta_description | default: site.data.seo.default_description %}

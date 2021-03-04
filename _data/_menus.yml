@@ -9,28 +9,6 @@ main:
     label_localized:
       en: Stay
     items:
-    - url: "/estate-rooms/"
-      label: Estate Rooms
-      items:
-      label_localized:
-        en: Luxury Guest Rooms
-      url_localized:
-        en: "/guest-rooms/"
-      target: ''
-    - url: "/premier-suites/"
-      label: Premier Suites
-      items:
-      label_localized:
-        en: Luxury Suites
-      url_localized:
-        en: "/luxury-suites/"
-      target: ''
-    - url: "/property-highlights/"
-      label: Property Highlights
-      items:
-    - url: "/plan-your-visit/"
-      label: Plan Your Visit
-      items:
   - folder: false
     target: ''
     page_id: _pages/dine.html

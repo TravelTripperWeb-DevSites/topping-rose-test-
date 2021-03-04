@@ -13,7 +13,6 @@ meta_tags:
 published_localized:
   en: true
   es: true
-
 ---
 
 {% region inner_hero, type:hero %}
@@ -27,7 +26,7 @@ published_localized:
         <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
       </div>
       <div class="common-tiles__content">
-        <h2 class="h2">{{ item.name }}</h2>
+        <h3 class="h2">{{ item.name }}</h3>
         <div tabindex="0">
           {{ item.short_description }}
         </div>
@@ -79,19 +78,38 @@ published_localized:
 
 
 <div class="common-listing">
-  <div class="common-listing__block our-story-block">
-    <div class="common-listing__block__img">
-        {% regionblock two_col_img_4, type: image %}
-        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
-        {% endregionblock %}
+  <div class="common-listing__block">
+    <div class="common-listing__block__img image-height">
+      {% regionblock two_col_img_1, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+      {% endregionblock %}
     </div>
     <div class="common-listing__block__content">
-      {% regionblock two_col_title_4, type: header %}
-      <h6 class="h5">our story</h6>
+      {% regionblock two_col_title_1, type: header %}
+      <h6 class="h2">Property Map</h6>
       {% endregionblock %}
       <div class="">
-        {% regionblock two_col_description_4, type: text %}
-        <p>Keswick Hall has been an icon of the Virginia countryside for over one hundred years. In order to preserve this landmark estate, co-owners Molly and Robert Hardie have partnered with some of the most coveted purveyors to bring Keswick Hall into the furure whilst paying homage to its storied past. Set amid a backdrop of natural splendour, the newly reimagined resort invites guests and locals to discover a sense of discrete luxury where they can retreat from the everyday into the calm comforts of a space all their own.</p>
+        {% regionblock two_col_description_1, type: text %}
+        <p>We invite you to view our property map to see where accommodations are located. The House has two One-Bedroom Suites, three King Rooms, and two Twin Rooms. Our three Studio King Rooms are located on the second floor with stunning views (just two floors above the Spa). Our four Cottages offer the ultimate luxury experience with private outdoor space, a patio or roofdeck, and easy access to the fitness center below.</p>
+        <a href="/property-map/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+  <div class="common-listing__block">
+    <div class="common-listing__block__img">
+      {% regionblock two_col_img_2, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+      {% endregionblock %}
+    </div>
+    <div class="common-listing__block__content">
+      {% regionblock two_col_title_2, type: header %}
+      <h6 class="h2">Property Map</h6>
+      {% endregionblock %}
+      <div class="">
+        {% regionblock two_col_description_2, type: text %}
+        <p>We invite you to view our property map to see where accommodations are located. The House has two One-Bedroom Suites, three King Rooms, and two Twin Rooms. Our three Studio King Rooms are located on the second floor with stunning views (just two floors above the Spa). Our four Cottages offer the ultimate luxury experience with private outdoor space, a patio or roofdeck, and easy access to the fitness center below.</p>
+        <a href="/property-map/" class="primary-cta">Learn More</a>
         {% endregionblock %}
       </div>
     </div>
