@@ -38,18 +38,14 @@ label: Dine
   <div class="alternate-listing__row">
     <div class="alternate-listing__image">
       <div class="common-slider">
-        <div class="common-slider__item">
-          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614864339/rhvkc8wykdqwfkgtxufx.jpg" alt="Bar Lounge">
-        </div>
-        <div class="common-slider__item">
-          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614864339/bmrgram2djgb8jxevy2j.jpg" alt="Bar Lounge">
-        </div>
-        <div class="common-slider__item">
-          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614864340/xnywlwhqycdpxvslyyij.jpg" alt="Bar Lounge">
-        </div>
-        <div class="common-slider__item">
-          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614864341/ajz51deovotxmdaisro0.jpg" alt="Bar Lounge">
-        </div>
+        {% assign slideImages = site.data._models.bar_lounge_slider | sort: 'order' %}
+        {% for slideImage in slideImages limit: 1 %}
+          {% for slide in slideImage.slider_image %}
+          <div class="common-slider__item">
+            <img src="{{ slide.url_xlarge }}" alt="{{ slide.name }}">
+          </div>
+          {% endfor %}
+        {% endfor %}
       </div>
     </div>
     <div class="alternate-listing__content">
