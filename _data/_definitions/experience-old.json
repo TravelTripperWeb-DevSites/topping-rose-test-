@@ -1,5 +1,6 @@
 {
   "name": {
+    "required": true
   },
   "meta_title": {
     "instructions": "Explicit SEO title used if this model generates dynamic pages"
@@ -14,17 +15,25 @@
     "label": "URL Friendly Name",
     "type": "url_slug"
   },
-  "featured_image": {
-    "type": "image"
-  },
-  "banner_image": {
-    "type": "image",
-    "multiple": true
-  },
   "description": {
     "type": "richtext"
   },
+  "website": {
+    "type": "richtext"
+  },
+  "phone": {
+    "type": "text"
+  },
+  "image": {
+    "type": "image"
+  },
+  "event_start_date": {
+    "type": "date"
+  },
+  "event_end_date": {
+    "type": "date"
+  },
   "order": {
-    "type": "order"
+    "type": "integer"
   }
 }
