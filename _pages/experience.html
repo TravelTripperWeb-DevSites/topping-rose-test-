@@ -17,7 +17,7 @@ published_localized:
 
 <section class="common-tiles">
   <div class="common-tiles__row">
-    {% assign items = site.data._models.room_categories | sort: 'order' %}
+    {% assign items = site.data._models.experience | sort: 'order' %}
     {% for item in items %}
     <div class="common-tiles__item">
       <div class="common-tiles__image">
@@ -28,9 +28,23 @@ published_localized:
         <div tabindex="0">
           {{ item.short_description }}
         </div>
-        <a href="" class="secondary-cta mr-3">Explore</a>
+        <a href="/experience/{{ item.url_friendly_name }}/" class="secondary-cta mr-3">Explore</a>
       </div>
     </div>
+    {% if forloop.index == 3 %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614947161/ykeervllthxvykqqa0yn.jpg" alt="Event Calendar">
+      </div>
+      <div class="common-tiles__content">
+        <h3 class="h2">Event Calendar</h3>
+        <div tabindex="0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <a href="/experience/event-calendar/" class="secondary-cta mr-3">Explore</a>
+      </div>
+    </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

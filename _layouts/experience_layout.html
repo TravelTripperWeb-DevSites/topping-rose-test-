@@ -1,35 +1,32 @@
 ---
 layout: default
-title_localized:
-  en: Hotel Rooms Charlottesville VA | Keswick Hall Luxury Resort
-meta_description_localized:
-  en: Discover sumptuous hotel rooms in Charlottesville VA at Keswick Hall, opening in November 2020 and offering the world's most enviable resort experience.
-meta_tags:
-  robots:
 ---
 
 {% assign item = page.data %}
 
 <section class="hero inner-hero">
   <div class="hero__body">
-    <h1 class="h6" tabindex="0">Events and Attractions Near Charlottesville, Virginia</h1>
-    <h2 class="h2" tabindex="0">Experience the Best of American Hospitality</h2>
+    <h1 class="h6">Wellness at Topping Rose House</h1>
+    <h2 class="h1">LINGER. RELAX. UNWIND. REFRESH. AWAKEN. ESCAPE.</h2>
   </div>
 </section>
 
 <div class="inner-banner">
-  <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+  <div class="inner-banner__slider">
+    {% assign slides = item.banner_image %}
+    {% for slide in slides %}
+    <div class="inner-banner__slider__item">
+      <img src="{{ slide.url_xlarge }}" alt="{{ slide.alt }}">
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 <section class="common-details">
   <div class="common-details__inner">
-    <h1 class="h5" tabindex="0">{{ item.name }}</h1>
+    <h1 class="h2" tabindex="0">{{ item.name }}</h1>
     <div class="common-details__description" tabindex="0">
       {{ item.description }}
-    </div>
-    <div class="info">
-    {{ item.website }}
-    <p><a href="tel:{{ item.event_phone }}">{{ item.phone }}</a></p>
     </div>
   </div>
 </section>

@@ -495,12 +495,11 @@ html {
 
   &__item {
     @include make-col-ready;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
     padding: 0 12px;
 
     @include media-breakpoint-up(md) {
       @include make-col(6);
-      margin-bottom: 70px;
     }
   }
 
@@ -540,13 +539,13 @@ html {
       }
     }
 
-    p {
-      height: auto;
-
-      @include media-breakpoint-up(md) {
-        height: 96px;
-      }
-    }
+    // p {
+    //   height: auto;
+    //
+    //   @include media-breakpoint-up(md) {
+    //     height: 96px;
+    //   }
+    // }
   }
 }
 
@@ -603,7 +602,7 @@ html {
     padding: 0 96px;
   }
 
-  .h2 {
+  .h2,.h3 {
     margin-bottom: 24px;
   }
 
