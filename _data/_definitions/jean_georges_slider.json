@@ -1,0 +1,11 @@
+{
+  "name": {
+  },
+  "slider_image": {
+    "type": "image",
+    "multiple": true
+  },
+  "order": {
+    "type": "order"
+  }
+}
