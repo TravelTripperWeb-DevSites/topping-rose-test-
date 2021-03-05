@@ -188,4 +188,18 @@ readyDoc(function() {
     });
   }
 
+  // Room details hero slider
+  if (document.getElementsByClassName('common-slider').length > 0) {
+    var dineSlider = tns({
+      container: '.common-slider',
+      items: 1,
+      mouseDrag: true,
+      nav: true,
+      loop: false,
+      gutter: 24,
+      controls: false,
+      swipeAngle: false
+    });
+  }
+
 });
