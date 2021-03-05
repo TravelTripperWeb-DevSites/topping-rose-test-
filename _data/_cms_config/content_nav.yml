@@ -9,6 +9,8 @@ items:
     - id: room_categories
 
   # - id: offers
+  - id: bar_lounge_slider
+  - id: jean_georges_slider
   - id: plan_your_visit
   - id: property_highlights
   #- id: attractions
