@@ -1,0 +1,24 @@
+{
+  "order": 1,
+  "name": "Vineyards",
+  "meta_title": "Vineyards | Topping Rose House",
+  "url_friendly_name": "vineyards",
+  "locations": [
+    {
+      "title": "Title",
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+    },
+    {
+      "title": "Title",
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+    },
+    {
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
+      "title": "Title"
+    },
+    {
+      "title": "Title",
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+    }
+  ]
+}
