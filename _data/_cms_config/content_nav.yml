@@ -11,6 +11,7 @@ items:
   # - id: offers
   - id: bar_lounge_slider
   - id: jean_georges_slider
+  - id: things_to_do
   - id: plan_your_visit
   - id: property_highlights
   #- id: attractions

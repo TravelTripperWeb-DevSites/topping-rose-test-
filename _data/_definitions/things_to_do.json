@@ -15,25 +15,28 @@
     "label": "URL Friendly Name",
     "type": "url_slug"
   },
+  "featured_image": {
+    "type": "image"
+  },
+  "banner_image": {
+    "type": "image"
+  },
   "description": {
     "type": "richtext"
   },
-  "website": {
-    "type": "richtext"
-  },
-  "phone": {
-    "type": "text"
-  },
-  "image": {
-    "type": "image"
-  },
-  "event_start_date": {
-    "type": "date"
-  },
-  "event_end_date": {
-    "type": "date"
+  "locations": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "title": {
+        "type": "text"
+      },
+      "address": {
+        "type": "richtext"
+      }
+    }
   },
   "order": {
-    "type": "integer"
+    "type": "order"
   }
 }
