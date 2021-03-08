@@ -128,6 +128,10 @@ html {
           min-height: 416px;
         }
       }
+
+      &.short-image {
+        height: 356px;
+      }
     }
 
     .our-story-img {
@@ -220,6 +224,10 @@ html {
       }
     }
   }
+}
+
+.sec-divider {
+  border-top: solid 1px rgba($input-border, .15);
 }
 
 .alternate-listing {
