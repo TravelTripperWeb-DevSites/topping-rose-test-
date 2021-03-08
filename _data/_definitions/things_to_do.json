@@ -11,6 +11,12 @@
   "meta_description": {
     "instructions": "SEO meta description used if this model generates dynamic pages"
   },
+  "header_overline": {
+    "type": "text"
+  },
+  "header_title": {
+    "type": "text"
+  },
   "url_friendly_name": {
     "label": "URL Friendly Name",
     "type": "url_slug"
