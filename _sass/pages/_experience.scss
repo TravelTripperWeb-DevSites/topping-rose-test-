@@ -270,7 +270,7 @@
 // Experiences new layout styles
 .common-cards {
   @include make-container;
-  max-width: 1224px;
+  max-width: 1248px;
 
   &__row {
     @include make-row;
@@ -279,18 +279,18 @@
   &__item {
     @include make-col-ready;
     margin-bottom: 36px;
+    padding: 0 12px;
 
     @include media-breakpoint-up(md) {
       @include make-col(4);
-      padding: 0 24px;
     }
 
     &__inner {
       position: relative;
 
       &:after {
-        @include absolute-position(auto,0,0,0,auto,40%);
-        background-image: linear-gradient(0deg, rgba(0,0,0,.3) 40%, rgba(0,0,0,0) 100%);
+        @include absolute-position(auto,0,0,0,auto,30%);
+        background-image: linear-gradient(0deg, rgba(0,0,0,.4) 40%, rgba(0,0,0,0) 100%);
       }
     }
   }

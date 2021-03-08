@@ -17,18 +17,15 @@ published_localized:
 
 <section class="common-cards">
   <div class="common-cards__row">
-    {% assign items = site.data._models.experience | sort: 'order' %}
+    {% assign items = site.data._models.things_to_do | sort: 'order' %}
     {% for item in items %}
-    <a href="/experience/{{ item.url_friendly_name }}/" class="common-cards__item">
+    <a href="/things-to-do/{{ item.url_friendly_name }}/" class="common-cards__item">
       <div class="common-cards__item__inner">
         <div class="common-cards__image">
-          <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+          <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
         </div>
         <div class="common-cards__content">
-          {% if item.event_start_date %}
-          <div class="h6" tabindex="0">{{ item.event_start_date | date: '%b %d, %Y' }} - {{ item.event_end_date | date: '%b %d, %Y' }}</div>
-          {% endif %}
-          <h2 class="h5" tabindex="0">{{ item.name }}</h2>
+          <h3 class="h3 light" tabindex="0">{{ item.name }}</h3>
         </div>
       </div>
     </a>
