@@ -28,11 +28,18 @@ layout: default
     <div class="common-details__description" tabindex="0">
       {{ item.description }}
     </div>
+    {% if item.url_friendly_name == "wellness" %}
+      <div class="mt-4 mt-md-5">
+        <h4 class="h2">Wellness Schedule</h4>
+        <script src="https://widgets.mindbodyonline.com/javascripts/healcode.js" type="text/javascript"></script>
+        <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="7f1544737e9b" data-widget-version="1" ></healcode-widget>
+      </div>
+    {% endif %}
   </div>
 </section>
 
 {% if item.url_friendly_name == "wellness" %}
-<div class="common-listing sec-divider mt-4 mt-md-5">
+<div class="common-listing sec-divider mt-4">
   <div class="common-listing__block"></div>
   <div class="common-listing__block mt-4 mt-md-5">
     <div class="common-listing__block__img short-image">
