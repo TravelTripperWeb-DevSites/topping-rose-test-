@@ -14,19 +14,19 @@ published_localized:
 
 {% region inner_hero, type:hero %}
 
-{% assign gather = site.data._models.gather | sort: "order" %}
+{% assign items = site.data._models.gather | sort: "order" %}
 <div class="alternate-listing">
-  {% for item in gather %}
+  {% for item in items %}
   <div class="alternate-listing__row">
     <div class="alternate-listing__image">
-      <img src="{{ item.image.url_large }}" alt="{{ item.image.alt }}">
+      <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
     </div>
     <div class="alternate-listing__content text-center">
       <h3 class="h2" tabindex="0">{{ item.name }}</h3>
       <div tabindex="0">
         {{ item.short_description }}
       </div>
-      <a href="/gather/{{ item.url_friendly_name }}/" class="primary-cta">{{ item.cta_text }}</a>
+      <a href="/gather/{{ item.url_friendly_name }}/" class="primary-cta">Explore your options</a>
     </div>
   </div>
   {% endfor %}
