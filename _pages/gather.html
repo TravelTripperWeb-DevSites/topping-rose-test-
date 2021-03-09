@@ -1,35 +1,32 @@
 ---
 layout: default
 title_localized:
-  en: Charlottesville Wedding Venues | Keswick Hall | A Luxury Resort
+  en: Gather at Topping Rose House | Hamptons Weddings & Events
 meta_description_localized:
-  en: Keswick Hall is home to the most elegant Charlottesville wedding venues. Host
-    an incomparable gathering for friends and family.
+  en: Gather your friends and family at Topping Rose House for an unforgettable event or wedding in the Hamptons. Poolside, rustic barn and more. Schedule with us now.
 permalink_localized:
   en: "/gather/"
 meta_tags:
-  robots: 
+  robots:
 published_localized:
   en: true
-  es: true
-
 ---
 
 {% region inner_hero, type:hero %}
 
 {% assign gather = site.data._models.gather | sort: "order" %}
-<div class="common-listing">
+<div class="alternate-listing">
   {% for item in gather %}
-  <div class="common-listing__block">
-    <div class="common-listing__block__img">
+  <div class="alternate-listing__row">
+    <div class="alternate-listing__image">
       <img src="{{ item.image.url_large }}" alt="{{ item.image.alt }}">
     </div>
-    <div class="common-listing__block__content">
-      <h3 class="h5" tabindex="0">{{ item.name }}</h3>
+    <div class="alternate-listing__content text-center">
+      <h3 class="h2" tabindex="0">{{ item.name }}</h3>
       <div tabindex="0">
         {{ item.short_description }}
       </div>
-      <a href="/gather/{{ item.url_friendly_name }}/" class="primary-cta ">{{ item.cta_text }}</a>
+      <a href="/gather/{{ item.url_friendly_name }}/" class="primary-cta">{{ item.cta_text }}</a>
     </div>
   </div>
   {% endfor %}

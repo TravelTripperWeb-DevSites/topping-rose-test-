@@ -27,8 +27,8 @@ meta_tags:
     <div class="common-details__description" tabindex="0">
       {% assign locations = item.locations %}
       {% for location in locations %}
-      <p class="mb-1"><strong>{{ location.title }}</strong></p>
-      {{ location.address }}
+        <p class="mb-1"><strong>{{ location.title }}</strong></p>
+        {{ location.address }}
       {% endfor %}
     </div>
   </div>
