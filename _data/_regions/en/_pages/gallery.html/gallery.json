@@ -8,12 +8,16 @@
         "label": "Rooms"
       },
       {
-        "label": "The Hotel",
+        "label": "Hotel",
         "gallery": "the_hotel"
       },
       {
-        "label": "Attractions",
-        "gallery": "attractions"
+        "label": "Dining",
+        "gallery": "dining"
+      },
+      {
+        "label": "Meetings Events",
+        "gallery": "meetings_events"
       }
     ],
     "_template": "galleries"
