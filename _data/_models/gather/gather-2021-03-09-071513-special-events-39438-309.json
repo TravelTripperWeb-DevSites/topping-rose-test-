@@ -1,0 +1,43 @@
+{
+  "order": 3,
+  "name": "Special Events",
+  "meta_title": "Events in the Hamptons | Event Venue Topping Rose House",
+  "meta_description": "Plan your event in our historic mansion, Topping Rose House. In the heart of the Hamptons, we are the perfect location for dinners, parties, celebrations and more.",
+  "url_friendly_name": "special-events",
+  "short_description": "<p>Imagine your event at our restored 19th century mansion and estate. Whether you are looking to host a festive dinner, pool party, private ceremony or meeting, Topping Rose offers event spaces complete with professional catering, creative seasonal cocktails and the latest technology to accommodate any presentation needs.</p>",
+  "description": "<p>From festive dinners to pool parties, dinners, ceremonies and celebrations, Topping Rose House provides the ideal setting for your next function in the Hamptons. Revel amidst our stunning grounds and historic architecture, in spaces complete with seasonal menus highlighting locally-sourced ingredients, creative cocktails and the latest technology to accommodate any presentation needs. Our team will work with you to develop a customized experience that is sure to be memorable for all.</p>",
+  "image": {
+    "name": "couple-dirnking-champaigne",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-09-013512",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615271712/a575nypgvkzaewieconm.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615271712/a575nypgvkzaewieconm.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615271712/a575nypgvkzaewieconm.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615271712/a575nypgvkzaewieconm.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615271712/a575nypgvkzaewieconm.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615271712/a575nypgvkzaewieconm.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615271712/a575nypgvkzaewieconm.jpg",
+    "width": 1560,
+    "height": 1056,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615271712/a575nypgvkzaewieconm.jpg",
+    "resource_type": "image",
+    "size": 763754,
+    "git_file_name": "_assets/image_data/couple-dirnking-champaigne.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615271712/a575nypgvkzaewieconm.jpg",
+    "file_size": null,
+    "alt": "Couple dirnking champaigne",
+    "caption": "",
+    "description": ""
+  },
+  "buttons": [
+    {
+      "button_label": "View our current package offerings",
+      "button_url": "#"
+    },
+    {
+      "button_label": "EXPLORE OUR Event VENUES",
+      "button_url": "#"
+    }
+  ]
+}
