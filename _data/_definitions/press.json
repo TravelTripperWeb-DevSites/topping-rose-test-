@@ -14,7 +14,7 @@
     "model_name": "press_categories"
   },
   "date": {
-    "type": "order",
+    "type": "date",
     "label": "Press Release Date"
   }
 }
