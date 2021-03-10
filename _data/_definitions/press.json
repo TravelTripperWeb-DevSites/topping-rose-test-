@@ -13,6 +13,9 @@
     "can_create": true,
     "model_name": "press_categories"
   },
+  "press_url": {
+    "type": "text"
+  },
   "date": {
     "type": "date",
     "label": "Press Release Date"
