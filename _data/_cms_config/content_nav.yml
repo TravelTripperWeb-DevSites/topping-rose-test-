@@ -33,3 +33,6 @@ items:
   - id: experience
   - id: faq
   - id: press
+    items:
+    - id: press
+    - id: press_categories
