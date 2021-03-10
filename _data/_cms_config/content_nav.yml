@@ -32,7 +32,8 @@ items:
   - id: gather
   - id: experience
   - id: faq
-  - id: press
+  - id: press_data
+    label: Press
     items:
     - id: press
     - id: press_categories
