@@ -1,0 +1,32 @@
+---
+layout: default
+title_localized:
+  en: Press and News | Topping Rose House
+meta_description_localized:
+  en: Read the latest news from Topping Rose House. As the heart of the Hamptons, Topping Rose is the buzz of the town.
+permalink_localized:
+  en: "/press/"
+  es:
+meta_tags:
+  robots:
+---
+
+{% region inner_hero, type:hero %}
+
+<section class="press-cards">
+  <div class="press-cards__row">
+    {% assign items = site.data._models.things_to_do | sort: 'order' %}
+    {% for item in items %}
+    <a href="/things-to-do/{{ item.url_friendly_name }}/" class="press-cards__item">
+      <div class="press-cards__item__inner">
+        <div class="press-cards__image">
+          <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
+        </div>
+        <div class="press-cards__content">
+          <h3 class="h3 light" tabindex="0">{{ item.name }}</h3>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>

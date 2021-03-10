@@ -1,0 +1,20 @@
+{
+  "name": {
+    "required": true,
+    "label": "Press Title"
+  },
+  "description": {
+    "type": "richtext"
+  },
+  "press_release": {
+    "type": "model",
+    "multiple": false,
+    "display_field": "name",
+    "can_create": true,
+    "model_name": "press_categories"
+  },
+  "date": {
+    "type": "order",
+    "label": "Press Release Date"
+  }
+}
