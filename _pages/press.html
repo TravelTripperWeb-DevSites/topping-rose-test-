@@ -15,18 +15,25 @@ meta_tags:
 
 <section class="press-cards">
   <div class="press-cards__row">
-    {% assign items = site.data._models.things_to_do | sort: 'order' %}
+    {% assign items = site.data._models.press | sort: 'date' | reverse %}
     {% for item in items %}
-    <a href="/things-to-do/{{ item.url_friendly_name }}/" class="press-cards__item">
+    <div class="press-cards__item">
       <div class="press-cards__item__inner">
         <div class="press-cards__image">
-          <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
+          <a href="{{ item.press_url }}" target="_blank">
+            <img src="{{ item.press_release.logo.url }}" alt="{{ item.press_release.alt }}">
+          </a>
         </div>
         <div class="press-cards__content">
-          <h3 class="h3 light" tabindex="0">{{ item.name }}</h3>
+          <p class="p-small-bold"><a href="{{ item.press_url }}" target="
+            ">{{ item.press_release.name }}</a> | {{ item.date | date: '%B %Y' }}</p>
+          <p class="p-bold">
+            <a href="{{ item.press_url }}" target="_blank">{{ item.name }}</a>
+          </p>
+          <div class="press-cards__content__description">{{ item.description }}</div>
         </div>
       </div>
-    </a>
+    </div>
     {% endfor %}
   </div>
 </section>

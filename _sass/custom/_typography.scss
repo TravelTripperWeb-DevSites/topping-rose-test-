@@ -103,6 +103,22 @@ ul {
   letter-spacing: 0;
 }
 
+.p-small-bold {
+  font-family: $family-senary;
+  font-size: $display5-size;
+  line-height: normal;
+  color: $secondary;
+  letter-spacing: normal;
+}
+
+.p-bold {
+  font-family: $family-senary;
+}
+
+.p-small {
+  font-family: $family-secondary;
+}
+
 .small-paragraph {
   margin-bottom: 30px;
   font-family: $family-tertiary;
