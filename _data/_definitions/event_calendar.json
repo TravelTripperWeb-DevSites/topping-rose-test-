@@ -1,0 +1,14 @@
+{
+  "name": {
+    "required": true
+  },
+  "short_description": {
+    "type": "richtext"
+  },
+  "image": {
+    "type": "image"
+  },
+  "event_start_date": {
+    "type": "date"
+  }
+}

@@ -12,6 +12,7 @@ items:
     items:
     - id: attractions
     - id: attractions_categories
+  - id: event_calendar
 
   # - id: offers
   - id: bar_lounge_slider
