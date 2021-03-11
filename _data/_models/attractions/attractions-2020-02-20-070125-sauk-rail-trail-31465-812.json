@@ -1,0 +1,126 @@
+{
+  "order": 2,
+  "name": "Sauk Rail Trail",
+  "category": [
+    "attraction_categories-2020-02-19-141543-recreation-31465-812"
+  ],
+  "description_localized": {
+    "en": "<p>Along this picturesque 33-mile recreational trail, you&rsquo;ll see joggers, bikers, and families strolling along. The trail connects Swan Lake State Park, just south of Carroll, to Blackhawk Lake State Park.</p>"
+  },
+  "location": {
+    "name": "Sauk Rail Trail",
+    "address": "Sauk Rail Trail, Carroll, IA 51401, USA",
+    "place_id": "EidTYXVrIFJhaWwgVHJhaWwsIENhcnJvbGwsIElBIDUxNDAxLCBVU0EiLiosChQKEgnL_20ayjvthxGACbISefIz8xIUChIJN_hwIpQ57YcRiSmQviFwkBA",
+    "reference": "EidTYXVrIFJhaWwgVHJhaWwsIENhcnJvbGwsIElBIDUxNDAxLCBVU0EiLiosChQKEgnL_20ayjvthxGACbISefIz8xIUChIJN_hwIpQ57YcRiSmQviFwkBA",
+    "latitude": 42.0600829,
+    "longitude": -94.87673339999999,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Sauk Rail Trail",
+          "short_name": "Sauk Rail Trail",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Carroll",
+          "short_name": "Carroll",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Carroll County",
+          "short_name": "Carroll County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Iowa",
+          "short_name": "IA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "51401",
+          "short_name": "51401",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">Sauk Rail Trail</span>, <span class=\"locality\">Carroll</span>, <span class=\"region\">IA</span> <span class=\"postal-code\">51401</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Sauk Rail Trail, Carroll, IA 51401, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.0600829,
+          "lng": -94.87673339999999
+        },
+        "viewport": {
+          "south": 42.05873391970851,
+          "west": -94.87808238029149,
+          "north": 42.0614318802915,
+          "east": -94.87538441970848
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "2c8b0edb3a0329da05218c1b0bba0d233c6c9e88",
+      "name": "Sauk Rail Trail",
+      "place_id": "EidTYXVrIFJhaWwgVHJhaWwsIENhcnJvbGwsIElBIDUxNDAxLCBVU0EiLiosChQKEgnL_20ayjvthxGACbISefIz8xIUChIJN_hwIpQ57YcRiSmQviFwkBA",
+      "reference": "EidTYXVrIFJhaWwgVHJhaWwsIENhcnJvbGwsIElBIDUxNDAxLCBVU0EiLiosChQKEgnL_20ayjvthxGACbISefIz8xIUChIJN_hwIpQ57YcRiSmQviFwkBA",
+      "scope": "GOOGLE",
+      "types": [
+        "route"
+      ],
+      "url": "https://maps.google.com/?q=Sauk+Rail+Trail,+Carroll,+IA+51401,+USA&ftid=0x87ed3bca1a6dffcb:0xf333f27912b20980",
+      "utc_offset": -360,
+      "vicinity": "Carroll",
+      "html_attributions": null,
+      "utc_offset_minutes": -360
+    }
+  },
+  "website_url": "https://www.traillink.com/trail/sauk-rail-trail/",
+  "image": {
+    "name": "Sauk Rail Trail",
+    "content_type": "image/jpeg",
+    "date_added": "2020-02-20-083604",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "width": 1500,
+    "height": 500,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "resource_type": "image",
+    "size": 208782,
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1582205764/qt644fkazezzn6ov62yc.jpg",
+    "file_size": null,
+    "alt": "Sauk Rail Trail",
+    "caption": "",
+    "description": ""
+  },
+  "seo_title_localized": {
+    "en": "Sauk Rail Trail"
+  },
+  "seo_description_localized": {
+    "en": "Sauk Rail Trail"
+  }
+}

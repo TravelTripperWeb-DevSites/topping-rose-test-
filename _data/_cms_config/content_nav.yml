@@ -7,6 +7,11 @@ items:
     items:
     - id: rooms
     - id: room_categories
+  - id: attractions_data
+    label: Attractions
+    items:
+    - id: attractions
+    - id: attraction_categories
 
   # - id: offers
   - id: bar_lounge_slider

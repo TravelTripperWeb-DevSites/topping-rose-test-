@@ -1,0 +1,378 @@
+{
+  "order": 11,
+  "name": "Templeton Rye Distillery",
+  "category": [
+    "attraction_categories-2020-02-20-131900-distillery-tours-31465-812"
+  ],
+  "seo_title_localized": {
+    "en": "Templeton Rye Distillery"
+  },
+  "seo_description_localized": {
+    "en": "Templeton Rye Distillery"
+  },
+  "location": {
+    "name": "Templeton Rye",
+    "address": "209 E 3rd St, Templeton, IA 51463, USA",
+    "phone": "(712) 669-8793",
+    "place_id": "ChIJ2VM5nOEu7YcRqlSlwZSbsgg",
+    "reference": "ChIJ2VM5nOEu7YcRqlSlwZSbsgg",
+    "latitude": 41.91743,
+    "longitude": -94.93642299999999,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "209",
+          "short_name": "209",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "East 3rd Street",
+          "short_name": "E 3rd St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Templeton",
+          "short_name": "Templeton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Eden",
+          "short_name": "Eden",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Carroll County",
+          "short_name": "Carroll County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Iowa",
+          "short_name": "IA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "51463",
+          "short_name": "51463",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">209 E 3rd St</span>, <span class=\"locality\">Templeton</span>, <span class=\"region\">IA</span> <span class=\"postal-code\">51463</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "209 E 3rd St, Templeton, IA 51463, USA",
+      "formatted_phone_number": "(712) 669-8793",
+      "geometry": {
+        "location": {
+          "lat": 41.91743,
+          "lng": -94.93642299999999
+        },
+        "viewport": {
+          "south": 41.9158393697085,
+          "west": -94.9377717302915,
+          "north": 41.9185373302915,
+          "east": -94.9350737697085
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "d9f136ef2e34d5f0dd6ee64f86ec19dd59b90255",
+      "international_phone_number": "+1 712-669-8793",
+      "name": "Templeton Rye",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1582671600000
+            },
+            "open": {
+              "day": 2,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1582642800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1582758000000
+            },
+            "open": {
+              "day": 3,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1582729200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1582844400000
+            },
+            "open": {
+              "day": 4,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1582815600000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1582930800000
+            },
+            "open": {
+              "day": 5,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1582902000000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1582412400000
+            },
+            "open": {
+              "day": 6,
+              "time": "0900",
+              "hours": 9,
+              "minutes": 0,
+              "nextDate": 1582383600000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 5:00 PM",
+          "Wednesday: 9:00 AM – 5:00 PM",
+          "Thursday: 9:00 AM – 5:00 PM",
+          "Friday: 9:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ]
+      },
+      "photos": [
+        {
+          "height": 4160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115029990035553418972\">Gail Erickson</a>"
+          ],
+          "width": 3120
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102257768794039054345\">Travis Dickinson</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2835,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109075366869308156692\">Andrew Cain</a>"
+          ],
+          "width": 2268
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104812430944928400813\">Mike Abrams</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104812430944928400813\">Mike Abrams</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104107249577520447221\">Ron Ringsdorf</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104812430944928400813\">Mike Abrams</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113717374251030139082\">Templeton Rye</a>"
+          ],
+          "width": 800
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104812430944928400813\">Mike Abrams</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4240,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113717374251030139082\">Templeton Rye</a>"
+          ],
+          "width": 2832
+        }
+      ],
+      "place_id": "ChIJ2VM5nOEu7YcRqlSlwZSbsgg",
+      "plus_code": {
+        "compound_code": "W387+XC Templeton, Eden, IA, United States",
+        "global_code": "86H7W387+XC"
+      },
+      "rating": 4.3,
+      "reference": "ChIJ2VM5nOEu7YcRqlSlwZSbsgg",
+      "reviews": [
+        {
+          "author_name": "Bianca",
+          "author_url": "https://www.google.com/maps/contrib/113666844612433372062/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-CrLXyoi0ZNo/AAAAAAAAAAI/AAAAAAAAAAA/OolMQVptNis/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "4 months ago",
+          "text": "I have been wanting to come here for awhile. I live in Des Moines so its about 1hr and 30 mins away. Finally managed to go out today and it was okay! $10 for the tour about 2hrs long. The building and the ground itself is beautiful. It is a new building and it has lots of great photo opportunities like the barrel tree. We had different tour guides at two different parts of the tour. The first one was a little too scripted and like he was reading from memory but still interesting. The second one I could not hear a single thing he was saying. The room where the whiskey was being fermented was very very very loud. I'm not an older person with bad hearing, I'm in my early 20's... It was just loud. I would recommend for that tour guide to wear a mic. He seemed knowledgable but I could barely hear him. It was pretty much me looking at signs for the last hour while I tried to catch words from what he was telling us. We got to see the whole process though, sign a whiskey barrel and have two shots of the special reserve. It was pretty good and I bought a bottle. If you do a tour you get a $5 off coupon so the reserve ends up being about $53 with taxes. There is a nice gas station nearby for food before you get back on the road. I would also recommend doing a quick drive around the town to see the first Templeton jail (super tiny 2 cell jail) and Sacred Heart Cemetary (hollow grave stones where booze was hid). Also if you're going towards Des Moines keep an eye out for the Coon Rapid rotating corn sign and small sculpture park and Jamaicas road sign all visible from your car!",
+          "time": 1569367442
+        },
+        {
+          "author_name": "Mike Abrams",
+          "author_url": "https://www.google.com/maps/contrib/104812430944928400813/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-Yf1rA3X7agk/AAAAAAAAAAI/AAAAAAAAAAA/xmGxO552BjI/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "10 months ago",
+          "text": "Well worth a trip.  About 45 minutes north of I-80.  The new visitor center is amazing, and the tour is unique with lots of stories.  Call ahead to get you tour space, as there are only so many slots.  You can also buy the Templeton special reserve at the gift shop.  It is only sold at this location, and not distributed.  Also, stop by the Sacred Heart cemetery afterwards to see some of the tombstones in which they hid the wiskey in during federal crackdown on alcohol brewing.  Only 1 mile away from the center.    Well worth the trip.",
+          "time": 1555863015
+        },
+        {
+          "author_name": "Andrew Klinkenborg",
+          "author_url": "https://www.google.com/maps/contrib/117771530168250954008/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.ggpht.com/-hssEokcUo1A/AAAAAAAAAAI/AAAAAAAAAAA/UqHQQ8hnQZc/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "11 months ago",
+          "text": "Good minus the wet, flooded sidewalks and bathroom. They basically have a few facility issues to figure out.",
+          "time": 1552168058
+        },
+        {
+          "author_name": "Rob Christensen",
+          "author_url": "https://www.google.com/maps/contrib/110298740092905209363/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.ggpht.com/-nwWIkuWBWkQ/AAAAAAAAAAI/AAAAAAAAAAA/ne4mQJs9BVM/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "Wow! I am blown away with the flavor and smooth finish! Job well done. You have a fan for life.",
+          "time": 1532226796
+        },
+        {
+          "author_name": "Garry Hawn",
+          "author_url": "https://www.google.com/maps/contrib/105886468817832509190/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.ggpht.com/-hStSdCjkvh8/AAAAAAAAAAI/AAAAAAAAAAA/pk6kd00PjAg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "I haven't been to that part of Iowa, but on my next trip out that way, we will be stopping by. We were in Dubuque in June,  sipping on 6 year old Templeton Rye, watching the barges going down the mighty Miss. I must say, the rye is smooth and refreshing.",
+          "time": 1533675045
+        }
+      ],
+      "scope": "GOOGLE",
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=626734361364223146",
+      "user_ratings_total": 15,
+      "utc_offset": -360,
+      "vicinity": "209 East 3rd Street, Templeton",
+      "website": "http://www.templetonrye.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -360
+    }
+  },
+  "image": {
+    "name": "iStock-1008464204",
+    "content_type": "image/jpeg",
+    "date_added": "2020-02-22-142614",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_crop,h_1649,w_3000,x_0,y_160/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_crop,h_1649,w_3000,x_0,y_160/c_fit,f_auto,h_300,q_auto,w_300/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_crop,h_1649,w_3000,x_0,y_160/c_fit,f_auto,h_768,q_auto,w_768/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_crop,h_1649,w_3000,x_0,y_160/c_fit,f_auto,h_992,q_auto,w_992/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_crop,h_1649,w_3000,x_0,y_160/c_fit,f_auto,h_1200,q_auto,w_1200/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_crop,h_1649,w_3000,x_0,y_160/c_limit,f_auto,h_1920,q_auto,w_1920/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "width": 3000,
+    "height": 2004,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "resource_type": "image",
+    "size": 4093407,
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1582399575/p5smji6zcnta8ri8dkf0.jpg",
+    "file_size": null,
+    "alt": "iStock-1008464204",
+    "crop": {
+      "origin": {
+        "x": 0,
+        "y": 160
+      },
+      "width": 3000,
+      "height": 1649
+    },
+    "caption": "",
+    "description": ""
+  },
+  "description_localized": {
+    "en": "<p>Just 20 minutes south of Carroll, this family-owned distillery began producing ryes in 1920 to feed the demand during Prohibition, and it is now the largest employer in the town of Templeton.&nbsp;</p>"
+  },
+  "website_url": "https://www.templetonrye.com/distillery/"
+}
