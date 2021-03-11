@@ -2,34 +2,11 @@
   "name": {
     "required": true
   },
-  "featured": {
-    "type": "boolean"
-  },
   "category": {
     "type": "model",
     "multiple": true,
     "display_field": "name",
-    "model_name": "attraction_categories"
-  },
-  "seo_title": {
-    "label": "Seo Title",
-    "localizable": true
-  },
-  "seo_description": {
-    "label": "Seo Description",
-    "localizable": true
-  },
-  "website_url": {
-    "label": "External website url"
-  },
-  "description": {
-    "label": "Short Description",
-    "type": "richtext",
-    "localizable": true
-  },
-  "image": {
-    "type": "image",
-    "label": "Attractions Image"
+    "model_name": "attractions_categories"
   },
   "location": {
     "type": "location",
