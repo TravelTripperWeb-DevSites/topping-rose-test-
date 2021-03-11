@@ -25,6 +25,14 @@ readyDoc(function() {
     //     }
     // }
 
+  // Leaflet map
+  setTimeout(function(){
+    document.querySelector("img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive").setAttribute("src", "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615477722/buatbmj13yfhbi0z2nen.png");
+    if(document.querySelector("img.leaflet-marker-icon")) {
+      document.querySelector("img.leaflet-marker-icon").click();
+    }
+  }, 1000);
+
   // cendyn newsletter post data
   document.getElementById('newsletterForm').onsubmit = function(e) {
     e.preventDefault();

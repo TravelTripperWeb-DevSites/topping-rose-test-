@@ -34,14 +34,16 @@ data-tile-style - options are
       <div class="location-popup">
         <div class="location-popup__row align-items-center">
           <div class="location-popup__text">
-            {% assign locationDirectionUrl = site.data.hotel_settings.get_directions_url %}
+            {% assign locationDirectionUrl = site.data.hotel_settings.google_location.google_place.url %}
             <span class="location-popup__name">{{site.data.hotel_settings.name}}</span>
             <div class="location-popup__address">{% include components/hotel-address %}</div>
             <a class="location-popup__directions" href="{{locationDirectionUrl}}" target="_blank">{% t 'attractions.buttons.get_directions' %}</a>
           </div>
+          {% comment %}
           <div class="location-popup__image">
-            <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1582181794/b51p9h5vch9h8lmihxq8.png" alt="{{site.data.hotel_settings.name}}">
+            <img src="" alt="{{site.data.hotel_settings.name}}">
           </div>
+          {% endcomment %}
         </div>
       </div>
     </div>
@@ -54,13 +56,15 @@ data-tile-style - options are
       <div class="location-popup">
         <div class="location-popup__row align-items-center">
           <div class="location-popup__text">
-            <a class="location-popup__name" href="{{locationUrl}}">{{attraction.name}}</a>
+            <a class="location-popup__name" href="{{locationUrl}}" target="_blank">{{attraction.name}}</a>
             <div class="location-popup__address">{{ locationAddress }}</div>
-            <a class="location-popup__directions" href="{{locationDirectionUrl}}">{% t 'attractions.buttons.get_directions' %}</a>
+            <a class="location-popup__directions" href="{{locationDirectionUrl}}" target="_blank">{% t 'attractions.buttons.get_directions' %}</a>
           </div>
+          {% comment %}
           <div class="location-popup__image">
             <img src="{{attraction.image.url}}" alt="{{attraction.name}}">
           </div>
+          {% endcomment %}
         </div>
       </div>
 
