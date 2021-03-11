@@ -407,61 +407,43 @@ html {
 
 .staticpage-hero {
   display: block;
+  text-align: left;
+
   .hero__title {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
   }
   h1 {
+    @extend .h2;
     padding-top: 48px;
-    @extend .h5;
-    color: $secondary;
-    text-align: left;
-    text-transform: uppercase;
   }
 }
 .static-content {
   padding-top: 48px;
-  padding-bottom: 84px;
+  
   .static_data__wrap {
     max-width: 808px;
     margin: 0 auto;
     padding: 0 15px;
     p {
-      margin-bottom: 30px;
-      font-family: $family-secondary;
-      font-size: $display5-size;
-      font-weight: $display3-weight;
-      line-height: $display7-size;
-      color: $secondary;
-
       strong {
-        margin-bottom: 24px;
-        font-family: $family-secondary;
-        font-size: $base-font-size;
-        font-weight: $display6-weight;
-        line-height: $display7-size;
-        // color: $secondary;
-        color: $primary;
       }
     }
-    h3, h4, h5 {
+    h3 {
+      @extend .h3;
       margin-bottom: 24px;
-      font-family: $family-secondary;
-      font-size: $base-font-size;
-      font-weight: $display6-weight;
-      line-height: $display7-size;
-      // color: $secondary;
-      color: $primary;
     }
+
     ul {
       margin-bottom: 24px;
       padding-left: 15px;
+
       li {
+        margin-bottom: 6px;
         font-family: $family-secondary;
-        font-size: $display5-size;
-        font-weight: $display3-weight;
-        line-height: $display7-size;
+        font-size: $base-font-size;
+        line-height: normal;
         color: $secondary;
       }
     }
