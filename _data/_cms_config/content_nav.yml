@@ -11,7 +11,7 @@ items:
     label: Attractions
     items:
     - id: attractions
-    - id: attraction_categories
+    - id: attractions_categories
 
   # - id: offers
   - id: bar_lounge_slider
