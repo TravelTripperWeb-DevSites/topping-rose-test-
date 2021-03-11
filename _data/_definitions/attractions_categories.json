@@ -1,6 +1,5 @@
 {
   "name": {
-    "required": true,
-    "localizable": true
+    "required": true
   }
 }
