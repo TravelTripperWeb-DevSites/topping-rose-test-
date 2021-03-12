@@ -358,19 +358,29 @@ html {
 .sitemap-wrap {
   max-width: 800px;
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 200px;
+  padding-top: 48px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 96px;
+  }
+
+  .h2 {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
   .main-menu {
     ul {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: center;
       li {
         list-style: none;
 
         a {
           @extend .primary-cta;
           width: 208px;
+          margin: 0 16px;
           margin-bottom: 48px;
           text-align: center;
         }
@@ -399,8 +409,22 @@ html {
           color: $secondary;
           text-transform: uppercase;
           letter-spacing: 1px;
+
+          &:hover {
+            text-decoration: none;
+          }
         }
       }
+    }
+  }
+
+  .pagenotfound {
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+
+    .primary-cta {
+      width: 208px;
     }
   }
 }
@@ -421,7 +445,7 @@ html {
 }
 .static-content {
   padding-top: 48px;
-  
+
   .static_data__wrap {
     max-width: 808px;
     margin: 0 auto;

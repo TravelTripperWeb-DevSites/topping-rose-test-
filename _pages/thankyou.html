@@ -14,10 +14,12 @@ sitemap:
 
 
 {% region hero, type:hero %}
+
 <section class="static-content text-center">
-  <div class="static_data__wrap">
-    {% regionblock pp_static_content, type: text %}
-      <p class="h3 dark">Thank you for contacting us. We will get in touch with you shortly.</p>
+  <div class="static_data__wrap my-5">
+    {% regionblock page_content, type: text %}
+      <p class="h6">Thank You</p>
+      <p class="h1">Thank you for contacting us. We will get in touch with you shortly.</p>
     {% endregionblock %}
   </div>
 </section>

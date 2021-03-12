@@ -2,29 +2,30 @@
 layout: default
 ---
 
-{% region hero, type:hero %}
 <div class="sitemap-wrap">
+  <h1 class="h2">Topping Rose House Site Map</h1>
   <div class="main-menu">
     <ul>
       <li>
         <a href="/">Home</a>
       </li>
     </ul>
-    {% for menu in site.data._menus %}
     <ul class="{{menu[0]}}">
-      {% assign items = menu[1].items %}
-      {% include nav/nav-item-list.html items=items %}
+      {% for menu in site.data._menus.main.items %}
+      {% assign item_page = site.page_map[menu.page_id] %}
+      <li role="none" class="nav__item">
+        <a class="nav__link" href="{{ item_page | permalink  }}" target="" rel="noopener">{{ menu.label }}</a>
+      </li>
+      {% endfor %}
     </ul>
-    {% endfor %}
   </div>
   <div class="footer-menu">
     {% assign footerItems = site.data._menus.footer.items %}
     <ul>
       {% for footerItem in footerItems %}
+      {% assign item_page = site.page_map[footerItem.page_id] %}
       <li>
-        <a href="{{footerItem.url}}">
-          {{footerItem.title}}
-        </a>
+        <a href="{{ item_page | permalink  }}">{{ footerItem.label }}</a>
       </li>
       {% endfor %}
     </ul>

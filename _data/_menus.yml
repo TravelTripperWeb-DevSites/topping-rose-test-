@@ -64,14 +64,6 @@ footer:
     url_localized:
       en: "/privacy/"
     items:
-  # - folder: false
-  #   target: ''
-  #   page_id: _pages/careers.html
-  #   label_localized:
-  #     en: Careers
-  #   url_localized:
-  #     en: "/careers/"
-  #   items:
   - folder: false
     target: ''
     page_id: _pages/accessibility.html
