@@ -1,0 +1,57 @@
+---
+layout: default
+title_localized:
+  en: Jean-Georges Restaurant | Topping Rose Dining in the Hamptons
+meta_description_localized:
+  en: Jean-Georges at Topping Rose House is a casually elegant restaurant featuring seasonal local farm to table cuisine. See the full menu and book with us today.
+permalink_localized:
+  en: "/dine/jean-georges/"
+  es:
+meta_tags:
+  robots:
+---
+
+{% region inner_hero, type:hero %}
+
+<div class="inner-banner">
+  <div class="inner-banner__slider">
+    {% assign slideImages = site.data._models.jean_georges_slider | sort: 'order' %}
+    {% for slideImage in slideImages limit: 1 %}
+      {% for slide in slideImage.slider_image %}
+      <div class="inner-banner__slider__item">
+        <img src="{{ slide.url_xlarge }}" alt="{{ slide.name }}">
+      </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+<section class="common-details">
+  <div class="common-details__inner">
+    {% regionblock main_title, type: header %}
+    <h1 class="h2" tabindex="0">Jean-Georges at Keswick</h1>
+    {% endregionblock %}
+    <div class="common-details__description" tabindex="0">
+      {% regionblock page_content, type: text %}
+      <p>Chef Jean-Georges is pleased to present Jean-Georges at Topping Rose House, a casually elegant restaurant nestled in the pictorial town of Bridgehampton, New York. Here, Jean Georges prepares a truly seasonal, farm-to-table cuisine using the finest ingredients sourced from our own Topping Rose House Farm, as well as other local farms, ranches and fishermen who share his commitment to great food.</p>
+      <p>The sensible fare and contemporary Hamptons vibe makes Jean-Georges at Topping Rose House a welcoming, restaurant for all ages, frequented by neighbors and tourists alike. Open year round, breakfast, lunch and dinner are served daily for guests looking to enjoy a simple bite as well as a polished, yet relaxed special occasion dinner. With a formal dining room, full bar/lounge, and outdoor patio seating with communal tables for large parties, along with a fully-restored barn for private dining, we are equipped to accommodate events of all sizes, from intimate dinner parties to full-scale weddings.</p>
+      <p><strong>Hours of Operation</strong><br>
+      Dinner: Daily, 5:30pm- 10:00pm</p>
+      <a href="#" class="primary-cta mb-3">Download Menu</a>
+      {% endregionblock %}
+
+      <div id="p_lt_zonePlaceHolder_pageplaceholder_pageplaceholder_lt_zoneBookNowButton_usercontrolAlternativeWidget_userControlElem_pnlResyWidget" class="resywidget-panel">
+
+        <script src="https://widgets.resy.com/embed.js"></script>
+
+        <a href="javascript:void(0);" class="primary-cta" onclick="openResy()">Book a table at Resy</a>
+
+        <script>
+          function openResy() {
+            resyWidget.openModal({ "venueId": 208, "apiKey": "rJ3XCgeo2f29jMafqRaAYIkkyk4ciYFN", "replace": true });
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+</section>

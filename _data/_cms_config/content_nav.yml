@@ -20,6 +20,7 @@ items:
   - id: things_to_do
   - id: plan_your_visit
   - id: property_highlights
+  - id: gather_menus
   #- id: attractions
   - id: blogs
     label: Blogs
