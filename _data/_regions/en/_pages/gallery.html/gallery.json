@@ -1,0 +1,25 @@
+[
+  {
+    "advanced_options": {
+    },
+    "galleries": [
+      {
+        "gallery": "rooms",
+        "label": "Rooms"
+      },
+      {
+        "label": "Hotel",
+        "gallery": "the_hotel"
+      },
+      {
+        "label": "Dining",
+        "gallery": "dining"
+      },
+      {
+        "label": "Meetings Events",
+        "gallery": "meetings_events"
+      }
+    ],
+    "_template": "galleries"
+  }
+]

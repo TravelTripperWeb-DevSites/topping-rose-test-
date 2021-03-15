@@ -1,0 +1,16 @@
+[
+  {
+    "hero_title": {
+      "content": "",
+      "_template": "header"
+    },
+    "_template": "hero",
+    "advanced_options": {
+      "custom_classes": "inner-hero"
+    },
+    "skip_h1": true,
+    "hero_html": {
+      "content": "<h1 class=\"h6\">Hotel Rooms in Bridgehampton, NY</h1>\n<h2 class=\"h1\">REVEL. UNWIND. CONNECT.</h2>"
+    }
+  }
+]

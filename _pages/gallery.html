@@ -1,25 +1,17 @@
 ---
-layout: generic
-title: Gallery
-meta_description:
-permalink: /gallery/
+layout: default
+title_localized:
+  en: Photo Gallery of Topping Rose | Hamptons Boutique Hotel
+meta_description_localized:
+  en: Explore our property with images of our historic mansion, Jean-Georges Restaurant, luxury accommodations and more. Book a stay with us today.
+permalink_localized:
+  en: /gallery/
 meta_tags:
   robots:
 ---
 
-{% comment %}
+{% region inner_hero, type:hero %}
 
-  Name:
-
-    Gallery Page
-
-  Description:
-
-    Display gallery images from the media library.
-
-  Usage:
-
-    Create a new gallery from the 'manage galleries' tab, then display the
-    images by adding a "galleries" region in the UI
-  
-{% endcomment %}
+<section class="gallery-area">
+  {% region gallery, type:galleries %}
+</section>

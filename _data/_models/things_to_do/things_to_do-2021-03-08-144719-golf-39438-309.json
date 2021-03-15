@@ -1,0 +1,74 @@
+{
+  "order": 4,
+  "name": "Golf",
+  "meta_title": "Golf | Topping Rose House ",
+  "header_overline": "PLAY A ROUND OR TWO DURING YOUR STAY ",
+  "url_friendly_name": "golf",
+  "header_title": "GOLF COURSES IN THE HAMPTONS",
+  "featured_image": {
+    "name": "golf",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-08-091439",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "width": 784,
+    "height": 1008,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "resource_type": "image",
+    "size": 406791,
+    "git_file_name": "_assets/image_data/golf.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615212879/wfzps3s310ksexw8pvfs.jpg",
+    "file_size": null,
+    "alt": "Golf",
+    "caption": "",
+    "description": ""
+  },
+  "banner_image": {
+    "name": "golf-hero",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-08-094051",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "width": 2448,
+    "height": 1056,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "resource_type": "image",
+    "size": 993142,
+    "git_file_name": "_assets/image_data/golf-hero.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615214451/xpgh8vrqmcloydybs4lz.jpg",
+    "file_size": null,
+    "alt": "Golf",
+    "caption": "",
+    "description": ""
+  },
+  "locations": [
+    {
+      "title": "Title",
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+    },
+    {
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
+      "title": "Title"
+    },
+    {
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
+      "title": "Title"
+    },
+    {
+      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
+      "title": "Title"
+    }
+  ]
+}

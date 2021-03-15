@@ -1,0 +1,100 @@
+<!-- begin _includes/seo.html -->
+{% if site.url %}
+  {% assign seo_url = site.url %}
+{% endif %}
+
+{% if page.title and page.title != '' %} {% comment %}This is an explicit title override{% endcomment %}
+  {% assign seo_title = page.title | normalize_whitespace | escape_once %}
+{% else %}
+  {% assign seo_title = page.meta_title_prefix | default: '' %}
+  {% if site.data.seo.default_title and site.data.seo.default_title != '' %}
+    {% if seo_title != '' %}
+      {% capture seo_title %}{{seo_title}} {{site.data.seo.title_separator}}{% endcapture %}
+    {% endif %}
+    {% capture seo_title %}{{seo_title}} {{site.data.seo.default_title}}{% endcapture %}
+  {% endif %}
+  {% if site.data.hotel_settings.name %}
+    {% if seo_title != '' %}
+      {% capture seo_title %}{{seo_title}} {{site.data.seo.title_separator}}{% endcapture %}
+    {% endif %}
+    {% capture seo_title %}{{seo_title}} {{site.data.hotel_settings.name}}{% endcapture %}
+  {% endif %}
+{% endif %}
+
+{% if site.url %}
+  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
+{% endif %}
+
+{% if page.url contains '/stay/' and page.url != '/stay/' %}
+  {% assign seo_title = seo_title | append: " | Topping Rose House" %}
+{% endif %}
+
+<title>{{ seo_title | normalize_whitespace }}</title>
+
+{% assign seo_description = page.meta_description | default: site.data.seo.default_description %}
+{% if seo_description %}
+  {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | normalize_whitespace | escape_once %}
+{% endif %}
+
+<meta name="description" content="{{ seo_description }}">
+<meta property="og:description" content="{{ seo_description }}">
+<meta property="og:locale" content="{{ site.active_lang | replace: "-", "_" | default: "en_US" }}">
+<meta property="og:site_name" content="{{ site.data.seo.default_title }}">
+<meta property="og:title" content="{{ page.title | default: site.data.seo.default_title | escape_once }}">
+
+{% if seo_url %}
+  <link rel="canonical" href="{{ page | permalink | prepend: site.url }}"/>
+  <meta property="og:url" content="{{ page | permalink | prepend: site.url }}">
+{% endif %}
+
+{% if site.data.social.twitter.username %}
+  <meta name="twitter:site" content="@{{ site.data.social.twitter.username | replace: "@", "" }}">
+  <meta name="twitter:title" content="{{ page.title | default: site.data.seo.default_title | escape_once }}">
+  <meta name="twitter:description" content="{{ seo_description }}">
+  <meta name="twitter:url" content="{{ canonical_url }}">
+  <meta name="twitter:card" content="summary">
+
+  {% if site.data.social.og_image %}
+    <meta name="twitter:image" content="{{ site.data.social.og_image | absolute_url }}">
+  {% endif %}
+{% endif %}
+
+{% if site.data.social.facebook %}
+  {% if site.data.social.facebook.publisher %}
+    <meta property="article:publisher" content="{{ site.data.social.facebook.publisher }}">
+  {% endif %}
+
+  {% if site.data.social.facebook.app_id %}
+    <meta property="fb:app_id" content="{{ site.data.social.facebook.app_id }}">
+  {% endif %}
+{% endif %}
+
+{% if site.data.social.og_image %}
+  <meta property="og:image" content="{% if site.data.social.og_image contains "://" %}{{ site.data.social.og_image }}{% else %}{{ site.data.social.og_image | absolute_url }}{% endif %}">
+{% endif %}
+
+{% if page.date %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+
+{% if page.url == "/" %}
+  {% include schema/website.html %}
+{% endif %}
+
+{% include schema/org.html %}
+
+{% include schema/hotel.html %}
+
+<meta http-equiv="Content-Language" content="{{ site.active_lang }}">
+<link rel="alternate" hreflang="{{ site.default_lang }}" href="{{ site.url }}{{ page.permalink }}">
+{% for lang in site.languages %}
+  {% unless lang == site.default_lang %}
+    <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.permalink }}">
+  {% endunless %}
+{% endfor %}
+
+{% if page.meta_tags.robots %}
+  <meta name="robots" content="{{ page.meta_tags.robots }}">
+{% endif %}
+<!-- end _includes/seo.html -->

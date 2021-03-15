@@ -1,0 +1,93 @@
+{
+  "order": 2,
+  "name": "Meetings in the Hamptons",
+  "meta_title": "Meetings in the Hamptons | Topping Rose House Bridgehampton",
+  "meta_description": "Host a meeting, conference or retreat at Topping Rose and you'll get state of the art facilities in a tranquil setting outside New York City. Learn more today.",
+  "url_friendly_name": "meetings",
+  "short_description": "<p>An ideal location for a private conference or corporate retreat, Topping Rose House boasts state-of-the-art facilities in a tranquil setting that is easily accessible from New York City. Luxurious accommodations are well-suited to clients and executives, while meetings spaces are complimented by seasonal snacks and locally-sourced menus.</p>",
+  "description": "<p>An ideal location for a private conference or corporate retreat, Topping Rose House boasts state-of-the-art facilities in a tranquil setting that is easily accessible from New York City. Luxurious accommodations are well-suited to clients and executives and our Hampton meeting spaces are complimented by seasonal snacks and locally-sourced menus provided for your group.</p>\n<p class=\"mb-1\"><strong>Located in the heart of the famed Hamptons, our facilities and services include:</strong></p>\n<ul>\n<li>State-of-the-art audio visual equipment</li>\n<li>Complimentary WiFi as well as local and long distance phone calls</li>\n<li>Spa</li>\n<li>House and test vehicles from Lexus</li>\n<li>24-hour Fitness Center</li>\n<li>Heated outdoor lap pool and jacuzzi</li>\n<li>Guest bicycles</li>\n<li>One-acre Topping Rose House Farm</li>\n</ul>\n<p>We can also arrange for team building activities or group activities like a private yoga session in the Studio or Barn; cooking, wine or spirits demonstrations led by our expert staff, guided hikes and bike rides, chartered fishing excursions, or a vineyard visit and wine tasting.</p>\n<p>Let staff loosen their ties and rejuvenate in the Hamptons&rsquo; fresh air and beautiful surroundings. Clients and colleagues alike will be delighted to participate in productive discussions and meetings.</p>",
+  "image": {
+    "name": "meeting-area",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-09-013513",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "width": 1560,
+    "height": 1056,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "resource_type": "image",
+    "size": 480211,
+    "git_file_name": "_assets/image_data/meeting-area.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615271713/hjpaa85c15i9cuvmbgg2.jpg",
+    "file_size": null,
+    "alt": "Meetings",
+    "caption": "",
+    "description": ""
+  },
+  "buttons": [
+    {
+      "button_label": "View our current package offerings",
+      "button_url": "#"
+    },
+    {
+      "button_label": "EXPLORE OUR Meeting VENUES",
+      "button_url": "#"
+    }
+  ],
+  "banner_image": [
+    {
+      "name": "meetings-1",
+      "content_type": "image/jpeg",
+      "date_added": "2021-03-09-020529",
+      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "width": 2448,
+      "height": 1056,
+      "format": "jpg",
+      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "resource_type": "image",
+      "size": 1200900,
+      "git_file_name": "_assets/image_data/meetings-1.jpg.json",
+      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615273529/pgstdrw2atpnyjx7nj0o.jpg",
+      "file_size": null,
+      "alt": "meetings-1",
+      "caption": "",
+      "description": ""
+    },
+    {
+      "name": "meetings-2",
+      "content_type": "image/jpeg",
+      "date_added": "2021-03-09-020530",
+      "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "width": 2448,
+      "height": 1056,
+      "format": "jpg",
+      "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "resource_type": "image",
+      "size": 1114496,
+      "git_file_name": "_assets/image_data/meetings-2.jpg.json",
+      "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615273530/fiql3oqtx0bp7vwnaxbc.jpg",
+      "file_size": null,
+      "alt": "meetings-2",
+      "caption": "",
+      "description": ""
+    }
+  ]
+}

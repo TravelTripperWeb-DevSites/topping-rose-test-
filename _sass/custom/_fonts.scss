@@ -1,0 +1,15 @@
+// fonts
+
+@font-face {
+  font-family: 'MisterKOT';
+  src: url('/assets/fonts/MisterKOT.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MisterKOT';
+  src:  url('/assets/fonts/MisterKOT.otf')  format('opentype'), url('/assets/fonts/MisterKOT.ttf')  format('truetype'), url('/assets/fonts/MisterKOT.svg#MisterKOT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

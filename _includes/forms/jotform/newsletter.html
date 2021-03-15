@@ -1,0 +1,18 @@
+<form action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.newsletter-id }}/" method="post" name="form_{{ site.data.forms.jotform.newsletter-id }}"
+    id="{{ site.data.forms.jotform.newsletter-id }}" accept-charset="utf-8">
+    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.newsletter-id }}">
+  <div class="d-flex justify-content-between">
+    <input type="text" class="form-control" name="q5_firstName" placeholder="First Name" aria-label="First Name" required>
+    <input type="text" class="form-control" name="q6_lastName" placeholder="Last Name" aria-label="Last Name">
+    <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email contact" aria-label="Enter your email ID" required>
+    <div class="form-btn">
+      <button type="submit" class="primary-cta">sign up</button>
+    </div>
+  </div>
+  <div class="form-group chck-cstm mb-0">
+    <label class="cstm-checkbox">
+      <input type="checkbox" name="q4_iAgree4[]" id="PPASAgree" value="Agree" required> I have read and agree to the <a href="/privacy/">privacy policy</a>.
+      <span class="checkmark"></span>
+    </label>
+  </div>
+</form>

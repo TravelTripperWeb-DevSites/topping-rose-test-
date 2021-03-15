@@ -1,0 +1,10 @@
+{
+  "name": {
+    "required": true,
+    "label": "Press Release Name"
+  },
+  "logo": {
+    "type": "image",
+    "label": "Press Release Logo"
+  }
+}

@@ -1,0 +1,31 @@
+---
+layout: default
+title_localized:
+  en: Topping Rose House | Luxury Hotel in Bridgehampton
+meta_description_localized:
+  en: Topping Rose House is located in the heart of the Hamptons and can be reached via railroad, expressway, car. Learn more about our location and reserve a stay.
+meta_tags:
+  robots:
+---
+
+{% assign item = page.data %}
+
+<section class="hero inner-hero">
+  <div class="hero__body">
+    <h1 class="h6" tabindex="0">{{ item.header_overline }}</h1>
+    <h2 class="h2" tabindex="0">{{ item.header_title }}</h2>
+  </div>
+</section>
+
+<div class="inner-banner">
+  <img src="{% if item.banner_image %}{{ item.banner_image.url_large }}{% else %}{{ item.featured_image.url_large }}{% endif %}" alt="{{ item.name }}">
+</div>
+
+<section class="common-details">
+  <div class="common-details__inner">
+    <h1 class="h5" tabindex="0">{{ item.name }}</h1>
+    <div class="common-details__description" tabindex="0">
+      {{ item.description }}
+    </div>
+  </div>
+</section>

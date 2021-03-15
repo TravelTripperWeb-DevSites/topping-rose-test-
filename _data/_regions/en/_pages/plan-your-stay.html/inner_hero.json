@@ -1,0 +1,16 @@
+[
+  {
+    "advanced_options": {
+      "custom_classes": "inner-hero"
+    },
+    "_template": "hero",
+    "hero_title": {
+      "content": "",
+      "_template": "header"
+    },
+    "skip_h1": true,
+    "hero_html": {
+      "content": "<h1 class=\"h6\">Experience Topping Rose House</h1>\n<h2 class=\"h1\">Linger. Relax. Unwind. Refresh. Awaken. Escape.</h2>"
+    }
+  }
+]

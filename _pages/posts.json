@@ -1,8 +1,0 @@
----
-layout: json
-permalink: /posts.json
----
-{% assign posts = site.data._models.posts %}
-{% if posts %}
-  {% include json/post-list.json %}
-{% endif %}

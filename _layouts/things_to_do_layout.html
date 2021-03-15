@@ -1,0 +1,35 @@
+---
+layout: default
+title_localized:
+  en: Accommodations at Hamptons luxury hotel | Topping Rose House
+meta_description_localized:
+  en: Accommodations at Hamptons luxury hotel Topping Rose House all feature plush bedding, flat screen tvs and 24-hour room service. See the amenities and book now.
+meta_tags:
+  robots:
+---
+
+{% assign item = page.data %}
+
+<section class="hero inner-hero">
+  <div class="hero__body">
+    <h1 class="h6">{{ item.header_overline }}</h1>
+    <h2 class="h1">{{ item.header_title }}</h2>
+  </div>
+</section>
+
+<div class="inner-banner">
+  <img src="{{ item.banner_image.url_xlarge }}" alt="{{ item.name }}">
+</div>
+
+<section class="common-details">
+  <div class="common-details__inner">
+    <h1 class="h2" tabindex="0">{{ item.name }}</h1>
+    <div class="common-details__description" tabindex="0">
+      {% assign locations = item.locations %}
+      {% for location in locations %}
+        <p class="mb-1"><strong>{{ location.title }}</strong></p>
+        {{ location.address }}
+      {% endfor %}
+    </div>
+  </div>
+</section>

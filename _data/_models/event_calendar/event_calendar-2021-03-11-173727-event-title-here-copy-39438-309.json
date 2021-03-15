@@ -1,0 +1,29 @@
+{
+  "event_start_date": "2021-09-17T00:00:00.000Z",
+  "name": "Event title Here",
+  "short_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+  "image": {
+    "name": "property",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-11-041928",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "width": 1200,
+    "height": 808,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "resource_type": "image",
+    "size": 528183,
+    "git_file_name": "_assets/image_data/property.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615454368/h6lnsrfxpkdkfbd7dkde.jpg",
+    "file_size": null,
+    "alt": "property",
+    "caption": "",
+    "description": ""
+  }
+}

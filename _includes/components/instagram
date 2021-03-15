@@ -1,0 +1,16 @@
+{% comment %}
+   TODO: Move JS into ZOM utils? So one JS script loads up all "instagram-feed" divs?
+{% endcomment %}
+
+{% assign handle = site.data.social.instagram.username %}
+
+<section class="c-instagram-feed">
+  <div class="c-instagram-feed__container">
+    <div class="c-instagram-feed__tag-link">
+      <a href="https://www.instagram.com/explore/tags/{{handle}}/" class="h5" target="_blank" title="#{{handle}}" tabindex="-1">Follow Us {% t 'instagram.tag_link', handle:handle %}</a>
+    </div>
+    <div class="c-instagram-feed__list">
+      <div class="photo-list" data-instagram-user-name="{{handle}}"></div>
+    </div>
+  </div>
+</section>

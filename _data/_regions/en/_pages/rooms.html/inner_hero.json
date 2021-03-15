@@ -1,0 +1,12 @@
+[
+  {
+    "hero_title": {
+      "content": "Linger. Relax. Unwind. Refresh. Awaken. Escape",
+      "_template": "header"
+    },
+    "_template": "hero",
+    "advanced_options": {
+      "custom_classes": "inner-hero"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": {
+    "required": true
+  },
+  "short_description": {
+    "type": "richtext"
+  },
+  "featured_image": {
+    "type": "image"
+  },
+  "order": {
+    "type": "order"
+  }
+}
