@@ -33,8 +33,11 @@ main:
     - url: "/gather/meetings/"
       label: Meetings
       items:
-    - url: "/gather/events/"
+    - url: "/gather/special-events/"
       label: Events
+      items:
+    - url: "/gather/event-spaces/"
+      label: Event Spaces
       items:
   # - folder: false
   #   target: ''
