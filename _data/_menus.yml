@@ -34,7 +34,7 @@ main:
       label: Meetings
       items:
     - url: "/gather/special-events/"
-      label: Events
+      label: Special Events
       items:
     - url: "/gather/event-spaces/"
       label: Event Spaces
