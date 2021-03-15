@@ -15,38 +15,39 @@ published_localized:
 {% region inner_hero, type:hero %}
 
 <div class="inner-banner">
+  {% regionblock page_banner, type:image %}
   <img src="http://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1614929530/dm7zahedxbdqfy1syzvi.jpg" alt="">
+  {% endregionblock %}
 </div>
 
 <section class="menus">
-  <div class="menus__inner">
-    <p class="h2">Breakfast</p>
-    <p>Buffet or Family Style</p>
-  </div>
-  <div class="menus__inner">
-    <p class="h3">Main</p>
-    <p class="p-small">Please select 3</p>
-    <div class="menus__row">
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
+  {% assign items = site.data._models.gather_menus | sort: 'order' %}
+  {% for item in items %}
+  <div class="menus__wrap">
+    <div class="menus__header">
+      <p class="h1">{{ item.name }}</p>
+      {% if item.short_description %}
+      <p>{{ item.short_description }}</p>
+      {% endif %}
+    </div>
+    {% assign menuTypes = item.menus_list %}
+    {% for menuType in menuTypes %}
+    <div class="menus__inner">
+      <div class="menus__subheader">
+        <p class="h2">{{ menuType.menu_type }}</p>
+        {{ menuType.menu_type_description }}
       </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
+      <div class="menus__row">
+        {% assign menuList = menuType.menu_items %}
+        {% for menuListItem in menuList %}
+        <div class="menus__item">
+          <p class="overline">{{ menuListItem.menu_name }}</p>
+          <p>{{ menuListItem.menu_description }}</p>
+        </div>
+        {% endfor %}
       </div>
     </div>
+    {% endfor %}
   </div>
+  {% endfor %}
 </section>

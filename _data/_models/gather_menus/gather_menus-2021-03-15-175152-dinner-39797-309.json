@@ -1,0 +1,89 @@
+{
+  "order": 3,
+  "name": "Dinner",
+  "short_description": "Fall",
+  "menus_list": [
+    {
+      "menu_type": "APPETIZER ",
+      "menu_type_description": "<p>Please Select 2</p>",
+      "menu_items": [
+        {
+          "menu_name": "Kale Salad, Parmesan, Lemon"
+        },
+        {
+          "menu_name": "Baby Beets with Yogurt, Mâche, Lemon Oil"
+        },
+        {
+          "menu_name": "Sweet Pea Guacamole with Warm Crunchy Tortillas"
+        },
+        {
+          "menu_name": "Pear Endive Salad, Honey Crisp Apple, Blue Cheese, Pecans"
+        },
+        {
+          "menu_name": "Line-Caught Fluke Crudo with Green Chili Dressing, Crunchy Rice and Herbs"
+        },
+        {
+          "menu_name": "Crispy Salmon Sushi, Chipotle Mayonnaise, Soy Honey"
+        },
+        {
+          "menu_name": "Butternut Squash, Wild Mushrooms and Chives"
+        },
+        {
+          "menu_name": "Tomato and Mozzarella Pizza with Basil"
+        },
+        {
+          "menu_name": "Black Truffle and Fontina Pizza"
+        },
+        {
+          "menu_name": "Crispy Calamari, Citrus-Chili Dip"
+        }
+      ]
+    },
+    {
+      "menu_type": "Main",
+      "menu_type_description": "<p>Please Select 3</p>",
+      "menu_items": [
+        {
+          "menu_name": "Linguine with Clams, White Wine, Chilies, Parsley"
+        },
+        {
+          "menu_name": "Garden Vegetable Brown Rice Bowl, Salsa Verde, Chervil"
+        },
+        {
+          "menu_name": "Baked Salmon, Truffle Vinaigrette, Mashed Potatoes, Brussel Sprouts"
+        },
+        {
+          "menu_name": "Roasted Hake, Maple-Celeriac Purée, Pink Peppercorn Vinaigrette"
+        },
+        {
+          "menu_name": "Parmesan Crusted Organic Chicken, Artichokes, Lemon-Basil Sauce"
+        },
+        {
+          "menu_name": "*Roasted Maine Lobster, Market Corn, Smoked Chili-Almond"
+        },
+        {
+          "menu_name": "*Grilled Lamb Chops, Aleppo Pepper Sauce, Broccoli Spaetzel"
+        },
+        {
+          "menu_name": "*NY Strip Steak, Gingered Shiitakes, Soy-Caramel Emulsion "
+        }
+      ]
+    },
+    {
+      "menu_type": "Side",
+      "menu_type_description": "<p>Please Select 2</p>",
+      "menu_items": [
+        {
+          "menu_name": "Mashed Potatoes, Sea Salt, Black Pepper"
+        },
+        {
+          "menu_name": "Roasted Romanesco, Brussel Sprouts, Balsamic, Herbs"
+        },
+        {
+          "menu_name": "French Fries & Herbs",
+          "menu_description": "*(additional $8 pp)"
+        }
+      ]
+    }
+  ]
+}
