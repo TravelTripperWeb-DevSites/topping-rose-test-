@@ -1,0 +1,32 @@
+{
+  "order": 4,
+  "name": "Dessert",
+  "short_description": "WITH DINNER MENU",
+  "menus_list": [
+    {
+      "menu_type_description": "<p>Please Select 2</p>",
+      "menu_items": [
+        {
+          "menu_name": "Warm Chocolate Cake ",
+          "menu_description": "Vanilla Ice Cream"
+        },
+        {
+          "menu_name": "Caramelized Apple Pie ",
+          "menu_description": "Cinnamon Ice Cream"
+        },
+        {
+          "menu_name": "Spiced Pumpkin Brulée ",
+          "menu_description": "Pomegranate Sorbet"
+        },
+        {
+          "menu_name": "Almond Cake ",
+          "menu_description": "Roasted Pears, Cape Gooseberry Sorbet"
+        },
+        {
+          "menu_name": "Petit Fours Plate ",
+          "menu_description": "Cookies, Brownies, Macaroons or Mignardises"
+        }
+      ]
+    }
+  ]
+}
