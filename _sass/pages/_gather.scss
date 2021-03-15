@@ -11,6 +11,12 @@
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: solid 1px $light-grey;
+
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
   }
 
   &__header {
