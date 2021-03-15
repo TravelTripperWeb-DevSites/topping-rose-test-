@@ -1,6 +1,38 @@
 .menus {
+  @include make-container;
   max-width: 800px;
-  &_inner {
+  margin-top: 48px;
 
+  @include media-breakpoint-up(md) {
+    margin-top: 96px;
   }
+
+  &__header {
+    padding-bottom: 24px;
+    text-align: center;
+  }
+
+  &__subheader {
+    text-align: center;
+  }
+
+  &__row {
+    @include make-row;
+  }
+
+  &__item {
+    @include make-col-ready;
+    @include media-breakpoint-up(sm) {
+      @include make-col(6);
+    }
+    @include media-breakpoint-up(md) {
+      @include make-col(4);
+    }
+
+    .overline {
+      margin-bottom: 0;
+    }
+  }
+
+
 }

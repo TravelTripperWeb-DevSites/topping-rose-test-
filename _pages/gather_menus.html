@@ -19,34 +19,29 @@ published_localized:
 </div>
 
 <section class="menus">
-  <div class="menus__inner">
-    <p class="h2">Breakfast</p>
-    <p>Buffet or Family Style</p>
+  {% assign items = site.data._models.gather_menus %}
+  {% for item in items %}
+  <div class="menus__header">
+    <p class="h2">{{ item.name }}</p>
+    <p>{{ item.short_description }}</p>
   </div>
+  {% assign menuTypes = item.menus_list %}
+  {% for menuType in menuTypes %}
   <div class="menus__inner">
-    <p class="h3">Main</p>
-    <p class="p-small">Please select 3</p>
+    <div class="menus__subheader">
+      <p class="h3">{{ menuType.menu_type }}</p>
+      {{ menuType.menu_type_description }}
+    </div>
     <div class="menus__row">
+      {% assign menuList = menuType.menu_items %}
+      {% for menuListItem in menuList %}
       <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
+        <p class="overline">{{ menuListItem.menu_name }}</p>
+        <p>{{ menuListItem.menu_description }}</p>
       </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
-      <div class="menus__item">
-        <p class="h4">Buttermilk Pancakes</p>
-        <p>Seasonal Fruit, Maple Syrup</p>
-      </div>
+      {% endfor %}
     </div>
   </div>
+  {% endfor %}
+  {% endfor %}
 </section>
