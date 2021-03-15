@@ -14,6 +14,44 @@
         {
           "menu_name": "Smoked Salmon Platter",
           "menu_description": "(additional $10 pp)"
+        },
+        {
+          "menu_name": "Maple Chipotle Sausage"
+        },
+        {
+          "menu_name": "Scrambled Eggs"
+        },
+        {
+          "menu_name": "Canadian Bacon"
+        },
+        {
+          "menu_name": "Bacon"
+        }
+      ]
+    },
+    {
+      "menu_type": "Side",
+      "menu_type_description": "<p>Please Select 3</p>",
+      "menu_items": [
+        {
+          "menu_name": "Toast & Bagel Basket",
+          "menu_description": "Served with Cream Cheese, Butter, Jams"
+        },
+        {
+          "menu_name": "Pastry Basket",
+          "menu_description": "Seasonal Muffins, Croissants, Scones, Biscuits"
+        },
+        {
+          "menu_name": "Organic Yogurt & House-Made Granola "
+        },
+        {
+          "menu_name": "Arugula Salad, Lemon Vinaigrette"
+        },
+        {
+          "menu_name": "Crispy Fingerling Potatoes"
+        },
+        {
+          "menu_name": "Seasonal Cut Fruit"
         }
       ]
     }
