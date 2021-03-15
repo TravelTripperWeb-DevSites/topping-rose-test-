@@ -57,5 +57,6 @@
     }
   ],
   "name": "Breakfast",
-  "short_description": "BUFFET OR FAMILY STYLE"
+  "short_description": "BUFFET OR FAMILY STYLE",
+  "order": 1
 }
