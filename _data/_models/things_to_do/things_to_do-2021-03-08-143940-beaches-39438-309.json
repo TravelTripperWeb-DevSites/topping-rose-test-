@@ -31,20 +31,20 @@
   },
   "locations": [
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "title": "Ocean Road Beach",
+      "address": "<p>Ocean Road, Bridgehampton</p>"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>Job's Lane, Bridgehampton5</p>",
+      "title": "Mecox Beach"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>Dune Road, Bridgehampton</p>",
+      "title": "W.Scott Cameron Beach"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>Bay Street, Sag Harbour</p>",
+      "title": "Sag Harbor Village Beach"
     }
   ],
   "banner_image": {
@@ -70,5 +70,6 @@
     "alt": "Beaches",
     "caption": "",
     "description": ""
-  }
+  },
+  "description": "<p>Southampton Town Parking Permit is required. <br />Please inquire about the complimentary beach shuttle.</p>"
 }
