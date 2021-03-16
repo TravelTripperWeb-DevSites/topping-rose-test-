@@ -208,6 +208,10 @@
     .btn--primary {
       color: $primary;
       border-color: $primary;
+
+      &:hover {
+        color: $white;
+      }
     }
   }
 

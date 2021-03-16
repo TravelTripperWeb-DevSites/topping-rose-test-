@@ -21,6 +21,9 @@ published_localized:
     <div class="alternate-listing__image">
       {% if item.url_friendly_name == 'event-spaces' %}
       <div class="common-slider">
+        <div class="common-slider__item">
+          <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+        </div>
         {% assign slideImages = item.banner_image %}
         {% for slideImage in slideImages %}
           <div class="common-slider__item">
@@ -37,7 +40,11 @@ published_localized:
       <div tabindex="0">
         {{ item.short_description }}
       </div>
+      {% if item.url_friendly_name == "event-spaces" %}
+      <a href="https://toppingrosehouse.tripleseat.com/party_request/5145" class="primary-cta" target="_blank">Request For Proposal</a>
+      {% else %}
       <a href="/gather/{{ item.url_friendly_name }}/" class="primary-cta">Explore your options</a>
+      {% endif %}
     </div>
   </div>
   {% endfor %}
