@@ -545,13 +545,15 @@ html {
       }
     }
 
-    // p {
-    //   height: auto;
-    //
-    //   @include media-breakpoint-up(md) {
-    //     height: 96px;
-    //   }
-    // }
+    .experience-description {
+      p {
+        height: auto;
+
+        @include media-breakpoint-up(md) {
+          min-height: 72px;
+        }
+      }
+    }
   }
 }
 

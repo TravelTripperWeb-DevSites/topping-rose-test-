@@ -56,8 +56,6 @@
   }
 
   &__menu {
-    width: 88px;
-
     @include media-breakpoint-up(md) {
       width: 120px;
       order: inherit;
@@ -181,7 +179,9 @@
     background: $white;
 
     .navbar-brand {
-      max-width: 68px;
+      @include media-breakpoint-up(md) {
+        max-width: 68px;
+      }
     }
 
     span {
