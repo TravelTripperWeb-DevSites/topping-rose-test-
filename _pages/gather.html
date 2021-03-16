@@ -19,7 +19,18 @@ published_localized:
   {% for item in items %}
   <div class="alternate-listing__row">
     <div class="alternate-listing__image">
+      {% if item.url_friendly_name == 'event-spaces' %}
+      <div class="common-slider">
+        {% assign slideImages = item.banner_image %}
+        {% for slideImage in slideImages %}
+          <div class="common-slider__item">
+            <img src="{{ slideImage.url_large }}" alt="{{ slideImage.alt }}">
+          </div>
+        {% endfor %}
+      </div>
+      {% else %}
       <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+      {% endif %}
     </div>
     <div class="alternate-listing__content text-center">
       <h3 class="h2" tabindex="0">{{ item.name }}</h3>

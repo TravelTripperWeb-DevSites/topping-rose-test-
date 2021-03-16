@@ -5,20 +5,24 @@
   "url_friendly_name": "vineyards",
   "locations": [
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "title": "Channing Daughters ",
+      "address": "<p>1927 Scuttlehole Road, Bridgehampton</p>"
     },
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "title": "Duck Walk Vineyards",
+      "address": "<p>231 Montauk Hwy, Watermill</p>"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>35 Cox Neck Road, Mattituck</p>",
+      "title": "Lieb Cellars"
     },
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "title": "Shinn Estate",
+      "address": "<p>2000 Oregon Road, Mattituck</p>"
+    },
+    {
+      "title": "Wölffer Estate",
+      "address": "<p>139 Sagg Road, Sagaponack</p>"
     }
   ],
   "featured_image": {

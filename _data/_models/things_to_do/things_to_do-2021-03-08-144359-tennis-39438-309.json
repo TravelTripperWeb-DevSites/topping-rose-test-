@@ -55,20 +55,24 @@
   },
   "locations": [
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "title": "Bridgehampton High School ",
+      "address": "<p>2685 Montauk Highway, Bridgehampton</p>"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>178 Buckskill Road, East Hampton</p>",
+      "title": "Buckskill Tennis Club "
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>175 Daniels Hold Road, East Hampton</p>",
+      "title": "East Hampton Indoor Tennis "
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>Mashashimuet Park, Sag Harbor</p>",
+      "title": "Sag Harbor Park Tennis "
+    },
+    {
+      "title": "Southampton High School ",
+      "address": "<p>141 Narrow Lane, Southampton</p>"
     }
   ]
 }

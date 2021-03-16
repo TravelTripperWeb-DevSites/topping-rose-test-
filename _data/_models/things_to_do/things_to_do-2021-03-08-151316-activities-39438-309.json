@@ -56,20 +56,24 @@
   },
   "locations": [
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "address": "<p>668 County Road 39, Southampton NY 11968</p>",
+      "title": "Animal Kingdon Mini Golf"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "title": "Horseback Riding",
+      "address": "<p>Beautiful Day Farm at Mecox Bay Farm <br />231 Pauls Lane, Bridgehampton</p>"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>96 Main Rd, Riverhead NY 11901</p>",
+      "title": "The Allstar Bowling Alley "
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>431 East Main St, Riverhead NY 11901</p>",
+      "title": "Riverhead Aquarium "
+    },
+    {
+      "title": "Sag Harbor Cinema & Theatre",
+      "address": "<p>90 Main St, Sag Harbor NY 11963</p>"
     }
   ]
 }

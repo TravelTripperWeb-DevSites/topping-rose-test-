@@ -61,6 +61,14 @@ footer:
   items:
   - folder: false
     target: ''
+    page_id: _pages/press.html
+    label_localized:
+      en: Press
+    url_localized:
+      en: "/press/"
+    items:
+  - folder: false
+    target: ''
     page_id: _pages/sitemap.html
     label_localized:
       en: Sitemap

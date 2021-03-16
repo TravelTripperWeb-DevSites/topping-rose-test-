@@ -55,20 +55,12 @@
   },
   "locations": [
     {
-      "title": "Title",
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>"
+      "title": "Poxabogue Golf Course  ",
+      "address": "<p>3556 Montauk Highway, Bridgehampton</p>"
     },
     {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
-    },
-    {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
-    },
-    {
-      "address": "<p>111 Jane Street<br />City, Name 12345</p>",
-      "title": "Title"
+      "address": "<p>683 Barcelona Point Road, Sag Harbor</p>",
+      "title": "Sag Harbor Golf Club"
     }
   ]
 }
