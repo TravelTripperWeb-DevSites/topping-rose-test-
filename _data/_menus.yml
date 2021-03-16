@@ -9,18 +9,26 @@ main:
     label_localized:
       en: Stay
     items:
+      - url: "/plan-your-stay/"
+        label: Plan your stay
   - folder: false
     target: ''
     page_id: _pages/dine.html
     label_localized:
       en: Dine
     items:
-  - folder: false
+  - folder: true
     target: ''
     page_id: _pages/experience.html
     label_localized:
       en: Experience
     items:
+      - url: "/experience/wellness/"
+        label: Wellness
+        items:
+      - url: "/experience/things-to-do/"
+        label: Things to do
+        items:
   - folder: true
     target: ''
     page_id: _pages/gather.html

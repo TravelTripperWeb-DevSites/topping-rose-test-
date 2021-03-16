@@ -139,6 +139,7 @@
     max-width: 140px;
     margin: 0;
     line-height: 0;
+    transition: all .2s;
 
     @include media-breakpoint-up(md) {
       max-width: 92px;
@@ -178,6 +179,10 @@
 
   &.sticky, &.nav--active {
     background: $white;
+
+    .navbar-brand {
+      max-width: 68px;
+    }
 
     span {
       background: $primary;
@@ -451,9 +456,11 @@
 
       .nav__link {
         display: inline-block;
+        margin-top: 4px;
+        margin-bottom: 4px;
         padding: 0;
         font-size: $base-font-size;
-        line-height: 40px;
+        line-height: 32px;
         color: $white;
         text-transform: uppercase;
         letter-spacing: -.89px;

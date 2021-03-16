@@ -112,10 +112,9 @@ html {
         padding-left: 0;
       }
 
-      // div {
-      //   width: 100%;
-      //   height: 100%;
-      // }
+      .tt-region, .tt-region_ped {
+        height: 100%;
+      }
 
       img {
         width: 100%;
@@ -609,7 +608,7 @@ html {
     padding: 0 96px;
   }
 
-  .h2,.h3 {
+  .h2 {
     margin-bottom: 24px;
   }
 

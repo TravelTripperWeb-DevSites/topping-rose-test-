@@ -15,7 +15,7 @@ published_localized:
 
 {% region inner_hero, type:hero %}
 
-<section class="common-tiles">
+<section class="common-tiles mb-4">
   <div class="common-tiles__row">
     {% assign items = site.data._models.room_categories | sort: 'order' %}
     {% for item in items %}
@@ -31,7 +31,7 @@ published_localized:
         {% assign roomsItems = site.data._models.rooms | sort: 'order' %}
         {% for roomItem in roomsItems %}
         {% if roomItem.category.name == item.name %}
-        <a href="/stay/{{ roomItem.url_friendly_name }}/" class="secondary-cta mr-3">Explore {{ roomItem.sub_category }}</a>
+        <a href="/stay/{{ roomItem.url_friendly_name }}/" class="secondary-cta mr-3">Explore {% if item.name != 'Studio' %}{{ roomItem.sub_category }}{% endif %}</a>
         {% endif %}
         {% endfor %}
       </div>
