@@ -4,7 +4,7 @@ longitude: -72.3002588
 map_zoom: 15
 name: Topping Rose House
 email: guestservice@toppingrosehouse.com
-phone_number: 631.537.0870
+phone_number: 631.808.2000
 address:
   street1: One Bridgehampton - Sag Harbor Turnpike
   state: NY
@@ -46,7 +46,7 @@ __EDITABLE_FIELDS__:
     type: float
   longitude:
     type: float
-get_directions: https://goo.gl/maps/qLhg6kYXBTKJtqxUA
+get_directions: https://goo.gl/maps/r1XejKPxMgDMMHcJA
 logo:
   name: topping-rose-black
   content_type: image/png
@@ -403,4 +403,4 @@ google_location:
     website: http://www.toppingrosehouse.com/
     html_attributions:
     utc_offset_minutes: -300
-phone: 631.537.0870
+phone: 631.808.2000

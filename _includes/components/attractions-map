@@ -109,7 +109,7 @@ data-tile-style - options are
     </ul>
   </div>
 
-  <div class="leaflet-map__map" data-latitude="{{site.data.hotel_settings.latitude}}" data-longitude="{{site.data.hotel_settings.longitude}}" data-zoom="{{site.data.hotel_settings.map_zoom}}" data-custom-icons="true" data-zoom="10" data-min-zoom="10" data-max-zoom="20" data-auto-fit-bounds="true" data-tile-style="light_all">
+  <div class="leaflet-map__map" data-latitude="{{site.data.hotel_settings.latitude}}" data-longitude="{{site.data.hotel_settings.longitude}}"  data-custom-icons="true" data-min-zoom="8" data-max-zoom="20" data-zoom="12" data-auto-fit-bounds="false" data-tile-style="rastertiles/voyager">
   </div>
 
 </div>

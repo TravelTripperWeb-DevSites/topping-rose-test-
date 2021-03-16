@@ -27,8 +27,11 @@ TODO:
       {% endif %}
       {% endcomment %}
         <a class="nav__link{% if page.url == url %} active{% endif %}" href="{{url}}" {% if item.target %}target="{{ item.target }}" rel="noopener"{% endif %} {% if item.items %}aria-haspopup="true"{% endif %}>{{text}}{% if page.url == url %}<span class="sr-only">(current)</span>{% endif %}</a>
-      {% if item.folder %}
+      {% if item.items %}
         <ul class="subnav">
+          {% include nav/nav-item-list.html items=item.items %}
+
+          {% comment %}
           {% if url == "/stay/" %}
             {% assign links = site.data._models.rooms | sort: 'order' %}
             {% for link in links %}
@@ -36,9 +39,13 @@ TODO:
               <a class="nav__link{% if page.url contains link.url_friendly_name %} active{% endif %}" href="/stay/{{ link.url_friendly_name }}/">{{ link.name }}</a>
             </li>
             {% endfor %}
+            <li role="none" class="nav__item"  aria-label="">
+              <a class="nav__link{% if page.url contains 'plan-your-stay' %} active{% endif %}" href="/plan-your-stay/">Plan your stay</a>
+            </li>
           {% else %}
           {% include nav/nav-item-list.html items=item.items %}
           {% endif %}
+          {% endcomment %}
         </ul>
       {% endif %}
     </li>
