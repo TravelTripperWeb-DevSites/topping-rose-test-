@@ -131,6 +131,12 @@ html {
       &.short-image {
         height: 356px;
       }
+
+      &.objectfit-bottom {
+        img {
+          object-position: top;
+        }
+      }
     }
 
     &__content {
@@ -551,6 +557,16 @@ html {
 
         @include media-breakpoint-up(md) {
           min-height: 72px;
+        }
+      }
+    }
+
+    .plantostay-description {
+      p {
+        height: auto;
+
+        @include media-breakpoint-up(md) {
+          min-height: 96px;
         }
       }
     }

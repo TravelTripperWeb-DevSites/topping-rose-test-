@@ -40,13 +40,13 @@
 
   &__image {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     max-width: 304px;
     max-height: 135px;
     margin: 0 auto;
 
     @include media-breakpoint-up(md) {
-      max-height: 135px;
+      max-height: 100px;
     }
 
     img {
