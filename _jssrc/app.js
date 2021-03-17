@@ -25,6 +25,18 @@ readyDoc(function() {
     //     }
     // }
 
+  var modalPopupBtn = document.getElementById("modalPopupBtn");
+  var modalPopup = document.querySelector(".modal-popup");
+  var modalPopupCloseBtn = document.getElementById("modalPopupCloseBtn");
+
+  modalPopupBtn.addEventListener('click', function(){
+    modalPopup.style.display = "block";
+  });
+
+  modalPopupCloseBtn.addEventListener('click', function(){
+    modalPopup.style.display = "none";
+  });
+
   // Leaflet map
   setTimeout(function(){
     document.querySelector("img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive").setAttribute("src", "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615477722/buatbmj13yfhbi0z2nen.png");

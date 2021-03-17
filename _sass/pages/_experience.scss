@@ -385,3 +385,39 @@
     content: normal;
   }
 }
+
+.modal-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  height: 100%;
+  padding: 48px 15px;
+  overflow: auto;
+  background-color: rgba($black, .7);
+
+  &__inner {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    background-color: $white;
+
+    .h2 {
+      margin-bottom: 48px;
+    }
+  }
+
+  .close-btn {
+    @include absolute-position(24px,24px,auto,auto,auto,auto);
+    font-family: $family-tertiary;
+    font-size: $display3-size;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
