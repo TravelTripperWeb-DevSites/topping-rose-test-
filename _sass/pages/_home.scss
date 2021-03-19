@@ -146,6 +146,12 @@
         @include media-breakpoint-up(md) {
           margin-top: 24px;
         }
+
+        a {
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
     }
   }

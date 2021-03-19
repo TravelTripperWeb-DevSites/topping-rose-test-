@@ -119,9 +119,9 @@ page_gen: #
     template: 'offer_layout'
     dir: 'offers'
     title_field: name
-  - data: 'attractions'
-    template: 'attractions_layout'
-    dir: 'attractions'
+  # - data: 'attractions'
+  #   template: 'attractions_layout'
+  #   dir: 'attractions'
   - data: 'things_to_do'
     template: 'things_to_do_layout'
     dir: 'things-to-do'

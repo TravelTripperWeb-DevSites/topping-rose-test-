@@ -25,18 +25,6 @@ readyDoc(function() {
     //     }
     // }
 
-  var modalPopupBtn = document.getElementById("modalPopupBtn");
-  var modalPopup = document.querySelector(".modal-popup");
-  var modalPopupCloseBtn = document.getElementById("modalPopupCloseBtn");
-
-  modalPopupBtn.addEventListener('click', function(){
-    modalPopup.style.display = "block";
-  });
-
-  modalPopupCloseBtn.addEventListener('click', function(){
-    modalPopup.style.display = "none";
-  });
-
   // Leaflet map
   setTimeout(function(){
     document.querySelector("img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive").setAttribute("src", "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615477722/buatbmj13yfhbi0z2nen.png");
@@ -51,11 +39,11 @@ readyDoc(function() {
   //   let formId = document.getElementById('formID').value;
   //   let url = 'https://web2.cendynhub.com/FormsRest/submit/' + formId + '?format=json';
   //   let data = JSON.stringify({
-  //     "PostData": {
-  //       "firstName": document.getElementsByName('firstName').value,
-	// 			"lastName": document.getElementsByName('lastName').value,
-  //       "emailAddress": document.getElementById('emailAddress').value,
-  //       "PPASAgree": document.getElementById('PPASAgree').value
+  //     "lead": {
+  //       "first_name": document.getElementsByName('firstName').value,
+	// 			"last_name": document.getElementsByName('lastName').value,
+  //       "email_address": document.getElementById('emailAddress').value,
+  //       "phone_number": document.getElementById('phone_number').value
   //     }
   //   });
   //
@@ -90,6 +78,41 @@ readyDoc(function() {
   // 		'Content-Type': 'application/x-www-form-urlencoded'
   // 	}
   // });
+
+  // document.getElementById('rfpForm').onsubmit = function(e) {
+  //   e.preventDefault();
+  //   let formId = document.getElementById('formID').value;
+  //   let url = 'http://api.tripleseat.com/v1/leads/create.js?public_key=' + formId +'';
+  //   let data = {
+  //     "lead": {
+  //       "first_name": document.getElementsByName('first_name').value,
+	// 			"last_name": document.getElementsByName('last_name').value,
+  //       "email_address": document.getElementsByName('email_address').value,
+  //       "phone_number": document.getElementsByName('phone_number').value
+  //     }
+  //   }
+  //
+  //   makeRESTCall(url, data, function() {
+  //     window.location = '/thankyou/';
+  //   });
+  //   return false;
+  // }
+
+  function makeRESTCall(url, data, callback) {
+    var request = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+
+    request.onreadystatechange = function() {
+      if (request.readyState == 4 && request.status == 200) {
+        console.log(request.responseText);
+        if (callback) {
+          callback(request.responseText);
+        }
+      }
+    }
+    request.open('post', url, true);
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.send(data);
+  }
 
   let moreInfoBtns = document.querySelectorAll(".experience-wrap__block__img");
   for(let i = 0; i < moreInfoBtns.length; i++) {
@@ -230,5 +253,17 @@ readyDoc(function() {
       swipeAngle: false
     });
   }
+  // modal popup
+  var modalPopupBtn = document.getElementById("modalPopupBtn");
+  var modalPopup = document.querySelector(".modal-popup");
+  var modalPopupCloseBtn = document.getElementById("modalPopupCloseBtn");
+
+  modalPopupBtn.addEventListener('click', function(){
+    modalPopup.style.display = "block";
+  });
+
+  modalPopupCloseBtn.addEventListener('click', function(){
+    modalPopup.style.display = "none";
+  });
 
 });
