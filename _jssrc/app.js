@@ -79,24 +79,24 @@ readyDoc(function() {
   // 	}
   // });
 
-  document.getElementById('rfpForm').onsubmit = function(e) {
-    e.preventDefault();
-    let formId = document.getElementById('formID').value;
-    let url = 'http://api.tripleseat.com/v1/leads/create.js?public_key=' + formId +'';
-    let data = {
-      "lead": {
-        "first_name": document.getElementsByName('first_name').value,
-				"last_name": document.getElementsByName('last_name').value,
-        "email_address": document.getElementById('email_address').value,
-        "phone_number": document.getElementById('phone_number').value
-      }
-    }
-
-    makeRESTCall(url, data, function() {
-      window.location = '/thankyou/';
-    });
-    return false;
-  }
+  // document.getElementById('rfpForm').onsubmit = function(e) {
+  //   e.preventDefault();
+  //   let formId = document.getElementById('formID').value;
+  //   let url = 'http://api.tripleseat.com/v1/leads/create.js?public_key=' + formId +'';
+  //   let data = {
+  //     "lead": {
+  //       "first_name": document.getElementsByName('first_name').value,
+	// 			"last_name": document.getElementsByName('last_name').value,
+  //       "email_address": document.getElementsByName('email_address').value,
+  //       "phone_number": document.getElementsByName('phone_number').value
+  //     }
+  //   }
+  //
+  //   makeRESTCall(url, data, function() {
+  //     window.location = '/thankyou/';
+  //   });
+  //   return false;
+  // }
 
   function makeRESTCall(url, data, callback) {
     var request = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
