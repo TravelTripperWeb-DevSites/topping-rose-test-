@@ -1,73 +1,67 @@
-# Site Settings
-title: "Topping Rose House | Full-Service Luxury Stays in the Hamptons"
+---
+title: Topping Rose House | Full-Service Luxury Stays in the Hamptons
 title_separator: "|"
-name: "Topping Rose House"
-description: "The only full-service luxury hotel in the Hamptons, Topping Rose is a renovated 19th century mansion with contemporary accommodations. Stay in luxury with us."
+name: Topping Rose House
+description: The only full-service luxury hotel in the Hamptons, Topping Rose is a
+  renovated 19th century mansion with contemporary accommodations. Stay in luxury
+  with us.
 url: https://www.toppingrosehouse.com
 repository: TravelTripperWeb-Sites/topping-rose-house
 booking_url: https://www.bookonthenet.net/east/premium/eresmain.aspx?id=fYyLsk%2fEkYipvgujrf1bTwHJTZ6nHMjVNBWssJbKFWk%3d#/search
-
-# Language Settings
-default_lang: 'en'
-languages: ['en', 'es']
-
+default_lang: en
+languages:
+- en
+- es
 generate_siteindex: false
-
-# Reading Files
 include:
-  - _ttio_templates
-  - _pages
+- _ttio_templates
+- _pages
 exclude:
-  - _assets
-  - _ttio_templates/zom
-  - _ttio_templates/bedrock/assets
-  - _ttio_templates/bedrock/node_modules
-  - _ttio_templates/bedrock/*.md
-  - _ttio_templates/bedrock/*.json
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - Makefile
-  - media.json
-  - models.json
-  - node_modules
-  - old_media.json
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - sitemap.json
-  - tmp
-  - vendor
+- _assets
+- _ttio_templates/zom
+- _ttio_templates/bedrock/assets
+- _ttio_templates/bedrock/node_modules
+- _ttio_templates/bedrock/*.md
+- _ttio_templates/bedrock/*.json
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- Capfile
+- CHANGELOG
+- config
+- Gemfile
+- Gruntfile.js
+- gulpfile.js
+- LICENSE
+- log
+- Makefile
+- media.json
+- models.json
+- node_modules
+- old_media.json
+- package.json
+- package-lock.json
+- Rakefile
+- README
+- sitemap.json
+- tmp
+- vendor
 keep_files:
-  - assets
-  - ttio_templates/bedrock/assets
-  - ttio_templates/zom/assets
+- assets
+- ttio_templates/bedrock/assets
+- ttio_templates/zom/assets
 rsync_copy:
-  - _assets
-  - _ttio_templates/bedrock/assets
-  - _ttio_templates/zom/assets
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+- _assets
+- _ttio_templates/bedrock/assets
+- _ttio_templates/zom/assets
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
 excerpt_separator: "\n\n"
 incremental: false
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -77,60 +71,38 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Sass/SCSS
 sass:
   load_paths:
-    - _sass
+  - _sass
   style: compressed
-
-# Outputting
 permalink: pretty
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# data_paginate:
-#   per_page: 5
-#   data: 'blog'
-#   path: 'blog/page:num'
-#   pagination_template: 'blog/index.html'
-#   sort_field: 'date'
-#   sort_reverse: true
-
-page_gen: #
-  - data: 'rooms'
-    template: 'room_layout'
-    dir: 'stay'
-  - data: 'posts'
-    template: 'blog_layout'
-    dir: 'blog'
-  - data: 'gather'
-    template: 'gather_layout'
-    dir: 'gather'
-  - data: 'experience'
-    template: 'experience_layout'
-    dir: 'experience'
-  - data: 'property_highlights'
-    template: 'property_highlights_layout'
-    dir: 'property-highlights'
-  - data: 'plan_your_visit'
-    template: 'plan_your_visit_layout'
-    dir: 'plan-your-visit'
-  - data: 'offers'
-    template: 'offer_layout'
-    dir: 'offers'
-    title_field: name
-  # - data: 'attractions'
-  #   template: 'attractions_layout'
-  #   dir: 'attractions'
-  - data: 'things_to_do'
-    template: 'things_to_do_layout'
-    dir: 'things-to-do'
-  # - data: 'rooms'
-  #   template: 'room_layout'
-  #   dir: 'rooms'
-  #   title_field: name
-
-
+timezone: 
+page_gen:
+- data: rooms
+  template: room_layout
+  dir: stay
+- data: posts
+  template: blog_layout
+  dir: blog
+- data: gather
+  template: gather_layout
+  dir: gather
+- data: experience
+  template: experience_layout
+  dir: experience
+- data: property_highlights
+  template: property_highlights_layout
+  dir: property-highlights
+- data: plan_your_visit
+  template: plan_your_visit_layout
+  dir: plan-your-visit
+- data: offers
+  template: offer_layout
+  dir: offers
+  title_field: name
+- data: things_to_do
+  template: things_to_do_layout
+  dir: things-to-do
 plugins_dir:
 - _plugins-38
 - _plugins
