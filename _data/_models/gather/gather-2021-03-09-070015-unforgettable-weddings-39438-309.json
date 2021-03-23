@@ -138,11 +138,11 @@
   "buttons": [
     {
       "button_label": "View our current wedding package offerings",
-      "button_url": "gather/menus"
+      "button_url": "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1616498108/d8nddaa0az9gohwfnxoh.jpg"
     },
     {
       "button_label": "Explore our wedding venues",
-      "button_url": "#"
+      "button_url": "gather/event-spaces"
     }
   ]
 }
