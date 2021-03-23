@@ -28,7 +28,7 @@ layout: default
     <div class="common-details__description" tabindex="0">
     {{ item.description }}
     {% for btn in item.buttons %}
-    <a href="/{{ btn.button_url }}/" class="primary-cta" {% if btn.button_url contains 'http' %}target="_blank"{% endif %}>{{ btn.button_label }}</a><br><br>
+    <a href="{% if btn.button_url contains 'http' %}/{{ btn.button_url }} {% else %} /{{ btn.button_url }}/{% endif %}" class="primary-cta" {% if btn.button_url contains 'http' %}target="_blank"{% endif %}>{{ btn.button_label }}</a><br><br>
     {% endfor %}
     <a href="https://toppingrosehouse.tripleseat.com/party_request/5145" class="primary-cta" target="_blank">Request for Proposal</a>
     </div>
