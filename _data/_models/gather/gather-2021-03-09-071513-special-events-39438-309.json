@@ -33,11 +33,11 @@
   "buttons": [
     {
       "button_label": "View our current package offerings",
-      "button_url": ""
+      "button_url": "gather/menus"
     },
     {
       "button_label": "EXPLORE OUR Event VENUES",
-      "button_url": "#"
+      "button_url": "gather/event-spaces"
     }
   ],
   "banner_image": [
