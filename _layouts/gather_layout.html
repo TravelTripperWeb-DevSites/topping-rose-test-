@@ -28,9 +28,19 @@ layout: default
     <div class="common-details__description" tabindex="0">
     {{ item.description }}
     {% for btn in item.buttons %}
-    <a href="{% if btn.button_url contains 'http' %}/{{ btn.button_url }} {% else %} /{{ btn.button_url }}/{% endif %}" class="primary-cta" {% if btn.button_url contains 'http' %}target="_blank"{% endif %}>{{ btn.button_label }}</a><br><br>
+    <a href="/{{ btn.button_url }}/" class="primary-cta" {% if btn.button_url contains 'http' %}target="_blank"{% endif %} {% if button.button_url == "packages" %}id="modalPopupBtn"{% endif %}>{{ btn.button_label }}</a><br><br>
+    {% if button.button_url == "packages" %}
+    <a href="javascript:void;" class="primary-cta" id="modalPopupBtn">{{ btn.button_label }}</a>
+    {% endif %}
     {% endfor %}
     <a href="https://toppingrosehouse.tripleseat.com/party_request/5145" class="primary-cta" target="_blank">Request for Proposal</a>
     </div>
   </div>
 </section>
+
+<div class="modal-popup">
+  <div class="modal-popup__inner">
+    <a href="javascript:void;" class="close-btn" id="modalPopupCloseBtn">X</a>
+    <img src="" alt="">
+  </div>
+</div>
