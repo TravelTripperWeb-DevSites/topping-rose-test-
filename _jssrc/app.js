@@ -164,24 +164,26 @@ readyDoc(function() {
     });
   }
 
-  var rButton = document.getElementsByClassName("reserve-btn");
-  var rPopup = document.getElementById("reserve-modal");
-  var rPopupClose = document.getElementsByClassName("reserve-close")[0];
-  if(rButton) {
-    for(let i=0; i < rButton.length; i++) {
-      rButton[i].addEventListener("click", function(e) {
-        rPopup.style.display = "block";
-      });
-    }
+  // Reserve Popup
 
-    rButton.onclick = function() {
-      rPopup.style.display = "block";
-    };
-
-    rPopupClose.onclick = function() {
-      rPopup.style.display = "none";
-    };
-  }
+  // var rButton = document.getElementsByClassName("reserve-btn");
+  // var rPopup = document.getElementById("reserve-modal");
+  // var rPopupClose = document.getElementsByClassName("reserve-close")[0];
+  // if(rButton) {
+  //   for(let i=0; i < rButton.length; i++) {
+  //     rButton[i].addEventListener("click", function(e) {
+  //       rPopup.style.display = "block";
+  //     });
+  //   }
+  //
+  //   rButton.onclick = function() {
+  //     rPopup.style.display = "block";
+  //   };
+  //
+  //   rPopupClose.onclick = function() {
+  //     rPopup.style.display = "none";
+  //   };
+  // }
 
   // Accordion
   var accord = document.getElementsByClassName('accordion-head');
@@ -257,6 +259,7 @@ readyDoc(function() {
   var modalPopupBtn = document.getElementById("modalPopupBtn");
   var modalPopup = document.querySelector(".modal-popup");
   var modalPopupCloseBtn = document.getElementById("modalPopupCloseBtn");
+  var modalPopupWrap = document.querySelector(".modal-popup");
 
   modalPopupBtn.addEventListener('click', function(){
     modalPopup.style.display = "block";

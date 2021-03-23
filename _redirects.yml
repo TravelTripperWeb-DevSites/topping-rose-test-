@@ -1,0 +1,106 @@
+---
+- aboutus/art/:
+    to: ''
+    code: '301'
+- aboutus/gallery/:
+    to: gallery/
+    code: '301'
+- aboutus/history/:
+    to: ''
+    code: '301'
+- aboutus/location/:
+    to: plan-your-stay/getting-here/
+    code: '301'
+- aboutus/who-we-are/:
+    to: ''
+    code: '301'
+- accommodations/:
+    to: stay/
+    code: '301'
+- accommodations/cottage-king-guestroom/:
+    to: stay/cottage-king-guestroom/
+    code: '301'
+- accommodations/cottage-king-suite/:
+    to: stay/cottage-king-suite/
+    code: '301'
+- accommodations/cottage-twin-room/:
+    to: stay/
+    code: '301'
+- accommodations/house-king-guestroom/:
+    to: stay/house-king-guestroom/
+    code: '301'
+- accommodations/house-one-bedroom-suite/:
+    to: stay/house-one-bedroom-suite/
+    code: '301'
+- accommodations/house-twin-guestroom/:
+    to: stay/
+    code: '301'
+- accommodations/studio-king-guestroom/:
+    to: stay/studio-king-guestroom/
+    code: '301'
+- accommodations/Studio-King-Guestroom/:
+    to: stay/
+    code: '301'
+- event-inquiry/:
+    to: gather/
+    code: '301'
+- events/:
+    to: gather/
+    code: '301'
+- events/meetings/:
+    to: gather/
+    code: '301'
+- events/private-dining/:
+    to: dine/
+    code: '301'
+- events/venues/:
+    to: gather/
+    code: '301'
+- events/weddings/:
+    to: gather/weddings/
+    code: '301'
+- gift-cards/:
+    to: ''
+    code: '301'
+- holiday-celebrations/:
+    to: gather/
+    code: '301'
+- in-the-news/:
+    to: press/
+    code: '301'
+- News-events/:
+    to: press/
+    code: '301'
+- photo-credits/:
+    to: ''
+    code: '301'
+- recreation/:
+    to: experience/
+    code: '301'
+- recreation/activities/:
+    to: experience/things-to-do/
+    code: '301'
+- recreation/entertainment/:
+    to: experience/
+    code: '301'
+- recreation/history-culture/:
+    to: experience/
+    code: '301'
+- recreation/shopping/:
+    to: experience/
+    code: '301'
+- restaurant/:
+    to: dine/
+    code: '301'
+- restaurant/bar-and-lounge/:
+    to: dine/
+    code: '301'
+- wellness/:
+    to: experience/wellness/
+    code: '301'
+- wellness/spa/:
+    to: experience/wellness/
+    code: '301'
+- wellness/yoga/:
+    to: experience/yoga/
+    code: '301'

@@ -21,15 +21,15 @@ published_localized:
     <div class="alternate-listing__image">
       {% if item.url_friendly_name == 'event-spaces' %}
       <div class="common-slider">
-        <div class="common-slider__item">
-          <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
-        </div>
         {% assign slideImages = item.banner_image %}
         {% for slideImage in slideImages %}
           <div class="common-slider__item">
             <img src="{{ slideImage.url_large }}" alt="{{ slideImage.alt }}">
           </div>
         {% endfor %}
+        <div class="common-slider__item">
+          <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+        </div>
       </div>
       {% else %}
       <img src="{{ item.image.url_large }}" alt="{{ item.name }}">

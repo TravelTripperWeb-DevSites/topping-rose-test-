@@ -395,13 +395,13 @@
   z-index: 9999;
   display: none;
   height: 100%;
-  padding: 48px 15px;
+  padding: 64px 45px 48px;
   overflow: auto;
   background-color: rgba($black, .7);
 
   &__inner {
     position: relative;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 48px 24px;
     background-color: $white;
@@ -412,9 +412,17 @@
   }
 
   .close-btn {
-    @include absolute-position(24px,24px,auto,auto,auto,auto);
+    position: fixed;
+    top: 24px;
+    right: 30px;
     font-family: $family-tertiary;
     font-size: $display3-size;
+    color: $white;
+
+    @include media-breakpoint-up(lg) {
+      top: 24px;
+      right: 64px;
+    }
 
     &:hover {
       text-decoration: none;
