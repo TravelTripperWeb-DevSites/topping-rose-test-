@@ -1,0 +1,99 @@
+{
+  "order": 7,
+  "name": "Sag Harbor Village Beach",
+  "category": [
+    "attractions_categories-2021-03-26-094830-beaches-39797-309"
+  ],
+  "location": {
+    "name": "Jobs Lane",
+    "address": "Jobs Ln, Bridgehampton, NY 11932, USA",
+    "place_id": "EiVKb2JzIExuLCBCcmlkZ2VoYW1wdG9uLCBOWSAxMTkzMiwgVVNBIi4qLAoUChIJN1egWja-6IkRM67sssRTeIASFAoSCRHAsrbfveiJETP290w-uwtA",
+    "reference": "EiVKb2JzIExuLCBCcmlkZ2VoYW1wdG9uLCBOWSAxMTkzMiwgVVNBIi4qLAoUChIJN1egWja-6IkRM67sssRTeIASFAoSCRHAsrbfveiJETP290w-uwtA",
+    "latitude": 40.9038334,
+    "longitude": -72.3109686,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Jobs Lane",
+          "short_name": "Jobs Ln",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Bridgehampton",
+          "short_name": "Bridgehampton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11932",
+          "short_name": "11932",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">Jobs Ln</span>, <span class=\"locality\">Bridgehampton</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11932</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Jobs Ln, Bridgehampton, NY 11932, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.9038334,
+          "lng": -72.3109686
+        },
+        "viewport": {
+          "south": 40.90248441970849,
+          "west": -72.31231758029149,
+          "north": 40.90518238029149,
+          "east": -72.30961961970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Jobs Lane",
+      "place_id": "EiVKb2JzIExuLCBCcmlkZ2VoYW1wdG9uLCBOWSAxMTkzMiwgVVNBIi4qLAoUChIJN1egWja-6IkRM67sssRTeIASFAoSCRHAsrbfveiJETP290w-uwtA",
+      "reference": "EiVKb2JzIExuLCBCcmlkZ2VoYW1wdG9uLCBOWSAxMTkzMiwgVVNBIi4qLAoUChIJN1egWja-6IkRM67sssRTeIASFAoSCRHAsrbfveiJETP290w-uwtA",
+      "types": [
+        "route"
+      ],
+      "url": "https://maps.google.com/?q=Jobs+Ln,+Bridgehampton,+NY+11932,+USA&ftid=0x89e8be365aa05737:0x807853c4b2ecae33",
+      "utc_offset": -240,
+      "vicinity": "Bridgehampton",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

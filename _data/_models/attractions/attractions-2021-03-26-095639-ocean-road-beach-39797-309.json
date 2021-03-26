@@ -1,0 +1,106 @@
+{
+  "order": 4,
+  "name": "Ocean Road Beach",
+  "category": [
+    "attractions_categories-2021-03-26-094830-beaches-39797-309"
+  ],
+  "location": {
+    "name": "1251 Ocean Rd",
+    "address": "1251 Ocean Rd, Water Mill, NY 11976, USA",
+    "place_id": "EigxMjUxIE9jZWFuIFJkLCBXYXRlciBNaWxsLCBOWSAxMTk3NiwgVVNBIlESTwo0CjIJ2dTb2Ei-6IkRlkHCOxzx7gMaHgsQ7sHuoQEaFAoSCffthq7uleiJEVuuemFaluGDDBDjCSoUChIJIc6sckG-6IkRrzMdPxB3f3E",
+    "reference": "EigxMjUxIE9jZWFuIFJkLCBXYXRlciBNaWxsLCBOWSAxMTk3NiwgVVNBIlESTwo0CjIJ2dTb2Ei-6IkRlkHCOxzx7gMaHgsQ7sHuoQEaFAoSCffthq7uleiJEVuuemFaluGDDBDjCSoUChIJIc6sckG-6IkRrzMdPxB3f3E",
+    "latitude": 40.904091,
+    "longitude": -72.3020271,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1251",
+          "short_name": "1251",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Ocean Road",
+          "short_name": "Ocean Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Water Mill",
+          "short_name": "Water Mill",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11976",
+          "short_name": "11976",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1251 Ocean Rd</span>, <span class=\"locality\">Water Mill</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11976</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "1251 Ocean Rd, Water Mill, NY 11976, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.904091,
+          "lng": -72.3020271
+        },
+        "viewport": {
+          "south": 40.9027355197085,
+          "west": -72.3036517302915,
+          "north": 40.9054334802915,
+          "east": -72.30095376970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "1251 Ocean Rd",
+      "place_id": "EigxMjUxIE9jZWFuIFJkLCBXYXRlciBNaWxsLCBOWSAxMTk3NiwgVVNBIlESTwo0CjIJ2dTb2Ei-6IkRlkHCOxzx7gMaHgsQ7sHuoQEaFAoSCffthq7uleiJEVuuemFaluGDDBDjCSoUChIJIc6sckG-6IkRrzMdPxB3f3E",
+      "reference": "EigxMjUxIE9jZWFuIFJkLCBXYXRlciBNaWxsLCBOWSAxMTk3NiwgVVNBIlESTwo0CjIJ2dTb2Ei-6IkRlkHCOxzx7gMaHgsQ7sHuoQEaFAoSCffthq7uleiJEVuuemFaluGDDBDjCSoUChIJIc6sckG-6IkRrzMdPxB3f3E",
+      "types": [
+        "street_address"
+      ],
+      "url": "https://maps.google.com/?q=1251+Ocean+Rd,+Water+Mill,+NY+11976,+USA&ftid=0x89e8be48d8dbd4d9:0xb230003e9e79078",
+      "utc_offset": -240,
+      "vicinity": "Water Mill",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
