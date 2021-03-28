@@ -56,16 +56,16 @@
   },
   "locations": [
     {
-      "title": "Title title",
-      "address": "<p>Address</p>"
+      "title": "Pierre's ",
+      "address": "<p>2468 Main St, Bridgehampton</p>"
     },
     {
-      "address": "<p>Address</p>",
-      "title": "Title title"
+      "address": "<p>1 Long Wharf, Sag Harbor</p>",
+      "title": "Le Bilboquet"
     },
     {
-      "address": "<p>Address</p>",
-      "title": "Title title"
+      "address": "<p>16 Main St, Sag Harbor</p>",
+      "title": "Tutto il Giorno Sag"
     }
   ]
 }
