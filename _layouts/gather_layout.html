@@ -49,3 +49,13 @@ layout: default
     </div>
   </div>
 </div>
+
+{% if item.url_friendly_name == "weddings" %}
+<div class="common-accessibility">
+  <p>Topping Rose House offers accessible wedding spaces. For more information on accessibility, please view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>
+{% else %}
+<div class="common-accessibility">
+  <p>Topping Rose House offers accessible meeting and event spaces. For more information on accessibility, please view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>
+{% endif %}
