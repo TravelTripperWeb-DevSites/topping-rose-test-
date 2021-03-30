@@ -56,16 +56,52 @@
   },
   "locations": [
     {
-      "title": "Title title",
-      "address": "<p>Address</p>"
+      "title": "Pierre's ",
+      "address": "<p>2468 Main St, Bridgehampton</p>"
     },
     {
-      "address": "<p>Address</p>",
-      "title": "Title title"
+      "address": "<p>1 Long Wharf, Sag Harbor</p>",
+      "title": "Le Bilboquet"
     },
     {
-      "address": "<p>Address</p>",
-      "title": "Title title"
+      "address": "<p>16 Main St, Sag Harbor</p>",
+      "title": "Tutto il Giorno Sag"
+    },
+    {
+      "title": "DOPO La Spiaggia",
+      "address": "<p>6 Bay St, Sag Harbor</p>"
+    },
+    {
+      "title": "Almond",
+      "address": "<p>1 Ocean Rd, Bridgehampton</p>"
+    },
+    {
+      "title": "Elaia Estiatoria ",
+      "address": "<p>95 School Street, Bridgehampton</p>"
+    },
+    {
+      "title": "Nick and Toni's ",
+      "address": "<p>136 N Main St, East Hampton</p>"
+    },
+    {
+      "title": "1770 House ",
+      "address": "<p>143 Main St, East Hampton</p>"
+    },
+    {
+      "title": "Sant Ambroeus ",
+      "address": "<p>30 Main St, Southampton</p>"
+    },
+    {
+      "title": "Tutto il Giorno ",
+      "address": "<p>56 Nugent St, Southampton</p>"
+    },
+    {
+      "title": "Duryea's ",
+      "address": "<p>65 Tuthill Rd, Montauk</p>"
+    },
+    {
+      "title": "Lobster Roll",
+      "address": "<p>716 Montauk Hwy, Montauk</p>"
     }
   ]
 }

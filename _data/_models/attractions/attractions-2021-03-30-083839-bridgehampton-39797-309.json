@@ -1,0 +1,165 @@
+{
+  "order": 13,
+  "name": "Bridgehampton",
+  "category": [
+    "attractions_categories-2021-03-30-083647-neighborhood-39797-309"
+  ],
+  "location": {
+    "name": "Bridgehampton",
+    "address": "Bridgehampton, NY 11932, USA",
+    "place_id": "ChIJEcCytt-96IkRM_b3TD67C0A",
+    "reference": "ChIJEcCytt-96IkRM_b3TD67C0A",
+    "latitude": 40.9378777,
+    "longitude": -72.3009158,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Bridgehampton",
+          "short_name": "Bridgehampton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11932",
+          "short_name": "11932",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Bridgehampton</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11932</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Bridgehampton, NY 11932, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.9378777,
+          "lng": -72.3009158
+        },
+        "viewport": {
+          "south": 40.88451995243587,
+          "west": -72.34478315794445,
+          "north": 40.97846799166381,
+          "east": -72.28531906417668
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Bridgehampton",
+      "photos": [
+        {
+          "height": 1908,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102055100248074300331\">Chris Plume</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3036,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106883961922356477975\">Artur Demek</a>"
+          ],
+          "width": 4048
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113291347096773021963\">Andrew Siden</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102431062692344384977\">Felipa Ruiz</a>"
+          ],
+          "width": 2340
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110871551469395922997\">Jeffery Hyde</a>"
+          ],
+          "width": 3264
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109893852732781405644\">Jose Alvir</a>"
+          ],
+          "width": 3984
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110525540889739395389\">Asami KAWADA</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102773183224138795585\">AlbertaSpruce</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108170946540749325676\">Vee Yaa</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109893852732781405644\">Jose Alvir</a>"
+          ],
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJEcCytt-96IkRM_b3TD67C0A",
+      "reference": "ChIJEcCytt-96IkRM_b3TD67C0A",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "url": "https://maps.google.com/?q=Bridgehampton,+NY+11932,+USA&ftid=0x89e8bddfb6b2c011:0x400bbb3e4cf7f633",
+      "utc_offset": -240,
+      "vicinity": "Bridgehampton",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

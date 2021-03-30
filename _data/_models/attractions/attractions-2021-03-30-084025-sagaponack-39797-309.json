@@ -1,0 +1,158 @@
+{
+  "order": 15,
+  "name": "Sagaponack",
+  "category": [
+    "attractions_categories-2021-03-30-083647-neighborhood-39797-309"
+  ],
+  "location": {
+    "name": "Sagaponack",
+    "address": "Sagaponack, NY, USA",
+    "place_id": "ChIJg7mnBIS-6IkRihg6KLcP6Ec",
+    "reference": "ChIJg7mnBIS-6IkRihg6KLcP6Ec",
+    "latitude": 40.9253776,
+    "longitude": -72.2781375,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Sagaponack",
+          "short_name": "Sagaponack",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Sagaponack</span>, <span class=\"region\">NY</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Sagaponack, NY, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.9253776,
+          "lng": -72.2781375
+        },
+        "viewport": {
+          "south": 40.90621492441888,
+          "west": -72.29505898233849,
+          "north": 40.95307392452258,
+          "east": -72.24574789425462
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Sagaponack",
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111672497051615201801\">Fatih Tuccar</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 3036,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106883961922356477975\">Artur Demek</a>"
+          ],
+          "width": 4048
+        },
+        {
+          "height": 3464,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107929699927193209179\">John McCann</a>"
+          ],
+          "width": 4618
+        },
+        {
+          "height": 2250,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101152548621589013563\">Luis Alonzo Carrillo</a>"
+          ],
+          "width": 4000
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106333797304952930173\">Nina Rossi</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108170946540749325676\">Vee Yaa</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115784233824484256002\">채이아빠</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115893762860040901177\">Kevin Huang</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116958104794562800159\">Deep Mistry</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112105337379961035859\">Derek Hyde</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJg7mnBIS-6IkRihg6KLcP6Ec",
+      "reference": "ChIJg7mnBIS-6IkRihg6KLcP6Ec",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "url": "https://maps.google.com/?q=Sagaponack,+NY,+USA&ftid=0x89e8be8404a7b983:0x47e80fb7283a188a",
+      "utc_offset": -240,
+      "vicinity": "Sagaponack",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
