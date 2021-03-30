@@ -1,0 +1,158 @@
+{
+  "order": 12,
+  "name": "Amagansett",
+  "category": [
+    "attractions_categories-2021-03-30-083647-neighborhood-39797-309"
+  ],
+  "location": {
+    "name": "Amagansett",
+    "address": "Amagansett, NY, USA",
+    "place_id": "ChIJBXLCWKa66IkRG8VtCCvfVus",
+    "reference": "ChIJBXLCWKa66IkRG8VtCCvfVus",
+    "latitude": 40.9737117,
+    "longitude": -72.1436884,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Amagansett",
+          "short_name": "Amagansett",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "East Hampton",
+          "short_name": "East Hampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Amagansett</span>, <span class=\"region\">NY</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Amagansett, NY, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.9737117,
+          "lng": -72.1436884
+        },
+        "viewport": {
+          "south": 40.94947604549415,
+          "west": -72.16274603126007,
+          "north": 41.00744401934558,
+          "east": -72.09905701038475
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Amagansett",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109065879591715292334\">scott osman</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100130178877010793170\">Jonathan Bennett</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109893852732781405644\">Jose Alvir</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 1125,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103662798711389030939\">East Hampton Historical Society</a>"
+          ],
+          "width": 1125
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117683899745058981055\">marien vuik</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114200253549902965560\">JBS M</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111263691705157585541\">Heather Fryer</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2250,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101152548621589013563\">Luis Alonzo Carrillo</a>"
+          ],
+          "width": 4000
+        },
+        {
+          "height": 1549,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102378146753520091983\">Bryan Hopping</a>"
+          ],
+          "width": 1161
+        },
+        {
+          "height": 5332,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102322082366423910139\">Alyssa King</a>"
+          ],
+          "width": 3000
+        }
+      ],
+      "place_id": "ChIJBXLCWKa66IkRG8VtCCvfVus",
+      "reference": "ChIJBXLCWKa66IkRG8VtCCvfVus",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "url": "https://maps.google.com/?q=Amagansett,+NY,+USA&ftid=0x89e8baa658c27205:0xeb56df2b086dc51b",
+      "utc_offset": -240,
+      "vicinity": "Amagansett",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
