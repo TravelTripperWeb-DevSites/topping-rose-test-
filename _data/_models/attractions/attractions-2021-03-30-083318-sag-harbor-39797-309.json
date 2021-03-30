@@ -1,0 +1,162 @@
+{
+  "order": 0,
+  "name": "Sag Harbor",
+  "location": {
+    "name": "Sag Harbor",
+    "address": "Sag Harbor, NY 11963, USA",
+    "place_id": "ChIJpwynzCO96IkRnYnAllsP_9g",
+    "reference": "ChIJpwynzCO96IkRnYnAllsP_9g",
+    "latitude": 40.99787730000001,
+    "longitude": -72.2925819,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Sag Harbor",
+          "short_name": "Sag Harbor",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11963",
+          "short_name": "11963",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Sag Harbor</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11963</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Sag Harbor, NY 11963, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.99787730000001,
+          "lng": -72.2925819
+        },
+        "viewport": {
+          "south": 40.98513683355723,
+          "west": -72.31545993825296,
+          "north": 41.01072304977021,
+          "east": -72.26626900329728
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Sag Harbor",
+      "photos": [
+        {
+          "height": 3968,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108283756974659978823\">T Haan</a>"
+          ],
+          "width": 2976
+        },
+        {
+          "height": 1080,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102795285680472558858\">Tito S</a>"
+          ],
+          "width": 1080
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108134028126684868110\">Isabelle Van Kleeck</a>"
+          ],
+          "width": 3264
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114973056859955009194\">Summer Bloom</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104842433142609722240\">Rob Cooke</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2855,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107847212646652233044\">Val B</a>"
+          ],
+          "width": 3978
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118116662809232635236\">Eric TREU</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117687174212114699681\">Cara Maconochie</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111354515412842457847\">Terry Mcgarry</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102828941661266020246\">Shannon Wolk</a>"
+          ],
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJpwynzCO96IkRnYnAllsP_9g",
+      "reference": "ChIJpwynzCO96IkRnYnAllsP_9g",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "url": "https://maps.google.com/?q=Sag+Harbor,+NY+11963,+USA&ftid=0x89e8bd23cca70ca7:0xd8ff0f5b96c0899d",
+      "utc_offset": -240,
+      "vicinity": "Sag Harbor",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
