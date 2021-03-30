@@ -26,10 +26,21 @@ meta_tags:
     <h1 class="h2" tabindex="0">{{ item.name }}</h1>
     <div class="common-details__description" tabindex="0">
       {% assign locations = item.locations %}
+      {% if item.url_friendly_name != "restaurants" %}
       {% for location in locations %}
         <p class="mb-1"><strong>{{ location.title }}</strong></p>
         {{ location.address }}
       {% endfor %}
+      {% else %}
+      <div class="common-details__row">
+        {% for location in locations %}
+        <div class="common-details__column">
+          <p class="mb-1"><strong>{{ location.title }}</strong></p>
+          {{ location.address }}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
