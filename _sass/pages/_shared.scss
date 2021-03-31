@@ -636,6 +636,7 @@ html {
 
     @include media-breakpoint-up(md) {
       @include make-col(6);
+      text-align: center;
     }
   }
 
