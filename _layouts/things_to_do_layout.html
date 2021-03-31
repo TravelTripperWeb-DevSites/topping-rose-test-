@@ -23,7 +23,7 @@ meta_tags:
 
 <section class="common-details">
   <div class="common-details__inner">
-    <h1 class="h2" tabindex="0">{{ item.name }}</h1>
+    <h1 class="h2 {% if item.url_friendly_name == "restaurants" %}text-md-center{% endif %}" tabindex="0">{{ item.name }}</h1>
     <div class="common-details__description" tabindex="0">
       {% assign locations = item.locations %}
       {% if item.url_friendly_name != "restaurants" %}
