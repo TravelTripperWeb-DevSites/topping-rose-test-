@@ -1,0 +1,340 @@
+{
+  "order": 18,
+  "name": "Almond",
+  "category": [
+    "attractions_categories-2021-03-11-151832-dining-39438-309"
+  ],
+  "location": {
+    "name": "Almond",
+    "address": "1 Ocean Rd, Bridgehampton, NY 11932, USA",
+    "phone": "(631) 537-5665",
+    "place_id": "ChIJX4bnq9i96IkRMhnW2mI-AIQ",
+    "reference": "ChIJX4bnq9i96IkRMhnW2mI-AIQ",
+    "latitude": 40.9371614,
+    "longitude": -72.3012577,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1",
+          "short_name": "1",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Ocean Road",
+          "short_name": "Ocean Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Bridgehampton",
+          "short_name": "Bridgehampton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11932",
+          "short_name": "11932",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1 Ocean Rd</span>, <span class=\"locality\">Bridgehampton</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11932</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Ocean Rd, Bridgehampton, NY 11932, USA",
+      "formatted_phone_number": "(631) 537-5665",
+      "geometry": {
+        "location": {
+          "lat": 40.9371614,
+          "lng": -72.3012577
+        },
+        "viewport": {
+          "south": 40.9358922697085,
+          "west": -72.30267718029151,
+          "north": 40.9385902302915,
+          "east": -72.29997921970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "international_phone_number": "+1 631-537-5665",
+      "name": "Almond",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1617757200000
+            },
+            "open": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617742800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1617843600000
+            },
+            "open": {
+              "day": 3,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617829200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1617930000000
+            },
+            "open": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617915600000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618020000000
+            },
+            "open": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618002000000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618106400000
+            },
+            "open": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618088400000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: 5:00 – 9:00 pm",
+          "Wednesday: 5:00 – 9:00 pm",
+          "Thursday: 5:00 – 9:00 pm",
+          "Friday: 5:00 – 10:00 pm",
+          "Saturday: 5:00 – 10:00 pm",
+          "Sunday: Closed"
+        ]
+      },
+      "photos": [
+        {
+          "height": 3936,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110745164326191814959\">drew meyer</a>"
+          ],
+          "width": 5248
+        },
+        {
+          "height": 3000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116042291794829365107\">Evan proios</a>"
+          ],
+          "width": 4000
+        },
+        {
+          "height": 3264,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108085414351837936228\">Jacqueline Vita</a>"
+          ],
+          "width": 2974
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113682499012476731127\">Karel Prater</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112252866711607189245\">Mary McPartland</a>"
+          ],
+          "width": 2268
+        },
+        {
+          "height": 1350,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102379389039427422221\">Derek Kinnear</a>"
+          ],
+          "width": 1080
+        },
+        {
+          "height": 3036,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104923089458198722516\">Luis Louie Lopez</a>"
+          ],
+          "width": 4048
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107260607300763585475\">E K</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113682499012476731127\">Karel Prater</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3410,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108085414351837936228\">Jacqueline Vita</a>"
+          ],
+          "width": 2727
+        }
+      ],
+      "place_id": "ChIJX4bnq9i96IkRMhnW2mI-AIQ",
+      "plus_code": {
+        "compound_code": "WMPX+VF Bridgehampton, NY, USA",
+        "global_code": "87G9WMPX+VF"
+      },
+      "price_level": 3,
+      "rating": 4.4,
+      "reference": "ChIJX4bnq9i96IkRMhnW2mI-AIQ",
+      "reviews": [
+        {
+          "author_name": "E K",
+          "author_url": "https://www.google.com/maps/contrib/107260607300763585475/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GhWA9GSC_D1BBfsfbD7co_OBB-EcQjDva1NJk8-XQ=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 4,
+          "relative_time_description": "6 months ago",
+          "text": "We had a wonderful birthday dinner celebration here.\n\nOriginally, we had a table booked outside, but because the weather was unpredictable, the restaurant let us know that we would still be able to dine with them, indoors. Upon arrival, it was not raining nor forecasted to rain, the hostess advised us that we cannot sit outside anymore and only inside. We were a little confused at first because the original booking was for outdoor seating, so it didn't make sense that they put us indoors..\n\nOur waiter was amazing. He was super helpful and very sweet. We started off mussels, burrata, trout tartar, fried clams and escargot. Everything was absolutely delicious except for the fried clams - they were super rubbery and chewy and impossible to chew down. For entrees, we ordered the lobster spaghetti (MY FAVORITE!!), lamb kebabs (very good), scallops (very good), and striped bass (also very good). Let me tell you, I could eat that spaghetti lobster every day for the rest of my life, that's how good it was! For dessert we had the sticky toffee date cake and this peach cobbler or crisp or something, but both were delicious!\n\nOverall, great diner. Thank you!",
+          "time": 1599617585
+        },
+        {
+          "author_name": "Rebecca Marrow",
+          "author_url": "https://www.google.com/maps/contrib/100201228493517884979/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgJKD_Ej53Ed2M-g0-RwQIb6NYdlj89ATyrggCWoA=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "5 months ago",
+          "text": "Although Almond has been here for a minute, this was the first time I’ve ever dined in. And what a wonderful experience it was! We called ahead to confirm that we could eat outdoors despite the poor weather - we were told that we could sit under heat lamps but they recommended that we bring blankets for the chairs so our bottoms wouldn’t be cold - helpful advice! As soon as we arrived we were set up under warm, warm heat lamps and the owner Eric took wonderful care of us. Our server Rachel was able to answer all our questions and help out with dietary restrictions. The drinks were so well made (ask for The Aviation) and the service was impeccable but the food speaks for itself. We recommend the bison Friday special, the duck breast and the scallops — honestly none of them to be missed! We spent over 3 hours outside on the patio under the heat lamps and were so incredibly comfortable and well fed while the manager Lara came over to ensure we always had what we needed. 10/10 for service, food, drinks, ambiance. Possibly the single best dinning experience I’ve had since before lockdown began. Thank you! We will definitely return.",
+          "time": 1604112615
+        },
+        {
+          "author_name": "Angad Singh",
+          "author_url": "https://www.google.com/maps/contrib/103922772156395278824/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Ghx3YmIX7tbSOoPdsLlQ9hdotnbcz2_yrnKs0iXTg=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "4 months ago",
+          "text": "Fresh, Imaginative and an unforgettable experience. Chef prepares the food as he’s making for his own family, paired well with great wine selection and crafty cocktails.",
+          "time": 1606158621
+        },
+        {
+          "author_name": "William Shaw",
+          "author_url": "https://www.google.com/maps/contrib/108212058200021296851/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjEdY8Zi2rDCWqefs_4t9fwsCPMH1LBu6bwLNSD=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "7 months ago",
+          "text": "I like to go with friends to this place with my warmest recommendations. I  go to this restaurant often. This recommendation is always successful. The meals are appetizing and the crew is attentive and cooperative. Every time  we visit this place we have a cheerful time.  warmly recommended.",
+          "time": 1597165790
+        },
+        {
+          "author_name": "William Mintz",
+          "author_url": "https://www.google.com/maps/contrib/102256961944471137063/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.googleusercontent.com/-Oj0RTwyucyE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclHx3ubnoeMucfvHD0ALwGmelbRiQ/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "3 months ago",
+          "text": "Excellent moules frites and trout was inspired. Service was good. Ambiance ok",
+          "time": 1609427282
+        }
+      ],
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=9511671007305668914",
+      "user_ratings_total": 161,
+      "utc_offset": -240,
+      "vicinity": "1 Ocean Road, Bridgehampton",
+      "website": "http://almondrestaurant.com/s/bridgehampton/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
