@@ -1,0 +1,354 @@
+{
+  "order": 24,
+  "name": "Elaia Estiatoria",
+  "category": [
+    "attractions_categories-2021-03-11-151832-dining-39438-309"
+  ],
+  "location": {
+    "name": "Elaia Estiatorio",
+    "address": "95 School Street, Bridgehampton, NY 11932, USA",
+    "phone": "(631) 613-6469",
+    "place_id": "ChIJrRV5c3W-6IkRSktbo1zVK20",
+    "reference": "ChIJrRV5c3W-6IkRSktbo1zVK20",
+    "latitude": 40.9352807,
+    "longitude": -72.3050902,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "95",
+          "short_name": "95",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "School Street",
+          "short_name": "School Street",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Bridgehampton",
+          "short_name": "Bridgehampton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11932",
+          "short_name": "11932",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">95 School Street</span>, <span class=\"locality\">Bridgehampton</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11932</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "95 School Street, Bridgehampton, NY 11932, USA",
+      "formatted_phone_number": "(631) 613-6469",
+      "geometry": {
+        "location": {
+          "lat": 40.9352807,
+          "lng": -72.3050902
+        },
+        "viewport": {
+          "south": 40.9339332697085,
+          "west": -72.30649708029149,
+          "north": 40.9366312302915,
+          "east": -72.30379911970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "international_phone_number": "+1 631-613-6469",
+      "name": "Elaia Estiatorio",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1618189200000
+            },
+            "open": {
+              "day": 0,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618174800000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1617757200000
+            },
+            "open": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617742800000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1617843600000
+            },
+            "open": {
+              "day": 3,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617829200000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2100",
+              "hours": 21,
+              "minutes": 0,
+              "nextDate": 1617930000000
+            },
+            "open": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617915600000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2130",
+              "hours": 21,
+              "minutes": 30,
+              "nextDate": 1618018200000
+            },
+            "open": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618002000000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2130",
+              "hours": 21,
+              "minutes": 30,
+              "nextDate": 1618104600000
+            },
+            "open": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618088400000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: 5:00 – 9:00 pm",
+          "Wednesday: 5:00 – 9:00 pm",
+          "Thursday: 5:00 – 9:00 pm",
+          "Friday: 5:00 – 9:30 pm",
+          "Saturday: 5:00 – 9:30 pm",
+          "Sunday: 5:00 – 9:00 pm"
+        ]
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117047161588955301829\">Elaia Estiatorio</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 1400,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117047161588955301829\">Elaia Estiatorio</a>"
+          ],
+          "width": 934
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106350053082634765973\">Federico Pina</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115615376332835227931\">delroy phillips</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105020521507293566272\">Haley Kammerling</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100776173915887796194\">Andreas Schuster</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117047161588955301829\">Elaia Estiatorio</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 751,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117047161588955301829\">Elaia Estiatorio</a>"
+          ],
+          "width": 1127
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103155468482772084828\">Miriam Clifford</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110015516176575306692\">Alex Tran</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJrRV5c3W-6IkRSktbo1zVK20",
+      "plus_code": {
+        "compound_code": "WMPV+4X Bridgehampton, NY, USA",
+        "global_code": "87G9WMPV+4X"
+      },
+      "rating": 4.4,
+      "reference": "ChIJrRV5c3W-6IkRSktbo1zVK20",
+      "reviews": [
+        {
+          "author_name": "Lilia Vero",
+          "author_url": "https://www.google.com/maps/contrib/113375559464616820736/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Gha8uQ2Z34XbkV2q8V8DNyaEqurJCjrSKMtsoucxg=s128-c0x00000000-cc-rp-mo-ba2",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "Stopped by quickly for a dinner and did not expect much, but food was exceptionally delicious, fresh and aromatic. Vegetarian options: whipped feta with most delicious pita I’ve ever had. Zucchini fritters were juicy and very aromatic. Baked potato in lemon sauce - beyond delicious.\nAll staff members were very welcoming, it was a bit rainy and they did make sure every table outside felt comfortable and cozy. Highly recommend.",
+          "time": 1599691346
+        },
+        {
+          "author_name": "Axton Ponce",
+          "author_url": "https://www.google.com/maps/contrib/114159316052804724452/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgjQ26wfv2lxXBDXu33F8OXq5C1OEbs5k-B48fH=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "We love going out. Yesterday we arrived in this magnificent place which we didn’t know before. We enjoyed a beautiful experience there with very good meal and a well-trained team and a distinguished  chef. We  added this restaurant in our phone list  and we will no doubt return very soon. We highly recommend.",
+          "time": 1601132621
+        },
+        {
+          "author_name": "Simon Watermann",
+          "author_url": "https://www.google.com/maps/contrib/117048684537190470392/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-JnxABo5g6MQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclCullsKG81QPJvz6vD_d74vgjelw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 weeks ago",
+          "text": "It’s just sooo good!!! Charming, entertaining and goood home cooked Greek food!",
+          "time": 1616224657
+        },
+        {
+          "author_name": "Alidz Alexandrian",
+          "author_url": "https://www.google.com/maps/contrib/104146541129978923751/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjeV_gg3EQAwndaR61CBxwjE88eap40D5q650Q01g=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "7 months ago",
+          "text": "As a former fine dining Restaurant owner, I must say that my experience from the start to the end was perfect. Ordering online was very easy, picking up the food was very accommodating and as for the food, it was impeccable. My guests words were, the food was to die for. Well done guys, I know it has not been easy with all what going on but you are doing a great job.",
+          "time": 1598113178
+        },
+        {
+          "author_name": "Brian Tillman",
+          "author_url": "https://www.google.com/maps/contrib/102651086251890353981/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgAVRnSIufQWEMoT1jYdZqB_bxsxyqQO1ZQQMcw=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "4 months ago",
+          "text": "This restaurant is my first choice restaurant.  Of all restaurants I know I prefere it most. I always suggests to my friends to go to visit this restaurant. Whenever  I feel like having a fair supper, this restaurant comes right away to my head. superb and all sorts of  food and a large list of dishes.courteous staff members, and nice mood. Also important, the expence is reasonable. I tell about this place with no doubt.",
+          "time": 1604940002
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=7866615767987080010",
+      "user_ratings_total": 101,
+      "utc_offset": -240,
+      "vicinity": "95 School Street, Bridgehampton",
+      "website": "https://www.elaiaestiatorio.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
