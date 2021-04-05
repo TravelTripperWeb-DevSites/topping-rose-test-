@@ -1,0 +1,434 @@
+{
+  "order": 17,
+  "name": "Tutto il Giorno Sag",
+  "category": [
+    "attractions_categories-2021-03-11-151832-dining-39438-309"
+  ],
+  "location": {
+    "name": "Tutto il Giorno Sag",
+    "address": "16 Main St, Sag Harbor, NY 11963, USA",
+    "phone": "(631) 919-5353",
+    "place_id": "ChIJDUs8HSW96IkRhJ7AQ9cy4Io",
+    "reference": "ChIJDUs8HSW96IkRhJ7AQ9cy4Io",
+    "latitude": 41.00187529999999,
+    "longitude": -72.2960772,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "16",
+          "short_name": "16",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Main Street",
+          "short_name": "Main St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sag Harbor",
+          "short_name": "Sag Harbor",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11963",
+          "short_name": "11963",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">16 Main St</span>, <span class=\"locality\">Sag Harbor</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11963</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16 Main St, Sag Harbor, NY 11963, USA",
+      "formatted_phone_number": "(631) 919-5353",
+      "geometry": {
+        "location": {
+          "lat": 41.00187529999999,
+          "lng": -72.2960772
+        },
+        "viewport": {
+          "south": 41.00056576970849,
+          "west": -72.2972918302915,
+          "north": 41.00326373029149,
+          "east": -72.29459386970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "international_phone_number": "+1 631-919-5353",
+      "name": "Tutto il Giorno Sag",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1500",
+              "hours": 15,
+              "minutes": 0,
+              "nextDate": 1618167600000
+            },
+            "open": {
+              "day": 0,
+              "time": "1200",
+              "hours": 12,
+              "minutes": 0,
+              "nextDate": 1618156800000
+            }
+          },
+          {
+            "close": {
+              "day": 0,
+              "time": "2130",
+              "hours": 21,
+              "minutes": 30,
+              "nextDate": 1618191000000
+            },
+            "open": {
+              "day": 0,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618174800000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "1500",
+              "hours": 15,
+              "minutes": 0,
+              "nextDate": 1617649200000
+            },
+            "open": {
+              "day": 1,
+              "time": "1200",
+              "hours": 12,
+              "minutes": 0,
+              "nextDate": 1617638400000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2130",
+              "hours": 21,
+              "minutes": 30,
+              "nextDate": 1617672600000
+            },
+            "open": {
+              "day": 1,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617656400000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2130",
+              "hours": 21,
+              "minutes": 30,
+              "nextDate": 1617759000000
+            },
+            "open": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617742800000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1500",
+              "hours": 15,
+              "minutes": 0,
+              "nextDate": 1617908400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1200",
+              "hours": 12,
+              "minutes": 0,
+              "nextDate": 1617897600000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2130",
+              "hours": 21,
+              "minutes": 30,
+              "nextDate": 1617931800000
+            },
+            "open": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617915600000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "1500",
+              "hours": 15,
+              "minutes": 0,
+              "nextDate": 1617994800000
+            },
+            "open": {
+              "day": 5,
+              "time": "1200",
+              "hours": 12,
+              "minutes": 0,
+              "nextDate": 1617984000000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618020000000
+            },
+            "open": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618002000000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "1500",
+              "hours": 15,
+              "minutes": 0,
+              "nextDate": 1618081200000
+            },
+            "open": {
+              "day": 6,
+              "time": "1200",
+              "hours": 12,
+              "minutes": 0,
+              "nextDate": 1618070400000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618106400000
+            },
+            "open": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1618088400000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 12:00 – 3:00 pm, 5:00 – 9:30 pm",
+          "Tuesday: 5:00 – 9:30 pm",
+          "Wednesday: Closed",
+          "Thursday: 12:00 – 3:00 pm, 5:00 – 9:30 pm",
+          "Friday: 12:00 – 3:00 pm, 5:00 – 10:00 pm",
+          "Saturday: 12:00 – 3:00 pm, 5:00 – 10:00 pm",
+          "Sunday: 12:00 – 3:00 pm, 5:00 – 9:30 pm"
+        ]
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 6000
+        },
+        {
+          "height": 1152,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 2049
+        },
+        {
+          "height": 956,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 1275
+        },
+        {
+          "height": 3841,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 5761
+        },
+        {
+          "height": 1234,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 1668
+        },
+        {
+          "height": 427,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 640
+        },
+        {
+          "height": 480,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116843448283670543158\">Tutto il Giorno Sag</a>"
+          ],
+          "width": 540
+        },
+        {
+          "height": 1024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111976859548500741191\">Jaja Nwokeabia</a>"
+          ],
+          "width": 764
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113131513033494928428\">Cristina Lungu</a>"
+          ],
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJDUs8HSW96IkRhJ7AQ9cy4Io",
+      "plus_code": {
+        "compound_code": "2P23+QH Sag Harbor, NY, USA",
+        "global_code": "87H92P23+QH"
+      },
+      "rating": 4.3,
+      "reference": "ChIJDUs8HSW96IkRhJ7AQ9cy4Io",
+      "reviews": [
+        {
+          "author_name": "Christina Perinhas",
+          "author_url": "https://www.google.com/maps/contrib/101787627557745504331/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-iRHmKhBPcwE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4wZRaTboMYw0PGTKadViMijbbzA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 3,
+          "relative_time_description": "a week ago",
+          "text": "If only the food & service were as wonderful as the decor. For a famous restaurant & being in the Hamptons the food was simply ok. Nothing special. The salad was plain w/ only four small buts. The eggplant was tough. The rigatoni hardly had any meat sauce. Finally, the fettuccine was very salty.",
+          "time": 1616852810
+        },
+        {
+          "author_name": "Daisy Kelly",
+          "author_url": "https://www.google.com/maps/contrib/100973278252175543650/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GisLKciGLTXux_lglqXlC1k9KOMk7IzFQh1ZudegQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Fantastic experience.\n\nI went to tutto last in the smaller Sag location years ago and this new location is chic, cozy, and intimate even with the expanded space. I LOVE how they’ve decorated it.\n\nFood was amazing. Got the burrata to start and the rigatoni. Cocktails great. Service lovely. Can’t wait to go again.",
+          "time": 1614518563
+        },
+        {
+          "author_name": "Borris Channiel",
+          "author_url": "https://www.google.com/maps/contrib/109971261973163449243/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-Kl51uGC6Y1w/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclgm0O5uFjR9koltSMGoCzUcUKSGQ/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Finest food, very nice staff, always good vibes. They charge fair prices and the food quality is awesome. Keep it up.",
+          "time": 1612985091
+        },
+        {
+          "author_name": "Satish Maharaj",
+          "author_url": "https://www.google.com/maps/contrib/108157319006923497424/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjnT4dndM3WCtoPfPaSIMQDkd6UckZDxYqLxBE1ljo=s128-c0x00000000-cc-rp-mo-ba5",
+          "rating": 5,
+          "relative_time_description": "3 months ago",
+          "text": "The service , the food, the ambiance was nothing short of perfect. We ordered a few things well and shared them and the food was so good.. the desert was amazing as well. Our server was always close by , ready helpfull and with a smile and was never lacking anything. Great experience",
+          "time": 1607265852
+        },
+        {
+          "author_name": "Patrick Williams",
+          "author_url": "https://www.google.com/maps/contrib/117352193977956536628/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgqYwsSP1ZmUoeykdAoFoxOqzEO77kMZnl7gqZmwaA=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Always a joy. Cocktails among Urban Zen furniture. Cool spot.",
+          "time": 1617198393
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=10007054272153296516",
+      "user_ratings_total": 151,
+      "utc_offset": -240,
+      "vicinity": "16 Main Street, Sag Harbor",
+      "website": "http://www.tuttoilgiorno.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

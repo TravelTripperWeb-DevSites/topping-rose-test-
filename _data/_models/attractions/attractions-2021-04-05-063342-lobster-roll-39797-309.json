@@ -1,0 +1,245 @@
+{
+  "order": 26,
+  "name": "Lobster Roll",
+  "category": [
+    "attractions_categories-2021-03-11-151832-dining-39438-309"
+  ],
+  "location": {
+    "name": "Lobster Roll aka LUNCH",
+    "address": "1980 Montauk Hwy, Amagansett, NY 11930, USA",
+    "phone": "(631) 267-3740",
+    "place_id": "ChIJQUcL2Tau6IkR6i135p0tVNo",
+    "reference": "ChIJQUcL2Tau6IkR6i135p0tVNo",
+    "latitude": 40.9972588,
+    "longitude": -72.0471527,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1980",
+          "short_name": "1980",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Montauk Highway",
+          "short_name": "Montauk Hwy",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Amagansett",
+          "short_name": "Amagansett",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "East Hampton",
+          "short_name": "East Hampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11930",
+          "short_name": "11930",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1980 Montauk Hwy</span>, <span class=\"locality\">Amagansett</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11930</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "CLOSED_TEMPORARILY",
+      "formatted_address": "1980 Montauk Hwy, Amagansett, NY 11930, USA",
+      "formatted_phone_number": "(631) 267-3740",
+      "geometry": {
+        "location": {
+          "lat": 40.9972588,
+          "lng": -72.0471527
+        },
+        "viewport": {
+          "south": 40.9957941197085,
+          "west": -72.04848018029152,
+          "north": 40.9984920802915,
+          "east": -72.0457822197085
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "international_phone_number": "+1 631-267-3740",
+      "name": "Lobster Roll aka LUNCH",
+      "permanently_closed": true,
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111139605921648680928\">Joel Jones</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104108855258395282516\">Malosia L</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116209063704714759094\">Darnell Wilson</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116711834672264088704\">excaptpete</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 720,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113348867195481841590\">N N</a>"
+          ],
+          "width": 960
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104108855258395282516\">Malosia L</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112068954321418387997\">Kundan Sen</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3366,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104248779036209693599\">Clara Yu</a>"
+          ],
+          "width": 4488
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112266552543411382678\">Paul Coates</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110039745939542329146\">Donna Bryant</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJQUcL2Tau6IkR6i135p0tVNo",
+      "plus_code": {
+        "compound_code": "XXW3+W4 Amagansett, NY, USA",
+        "global_code": "87G9XXW3+W4"
+      },
+      "rating": 4.4,
+      "reference": "ChIJQUcL2Tau6IkR6i135p0tVNo",
+      "reviews": [
+        {
+          "author_name": "Jerry Kim",
+          "author_url": "https://www.google.com/maps/contrib/109874057483799322092/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-6gljOTvqcik/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmIaOYaEDQcsZolUr3Cg5ara7Y3_g/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "7 months ago",
+          "text": "Just counting on.Whenever u r\nIn Montauk.",
+          "time": 1599419255
+        },
+        {
+          "author_name": "Magnus Monroe",
+          "author_url": "https://www.google.com/maps/contrib/100978575173893670224/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgAZ3FIxuokvlqaVlfaEklFBkd1wwSlHNMq-GMi=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "2 months ago",
+          "text": "Exceptional food, nice staff members, consistently good character. They charge fair prices and the food quality is excellent. Fantastic work.",
+          "time": 1610469390
+        },
+        {
+          "author_name": "Chia-Yi Cheng",
+          "author_url": "https://www.google.com/maps/contrib/115956320891630101256/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-NM0L9idO6a4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucncDjMoSuNdOVkow1oEppwxbx5_Eg/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "7 months ago",
+          "text": "A very popular roadside seafood place as evidenced by 3 phone lines just to take the order! Highly recommend to order ahead of time. The staff was very friendly considering how busy they are. The lobster roll is not bad yet less memorable among the ones I have tried in this area. The New England clam chowder has clean background thus the clam flavor really stood out. The fruit pie was delicious and really made a sweet ending. The gluten free options was also impressive.",
+          "time": 1597194885
+        },
+        {
+          "author_name": "steve jeter",
+          "author_url": "https://www.google.com/maps/contrib/117017658430576479509/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Gj-CCeMI4XnEhTPzzQxbBrVIibIms46Cw3C0yjPsg=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "Absolutely loved this place. I stopped by for lunch with a coworker after a quick job out on the beach. We both had the hot lobster rolls, and i had a side of fries. The price is decent at 29-30, but it is totally worth it. The lobster is so tender and juicy and very fresh. The rolls are soft and hold up just enough. To top it off they give you melted butter to take it over the top.",
+          "time": 1600472433
+        },
+        {
+          "author_name": "Matt",
+          "author_url": "https://www.google.com/maps/contrib/104010488574381941859/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Gjz0alHIi4gl-YNTED21b_Oqc33OU0Ys8Fl2MlEFoU=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "The cold lobster roll was delicious. Very meaty and worth it.\n\nI got the popcorn shrimp platter also and that was really good also. It comes with a soup and fries. Well worth it.\n\nCalamari was good also. It only had rings, could’ve used some tentacles.",
+          "time": 1600100593
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=15732249554511670762",
+      "user_ratings_total": 922,
+      "utc_offset": -240,
+      "vicinity": "1980 Montauk Highway, Amagansett",
+      "website": "http://lobsterroll.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}
