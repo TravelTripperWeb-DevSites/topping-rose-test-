@@ -575,9 +575,13 @@ html {
 .inner-banner {
   position: relative;
   max-width: 1224px;
-  height: 320px;
+  height: 180px;
   margin: 0 auto;
   padding: 0;
+
+  @include media-breakpoint-up(sm) {
+    height: 320px;
+  }
 
   @include media-breakpoint-up(md) {
     // height: 767px;
@@ -601,8 +605,12 @@ html {
 
   &__slider {
     &__item {
-      height: 320px;
+      height: 180px;
       line-height: 0;
+
+      @include media-breakpoint-up(sm) {
+        height: 320px;
+      }
 
       @include media-breakpoint-up(md) {
         height: 528px;
