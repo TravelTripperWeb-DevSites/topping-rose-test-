@@ -32,6 +32,18 @@ label: Dine
         <p>Jean-Georges at Topping Rose House is a casually elegant restaurant that celebrates the seasons, presenting farm-to-table cuisine using ingredients grown on the property's one acre farm and sourced from the area's reputable fishermen and farmers. Open year-round for breakfast, lunch and dinner, Jean-Georges at Topping Rose House offers sensible fare paired with a contemporary Hamptons vibe, making it a welcoming restaurant for all ages, whether you’re looking to enjoy a simple bite or a polished dinner.</p>
         <a href="/dine/jean-georges/" class="primary-cta">Learn More</a>
         {% endregionblock %}
+        <div id="p_lt_zonePlaceHolder_pageplaceholder_pageplaceholder_lt_zoneBookNowButton_usercontrolAlternativeWidget_userControlElem_pnlResyWidget" class="resywidget-panel">
+
+          <script src="https://widgets.resy.com/embed.js"></script>
+
+          <a href="javascript:void(0);" class="primary-cta" onclick="openResy()">Book a table</a>
+
+          <script>
+            function openResy() {
+              resyWidget.openModal({ "venueId": 208, "apiKey": "rJ3XCgeo2f29jMafqRaAYIkkyk4ciYFN", "replace": true });
+            }
+          </script>
+        </div>
       </div>
     </div>
   </div>

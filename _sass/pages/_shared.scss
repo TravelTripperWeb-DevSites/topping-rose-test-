@@ -314,7 +314,7 @@ html {
         letter-spacing: .7px;
       }
 
-      a {
+      a:not(.primary-cta) {
         color: $primary;
 
         &:hover {
