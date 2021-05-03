@@ -1,7 +1,7 @@
 {
   "event_start_date": "2021-06-10T00:00:00.000Z",
   "name": "Jane and Alex's Wedding",
-  "short_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+  "short_description": "",
   "image": {
     "name": "iStock-1286138096",
     "content_type": "image/jpeg",
