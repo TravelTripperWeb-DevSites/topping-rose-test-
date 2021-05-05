@@ -1,0 +1,116 @@
+{
+  "order": 14,
+  "name": "Wainscott",
+  "category": [
+    "attractions_categories-2021-03-30-083647-neighborhood-39797-309"
+  ],
+  "location": {
+    "name": "Wainscott",
+    "address": "Wainscott, NY, USA",
+    "place_id": "ChIJ3-3KGA-86IkRPN3x5aQHltY",
+    "reference": "ChIJ3-3KGA-86IkRPN3x5aQHltY",
+    "latitude": 40.9367664,
+    "longitude": -72.2428587,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Wainscott",
+          "short_name": "Wainscott",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "East Hampton",
+          "short_name": "East Hampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Wainscott</span>, <span class=\"region\">NY</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Wainscott, NY, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.9367664,
+          "lng": -72.2428587
+        },
+        "viewport": {
+          "south": 40.92366805616536,
+          "west": -72.2851878832892,
+          "north": 40.99304305572672,
+          "east": -72.22213807110009
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Wainscott",
+      "photos": [
+        {
+          "height": 1836,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110038758962612899694\">David Singh</a>"
+          ],
+          "width": 3264
+        },
+        {
+          "height": 800,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112824210688631611514\">Tripoli Gallery</a>"
+          ],
+          "width": 1200
+        },
+        {
+          "height": 1587,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109906168270804911981\">Rockford Jennifer</a>"
+          ],
+          "width": 2116
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116076340094622060510\">El-unico Josué Flores</a>"
+          ],
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJ3-3KGA-86IkRPN3x5aQHltY",
+      "reference": "ChIJ3-3KGA-86IkRPN3x5aQHltY",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "url": "https://maps.google.com/?q=Wainscott,+NY,+USA&ftid=0x89e8bc0f18caeddf:0xd69607a4e5f1dd3c",
+      "utc_offset": -240,
+      "vicinity": "Wainscott",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

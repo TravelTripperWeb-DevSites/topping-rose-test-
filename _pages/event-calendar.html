@@ -1,0 +1,40 @@
+---
+layout: default
+title_localized:
+  en: Upcoming Events | Topping Rose House in Bridgehampton
+meta_description_localized:
+  en: You’re invited to sophisticated soirees and poolside lounging at our upcoming events at Topping Rose in Bridgehampton. Learn about our events and book a stay.
+permalink_localized:
+  en: "/experience/event-calendar/"
+  es:
+meta_tags:
+  robots:
+published_localized:
+  en: true
+---
+
+{% region inner_hero, type:hero %}
+
+<section class="common-cards">
+  <div class="common-cards__row">
+    {% assign items = site.data._models.event_calendar | sort: 'event_start_date' %}
+    {% for item in items %}
+    <div class="common-cards__item">
+      <div class="common-cards__item__inner no-after">
+        <div class="common-cards__image">
+          <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+        </div>
+        <div class="common-cards__content common-overlay">
+          <div class="common-overlay__content">
+            <p class="h3">{{ item.event_start_date | date: '%b. %d, %Y' }}</p>
+            <h3 class="h2 light" tabindex="0">{{ item.name }}</h3>
+            <div class="common-overlay__content__description">
+              {{ item.short_description }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

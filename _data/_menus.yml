@@ -1,29 +1,93 @@
+---
 main:
   depth: 2
   name: Top Menu
   items:
-    - page_id: index.html
-    - page_id: _pages/about.html
-    - page_id: _pages/rooms.html
-    - page_id: _pages/offers.html
-    - page_id: _pages/gallery.html
-    - page_id: _pages/contact.html
-    - page_id: _pages/attractions.html
-    # - url_localized:
-    #     en: https://www.google.com
-    #     es: https://www.google.es
-    #   label_localized:
-    #     en: g-US
-    #     es: g-ES
-    #   target: _NEW
-    # - label_localized:
-    #     en: Group
-    #     es: Group (ES)
-    #   folder: true
-    #   items:
-    #     - page_id: _pages/about.html
-    #     - url: /test/
-    #       label_localized:
-    #         en: Test
-    #         es: Prueba
-    
+  - folder: true
+    target: ''
+    page_id: _pages/stay.html
+    label_localized:
+      en: Stay
+    items:
+      - url: "/plan-your-stay/"
+        label: Plan your stay
+  - folder: false
+    target: ''
+    page_id: _pages/dine.html
+    label_localized:
+      en: Dine
+    items:
+  - folder: true
+    target: ''
+    page_id: _pages/experience.html
+    label_localized:
+      en: Experience
+    items:
+      - url: "/experience/wellness/"
+        label: Wellness
+        items:
+      - url: "/experience/things-to-do/"
+        label: Things to do
+        items:
+  - folder: true
+    target: ''
+    page_id: _pages/gather.html
+    label_localized:
+      en: Gather
+    items:
+    - url: "/gather/weddings/"
+      label: Weddings
+      items:
+    - url: "/gather/meetings/"
+      label: Meetings
+      items:
+    - url: "/gather/special-events/"
+      label: Special Events
+      items:
+    - url: "/gather/event-spaces/"
+      label: Event Spaces
+      items:
+  # - folder: false
+  #   target: ''
+  #   page_id: _pages/reside.html
+  #   url_localized:
+  #     en: "/reside/"
+  #   label_localized:
+  #     en: Reside
+  #   items:
+footer:
+  depth: 2
+  name: Footer Menu
+  items:
+  - folder: false
+    target: ''
+    page_id: _pages/press.html
+    label_localized:
+      en: Press
+    url_localized:
+      en: "/press/"
+    items:
+  - folder: false
+    target: ''
+    page_id: _pages/sitemap.html
+    label_localized:
+      en: Sitemap
+    url_localized:
+      en: "/sitemap/"
+    items:
+  - folder: false
+    target: ''
+    page_id: _pages/privacy.html
+    label_localized:
+      en: Privacy Policy
+    url_localized:
+      en: "/privacy/"
+    items:
+  - folder: false
+    target: ''
+    page_id: _pages/accessibility.html
+    label_localized:
+      en: Accessibility
+    url_localized:
+      en: "/accessibility/"
+    items:

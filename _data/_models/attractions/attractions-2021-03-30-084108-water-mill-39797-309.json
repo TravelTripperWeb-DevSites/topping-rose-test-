@@ -1,0 +1,158 @@
+{
+  "order": 16,
+  "name": "Water Mill",
+  "category": [
+    "attractions_categories-2021-03-30-083647-neighborhood-39797-309"
+  ],
+  "location": {
+    "name": "Water Mill",
+    "address": "Water Mill, NY, USA",
+    "place_id": "ChIJnxDafB2-6IkR5Ozkoiw-msU",
+    "reference": "ChIJnxDafB2-6IkR5Ozkoiw-msU",
+    "latitude": 40.9178346,
+    "longitude": -72.3478839,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "Water Mill",
+          "short_name": "Water Mill",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"locality\">Water Mill</span>, <span class=\"region\">NY</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "Water Mill, NY, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.9178346,
+          "lng": -72.3478839
+        },
+        "viewport": {
+          "south": 40.88270684043679,
+          "west": -72.38621235136628,
+          "north": 40.96975593636827,
+          "east": -72.31655299138288
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "name": "Water Mill",
+      "photos": [
+        {
+          "height": 2096,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102028245749859011107\">Daniel Fernando Blanco Restrepo</a>"
+          ],
+          "width": 3724
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113291347096773021963\">Andrew Siden</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 8400,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117229559576865667887\">Our Tripy Life</a>"
+          ],
+          "width": 5604
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101304023094168756077\">thaleypa</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4160,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102431062692344384977\">Felipa Ruiz</a>"
+          ],
+          "width": 2340
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101963119718625029374\">Richard Gates</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108722389280943513348\">Melissa Rabbe</a>"
+          ],
+          "width": 2268
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102028245749859011107\">Daniel Fernando Blanco Restrepo</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113057541084105690633\">Roberta Guzman</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117404340775308587679\">Lee Draper</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJnxDafB2-6IkR5Ozkoiw-msU",
+      "reference": "ChIJnxDafB2-6IkR5Ozkoiw-msU",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "url": "https://maps.google.com/?q=Water+Mill,+NY,+USA&ftid=0x89e8be1d7cda109f:0xc59a3e2ca2e4ece4",
+      "utc_offset": -240,
+      "vicinity": "Water Mill",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

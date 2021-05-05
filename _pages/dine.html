@@ -1,0 +1,80 @@
+---
+layout: default
+title_localized:
+  en: Jean-Georges at Topping Rose House | Hamptons Restaurant
+meta_description_localized:
+  en: Jean-Georges at Topping Rose is the restaurant and bar within Topping Rose House serving seasonal farm to table dishes from local providers. Reserve today.
+permalink_localized:
+  en: "/dine/"
+  es:
+meta_tags:
+  robots:
+published_localized:
+  en: true
+label: Dine
+---
+
+{% region inner_hero, type:hero %}
+
+<div class="alternate-listing">
+  <div class="alternate-listing__row">
+    <div class="alternate-listing__image">
+      {% regionblock two_col_img_1, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+      {% endregionblock %}
+    </div>
+    <div class="alternate-listing__content">
+      {% regionblock two_col_title_1, type: header %}
+      <h2 class="h2 text-center">JEAN-GEORGES</h2>
+      {% endregionblock %}
+      <div class="text-center">
+        {% regionblock two_col_description_1, type: text %}
+        <p>Jean-Georges at Topping Rose House is a casually elegant restaurant that celebrates the seasons, presenting farm-to-table cuisine using ingredients grown on the property's one acre farm and sourced from the area's reputable fishermen and farmers. Open year-round for breakfast, lunch and dinner, Jean-Georges at Topping Rose House offers sensible fare paired with a contemporary Hamptons vibe, making it a welcoming restaurant for all ages, whether you’re looking to enjoy a simple bite or a polished dinner.</p>
+        <a href="/dine/jean-georges/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+        <div id="p_lt_zonePlaceHolder_pageplaceholder_pageplaceholder_lt_zoneBookNowButton_usercontrolAlternativeWidget_userControlElem_pnlResyWidget" class="resywidget-panel">
+
+          <script src="https://widgets.resy.com/embed.js"></script>
+
+          <a href="javascript:void(0);" class="primary-cta" onclick="openResy()">Book a table</a>
+
+          <script>
+            function openResy() {
+              resyWidget.openModal({ "venueId": 208, "apiKey": "rJ3XCgeo2f29jMafqRaAYIkkyk4ciYFN", "replace": true });
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="alternate-listing__row">
+    <div class="alternate-listing__image">
+      <div class="common-slider">
+        {% assign slideImages = site.data._models.bar_lounge_slider | sort: 'order' %}
+        {% for slideImage in slideImages limit: 1 %}
+          {% for slide in slideImage.slider_image %}
+          <div class="common-slider__item">
+            <img src="{{ slide.url_xlarge }}" alt="{{ slide.name }}">
+          </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="alternate-listing__content">
+      {% regionblock two_col_title_2, type: header %}
+      <h2 class="h2 text-center">Bar & Lounge</h2>
+      {% endregionblock %}
+      <div class="text-center">
+        {% regionblock two_col_description_2, type: text %}
+        <p>Stocked with top shelf spirits, local herbs and produce, our bar and lounge is the perfect place to begin or end your evening. Relax in the sensual lighting as you enjoy a seasonal blend mixed up by our expert mixologists, or take a glass of Topping Rose Rosé outdoors to drink up the fresh air. The Topping Rose Bar & Lounge is also available for semi-private events and meetings. We look forward to serving you.</p>
+        <p>Bar and Lounge also available for Semi-Private Events & Meetings
+        Email: <a href="mailto:trhevents@toppingrosehouse.com">trhevents@toppingrosehouse.com</a></p>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="common-accessibility">
+  <p>Jean-Georges Restaurant at Topping Rose is accessible. For more information on accessibility, please view our <br><a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

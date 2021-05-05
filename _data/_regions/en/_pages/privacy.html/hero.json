@@ -1,0 +1,12 @@
+[
+  {
+    "advanced_options": {
+      "custom_classes": "staticpage-hero"
+    },
+    "_template": "hero",
+    "hero_title": {
+      "content": "Privacy Policy",
+      "_template": "header"
+    }
+  }
+]

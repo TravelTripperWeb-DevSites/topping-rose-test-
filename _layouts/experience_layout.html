@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% assign item = page.data %}
+
+<section class="hero inner-hero">
+  <div class="hero__body">
+    <h1 class="h6">Topping Rose House Property Highlights</h1>
+    <h2 class="h1">LINGER. RELAX. UNWIND. REFRESH. AWAKEN. ESCAPE.</h2>
+  </div>
+</section>
+
+<div class="inner-banner">
+  <div class="inner-banner__slider">
+    {% assign slides = item.banner_image %}
+    {% for slide in slides %}
+    <div class="inner-banner__slider__item">
+      <img src="{{ slide.url_xlarge }}" alt="{{ slide.alt }}">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<section class="common-details">
+  <div class="common-details__inner">
+    <h1 class="h2" tabindex="0">{{ item.name }}</h1>
+    <div class="common-details__description" tabindex="0">
+      {{ item.description }}
+    </div>
+
+  </div>
+</section>
+
+<div class="modal-popup">
+  <div class="modal-popup__inner">
+    <a href="javascript:void;" class="close-btn" id="modalPopupCloseBtn">X</a>
+    <h4 class="h2">Wellness Schedule</h4>
+    <script src="https://widgets.mindbodyonline.com/javascripts/healcode.js" type="text/javascript"></script>
+    <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="7f1544737e9b" data-widget-version="1" ></healcode-widget>
+  </div>
+</div>
+
+{% if item.url_friendly_name == "wellness" %}
+<div class="common-listing sec-divider mt-4">
+  <div class="common-listing__block"></div>
+  <div class="common-listing__block mt-4 mt-md-5">
+    <div class="common-listing__block__img short-image objectfit-bottom">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615913696/utmmaes54lcty07ywmsh.jpg" alt="Yoga">
+    </div>
+    <div class="common-listing__block__content text-center">
+      <h6 class="h2" tabindex="0">Fitness Classes</h6>
+      <div tabindex="0">
+        <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.</p>-->
+        <a href="/experience/fitness/" class="primary-cta mb-2">Explore</a><br/>
+        <a href="javascript:void;" class="primary-cta" id="modalPopupBtn">Wellness Schedule</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

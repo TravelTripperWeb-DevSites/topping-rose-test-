@@ -1,24 +1,254 @@
 ---
+body_class: home
 layout: home
-title_localized: 
-  en: Home
-meta_description:
+title_localized:
+  en: Topping Rose House | Full-Service Luxury Stays in the Hamptons
+meta_description: The only full-service luxury hotel in the Hamptons, Topping Rose is a renovated 19th century mansion with contemporary accommodations. Stay in luxury with us.
 permalink:
 meta_tags:
   robots:
+published_localized:
+  en: true
+  es: true
+permalink_localized:
+  en: "/"
+meta_description_localized:
+  en: The only full-service luxury hotel in the Hamptons, Topping Rose is a renovated 19th century mansion with contemporary accommodations. Stay in luxury with us.
+label: Home
+
 ---
 
-{% comment %}
-Example for using CMS to specify featured offer items by code. Use this component but pass in an offer_codes list (in a comma separated string) that comes from CMS content entry
-{% endcomment %}
-{% include components/offer/specific-featured-list offer_codes="NONREF, BBKG" %}
+{% region hero, type: hero %}
 
-<section class='container'>
-  <div class='row'>
-    <div class='col '>
-      <h3 class="h3">Edit this file</h3>
-      <p>This content is written directly into the index.html home page. You should replace it with editable regions and/or standard components</p>
+<section class="intro">
+  {% regionblock intro_title, type: header %}
+  <h1 class="h1">Welcome to Topping Rose House</h1>
+  {% endregionblock %}
+  {% regionblock intro_tagline, type: header %}
+  <h2 class="h4">A LUXURY EXPERIENCE IN THE HEART OF THE HAMPTONS</h2>
+  {% endregionblock %}
+  {% regionblock intro_content, type: header %}
+  <p>The only full-service luxury hotel in the Hamptons, Topping Rose is a renovated 19th century mansion and estate where traditional architecture, contemporary design and modern comforts come together in perfect harmony. We celebrate the spirit of this legendary part of Long Island with spacious rooms and suites, a restaurant by Jean-Georges, pool, Spa, and luxury cars to shuttle you around town and to the area’s magnificent beaches. Topping Rose House is a proud member of the Small Luxury Hotels of the World.</p>
+  {% endregionblock %}
+</section>
+
+<section class="three-col-block">
+  <div class="three-col-block__container">
+    <div class="three-col-block__col">
+      <div class="image">
+        <a href="/stay/">
+        {% regionblock three_col_img_1, type: image %}
+          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235199/uc6eh4zaifc3qgdxomxs.jpg" alt="golf">
+        {% endregionblock %}
+        </a>
+      </div>
+
+      <div class="heading">
+      {% regionblock three_col_title_1, type: header %}
+      <h3 class="special-heading"><a href="/stay/">Stay with Us</a></h3>
+      {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_1, type: text %}
+          <p>Luxurious, airy and modern. Topping Rose offers 16 spacious guest rooms and 6 magnificent one-bedroom suites blending historic charm with contemporary comforts. All feature Frette linens, bath towels by Matouk, bathrobes by Chadsworth & Haig, and bath amenities by Farmaesthetics.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_1, type: header %}
+        <a href="/stay/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+
+    <div class="three-col-block__col mb-0">
+      <div class="image">
+        <a href="/dine/">
+          {% regionblock three_col_img_2, type: image %}
+            <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235198/nd3b3pna9mfuep0ebuec.jpg" alt="golf">
+          {% endregionblock %}
+        </a>
+      </div>
+
+      <div class="heading">
+        {% regionblock three_col_title_2, type: header %}
+        <h3 class="special-heading"><a href="/dine/">Jean-Georges</a></h3>
+        {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_2, type: text %}
+          <p>Open year-round, Jean-Georges at Topping Rose House offers sensible fare paired with a contemporary Hamptons vibe, presenting farm-to-table cuisine using ingredients grown on the property's one acre farm and sourced from the area's fishermen and farmers.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_2, type: header %}
+        <a href="/dine/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+
+    <div class="three-col-block__col mb-0">
+      <div class="image">
+        <a href="/gather/">
+        {% regionblock three_col_img_3, type: image %}
+          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235198/nd3b3pna9mfuep0ebuec.jpg" alt="golf">
+        {% endregionblock %}
+        </a>
+      </div>
+
+      <div class="heading">
+        {% regionblock three_col_title_3, type: header %}
+        <h3 class="special-heading"><a href="/gather/">Gatherings</a></h3>
+        {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_3, type: text %}
+          <p>Private event venues at Topping Rose House provide ideal settings for functions, whether you are hosting a festive dinner, private ceremony or business meeting. Each space is complemented by seasonal menus, creative cocktails and the latest presentation technology.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_3, type: header %}
+        <a href="/gather/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+
+    <div class="three-col-block__col">
+      <div class="image">
+        <a href="/experience/">
+        {% regionblock three_col_img_4, type: image %}
+          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583235198/fauwypevjlwkna0dmfaw.jpg" alt="golf">
+        {% endregionblock %}
+        </a>
+      </div>
+
+      <div class="heading">
+        {% regionblock three_col_title_4, type: header %}
+        <h3 class="special-heading"><a href="/experience/">The Experience</a></h3>
+        {% endregionblock %}
+      </div>
+
+      <div class="content">
+        <div class="content__inner">
+          {% regionblock three_col_description_4, type: text %}
+          <p>A stay at Topping Rose is a uniquely luxurious interlude. From elegant accommodations to events around the heated outdoor pool, indulgent Spa services, creative seasonal cocktails and truly farm-to-table dining at Jean-Georges, each element plays an essential part.</p>
+          {% endregionblock %}
+        </div>
+        {% regionblock three_col_link_4, type: header %}
+        <a href="/experience/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
     </div>
   </div>
 </section>
 
+<section class="twocol-cross-sell">
+  <div class="twocol-cross-sell__row">
+    <div class="twocol-cross-sell__item">
+      <div class="twocol-cross-sell__item__image">
+        {% regionblock twocol_image_1, type:image %}
+        <img src="http://res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1614607790/hneurhtpr25aidlbxkjp.jpg" alt="Topping Rose House">
+        {% endregionblock %}
+      </div>
+      <div class="twocol-cross-sell__item__content">
+        {% regionblock twocol_title_1, type:header %}
+        <p class="h2">Gallery</p>
+        {% endregionblock %}
+        {% regionblock twocol_content_1, type:text %}
+        <p>Historic architecture, modern design, rolling green lawns and sumptuous landscaping. Browse our gallery and get a taste of our luxurious hotel in the heart of the Hamptons, where every angle is a photo opportunity.</p>
+        <a href="/gallery/" class="primary-cta">Explore</a>
+        {% endregionblock %}
+      </div>
+    </div>
+    <div class="twocol-cross-sell__item">
+      <div class="twocol-cross-sell__item__image">
+        {% regionblock twocol_image_2, type:image %}
+        <img src="http://res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1614607789/m45wee4oirkatce4jgyn.jpg" alt="Topping Rose House">
+        {% endregionblock %}
+      </div>
+      <div class="twocol-cross-sell__item__content">
+        {% regionblock twocol_title_2, type:header %}
+        <p class="h2">Press</p>
+        {% endregionblock %}
+        {% regionblock twocol_content_2, type:text %}
+        <p>See the latest news about Topping Rose house, from awards to recognitions, reviews and all the ways our unique luxury Hampton hotel provides you with an experience you won’t find anywhere else.  </p>
+        <a href="/press/" class="primary-cta">View Press</a>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% comment %}
+<section class="two-col-sec home--events" id="eventsCrossSell">
+  <div class="two-col-sec__inner">
+    <div class="two-col-sec__row">
+      <div class="two-col-sec__item">
+        <div class="two-col-sec__item__image">
+          {% regionblock three_col_image1, type: image %}
+          <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1587074283/r3dmtdqktbejvpuqvssj.jpg" alt="Gallery">
+          {% endregionblock %}
+        </div>
+        <div class="two-col-sec__item__content text-center">
+          {% regionblock three_col_heading1, type: text %}
+            <h3 class="h5">Gallery</h3>
+          {% endregionblock %}
+          {% regionblock three_col_text1, type: text %}
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="/gallery/" class="primary-cta">Learn More</a>
+          {% endregionblock %}
+        </div>
+      </div>
+      <div class="two-col-sec__item">
+        <div class="two-col-sec__item__image">
+          {% regionblock three_col_image2, type: image %}
+            <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1583229976/bmuephrzu9yhj4b5rjru.jpg" alt="Press">
+          {% endregionblock %}
+        </div>
+        <div class="two-col-sec__item__content text-center">
+          {% regionblock three_col_heading2, type: text %}
+            <p class="h5">Press</p>
+          {% endregionblock %}
+          {% regionblock three_col_text2, type: text %}
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="/press/" class="primary-cta">Learn More</a>
+          {% endregionblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endcomment %}
+
+<div class="accolades">
+  <div class="accolades__slider">
+    <div class="accolades__item">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614691918/jopdymroykpirdfwe3ps.png" alt="Forbes">
+    </div>
+    <div class="accolades__item">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614691919/gsoamz3ktlphqwjgmkux.png" alt="Forbes">
+    </div>
+    <div class="accolades__item">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614691918/qxxlrhkwvyn5a1m1qk9d.png" alt="Forbes">
+    </div>
+    <div class="accolades__item">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614691919/loo37sji3h73k5mpui4e.png" alt="Forbes">
+    </div>
+    <div class="accolades__item">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614691919/zvdypporipyzsg5sbjms.png" alt="Forbes">
+    </div>
+    <div class="accolades__item">
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614691920/yjgeabhuunshlkxgpezx.png" alt="Forbes">
+    </div>
+  </div>
+  <div class="accolades__controls">
+    <a href="javascript:void(0);" class="arrow iconbtn--left" title="Previous slide"> <i class="fas fa-chevron-left"></i> </a>
+    <a href="javascript:void(0);" class="arrow iconbtn--right" title="Next slide"> <i class="fas fa-chevron-right"></i> </a>
+  </div>
+</div>
+
+<div class="common-accessibility">
+  <p>Topping Rose House welcomes guests of all abilities. Our facilities are compliant with the Department of Justice 2010 ADA Standards for Accessible Design. For more information on accessibility, please see our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

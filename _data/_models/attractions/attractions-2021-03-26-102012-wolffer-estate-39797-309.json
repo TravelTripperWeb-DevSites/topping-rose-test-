@@ -1,0 +1,370 @@
+{
+  "order": 10,
+  "name": "Wölffer Estate",
+  "category": [
+    "attractions_categories-2021-03-26-095052-vineyards-39797-309"
+  ],
+  "location": {
+    "name": "Wölffer Estate Vineyard",
+    "address": "139 Sagg Rd, Sagaponack, NY 11962, USA",
+    "phone": "(631) 537-5106",
+    "place_id": "ChIJr0XZjjO86IkRd-xu9oj2W5Q",
+    "reference": "ChIJr0XZjjO86IkRd-xu9oj2W5Q",
+    "latitude": 40.94502799999999,
+    "longitude": -72.27747,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "139",
+          "short_name": "139",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Sagg Road",
+          "short_name": "Sagg Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sagaponack",
+          "short_name": "Sagaponack",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11962",
+          "short_name": "11962",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">139 Sagg Rd</span>, <span class=\"locality\">Sagaponack</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11962</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "139 Sagg Rd, Sagaponack, NY 11962, USA",
+      "formatted_phone_number": "(631) 537-5106",
+      "geometry": {
+        "location": {
+          "lat": 40.94502799999999,
+          "lng": -72.27747
+        },
+        "viewport": {
+          "south": 40.9435491697085,
+          "west": -72.2796582,
+          "north": 40.9462471302915,
+          "east": -72.27674059999998
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "international_phone_number": "+1 631-537-5106",
+      "name": "Wölffer Estate Vineyard",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2000",
+              "hours": 20,
+              "minutes": 0,
+              "nextDate": 1616976000000
+            },
+            "open": {
+              "day": 0,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616943600000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1617055200000
+            },
+            "open": {
+              "day": 1,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617030000000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1617141600000
+            },
+            "open": {
+              "day": 2,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617116400000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1617228000000
+            },
+            "open": {
+              "day": 3,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617202800000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1617314400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617289200000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2000",
+              "hours": 20,
+              "minutes": 0,
+              "nextDate": 1616803200000
+            },
+            "open": {
+              "day": 5,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616770800000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2000",
+              "hours": 20,
+              "minutes": 0,
+              "nextDate": 1616889600000
+            },
+            "open": {
+              "day": 6,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616857200000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 11:00 am – 6:00 pm",
+          "Tuesday: 11:00 am – 6:00 pm",
+          "Wednesday: 11:00 am – 6:00 pm",
+          "Thursday: 11:00 am – 6:00 pm",
+          "Friday: 11:00 am – 8:00 pm",
+          "Saturday: 11:00 am – 8:00 pm",
+          "Sunday: 11:00 am – 8:00 pm"
+        ]
+      },
+      "photos": [
+        {
+          "height": 1535,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105005876707746211523\">Wölffer Estate Vineyard</a>"
+          ],
+          "width": 2048
+        },
+        {
+          "height": 598,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114199219545463600767\">Erica Swallow</a>"
+          ],
+          "width": 800
+        },
+        {
+          "height": 1080,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100909615162835267278\">Olivia K</a>"
+          ],
+          "width": 1620
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105156562903741976552\">Urszula Paliwoda</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 902,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105005876707746211523\">Wölffer Estate Vineyard</a>"
+          ],
+          "width": 1202
+        },
+        {
+          "height": 467,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112430947980148567191\">Laura Peruchi</a>"
+          ],
+          "width": 700
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112729772878136012659\">Angela N. Belliard Torres</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 800,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105005876707746211523\">Wölffer Estate Vineyard</a>"
+          ],
+          "width": 1202
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113934500653794490883\">Brittany Gaines</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104720463016017320691\">Misha Bluvshteyn</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJr0XZjjO86IkRd-xu9oj2W5Q",
+      "plus_code": {
+        "compound_code": "WPWF+22 Sagaponack, NY, USA",
+        "global_code": "87G9WPWF+22"
+      },
+      "rating": 4.1,
+      "reference": "ChIJr0XZjjO86IkRd-xu9oj2W5Q",
+      "reviews": [
+        {
+          "author_name": "Lindsay Cella",
+          "author_url": "https://www.google.com/maps/contrib/109320903035338101826/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjriEkODbVcBN-7nF5NF69Rrwu3-qQHe3a6c4Q9=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "Wow I absolutely love coming to the wölffer estate! A great experience every time. Huge shout out to Michelle and David, these two were extremely knowledgeable and attentive at our last visit for our tasting experience.",
+          "time": 1613859299
+        },
+        {
+          "author_name": "Dhruv Jaiswal",
+          "author_url": "https://www.google.com/maps/contrib/110971857989929148395/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiUkuTI15xzk3Bl9bkRNiLCLlOkYO4MVuq8O-68tZM=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "It was a great place, with an amazing view and great wine. We spent our new years here and was all the fun we needed.\nIf you're in Hamptons this if the spot you want to be at. This was the cider and vines available there.",
+          "time": 1612004392
+        },
+        {
+          "author_name": "Lauren Grossbach",
+          "author_url": "https://www.google.com/maps/contrib/105960736870858639661/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiaSCyTj6-QMj7CENJnP7GlNXlBW2kkcK48mR1o=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "4 months ago",
+          "text": "I had a wonderful experience here. We did the tour and wine tasting. Kristen, our server, was knowledgeable and personable. Vanessa was dedicated to making sure we had a positive experience. I would definitely come back here!",
+          "time": 1605387541
+        },
+        {
+          "author_name": "Cole von Richthofen",
+          "author_url": "https://www.google.com/maps/contrib/116651953000967953931/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjIMHeSX36UxN9Oi6hAt5QrSYgQFZTLDS67_Ubncg=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 4,
+          "relative_time_description": "in the last week",
+          "text": "I had always seen Wölffer's wines and more recently ciders in stores, but had never tried them before. Beautiful location that looks like an Italian building from the outside. Tried their wines, ciders, and gin, with the gin being my favorite albeit the gin & tonic I got wasn't very strong. The cider was light and dry, and a nice 6.9% ABV which is higher than average.\n\nThe flatbread was good but remember this place is a vineyard first, kitchen second.\n\nI have yet to try their ice wine but they do make it.",
+          "time": 1616335514
+        },
+        {
+          "author_name": "Kenya Bolden",
+          "author_url": "https://www.google.com/maps/contrib/107813647153483231129/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgBKy-MlQscwMgh4fVjR368N9e8RwrJlug2Lk3Z=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "a month ago",
+          "text": "I loved the ambiance and although I’m not the biggest wine lover it was a really nice time.  The hostess explained all the different wines and grapes.",
+          "time": 1612286102
+        }
+      ],
+      "types": [
+        "tourist_attraction",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=10690409208604454007",
+      "user_ratings_total": 304,
+      "utc_offset": -240,
+      "vicinity": "139 Sagg Road, Sagaponack",
+      "website": "http://www.wolffer.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

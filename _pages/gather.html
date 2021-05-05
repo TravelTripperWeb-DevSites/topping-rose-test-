@@ -1,0 +1,55 @@
+---
+layout: default
+title_localized:
+  en: Gather at Topping Rose House | Hamptons Weddings & Events
+meta_description_localized:
+  en: Gather your friends and family at Topping Rose House for an unforgettable event or wedding in the Hamptons. Poolside, rustic barn and more. Schedule with us now.
+permalink_localized:
+  en: "/gather/"
+meta_tags:
+  robots:
+published_localized:
+  en: true
+---
+
+{% region inner_hero, type:hero %}
+
+{% assign items = site.data._models.gather | sort: "order" %}
+<div class="alternate-listing">
+  {% for item in items %}
+  <div class="alternate-listing__row">
+    <div class="alternate-listing__image">
+      {% if item.url_friendly_name == 'event-spaces' %}
+      <div class="common-slider">
+        {% assign slideImages = item.banner_image %}
+        {% for slideImage in slideImages %}
+          <div class="common-slider__item">
+            <img src="{{ slideImage.url_large }}" alt="{{ slideImage.alt }}">
+          </div>
+        {% endfor %}
+        <div class="common-slider__item">
+          <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+        </div>
+      </div>
+      {% else %}
+      <img src="{{ item.image.url_large }}" alt="{{ item.name }}">
+      {% endif %}
+    </div>
+    <div class="alternate-listing__content text-center">
+      <h3 class="h2" tabindex="0">{{ item.name }}</h3>
+      <div tabindex="0">
+        {{ item.short_description }}
+      </div>
+      {% if item.url_friendly_name == "event-spaces" %}
+      <a href="https://toppingrosehouse.tripleseat.com/party_request/5145" class="primary-cta" target="_blank">Request For Proposal</a>
+      {% else %}
+      <a href="/gather/{{ item.url_friendly_name }}/" class="primary-cta">Explore your options</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="common-accessibility">
+  <p>Topping Rose House offers accessible meeting and event spaces. For more information on accessibility, please view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

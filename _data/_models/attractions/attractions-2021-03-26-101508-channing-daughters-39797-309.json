@@ -1,0 +1,370 @@
+{
+  "order": 8,
+  "name": "Channing Daughters",
+  "category": [
+    "attractions_categories-2021-03-26-095052-vineyards-39797-309"
+  ],
+  "location": {
+    "name": "Channing Daughters Winery",
+    "address": "1927 Scuttle Hole Rd, Bridgehampton, NY 11932, USA",
+    "phone": "(631) 537-7224",
+    "place_id": "ChIJr93mrpW96IkRQ1zBcmhGqPQ",
+    "reference": "ChIJr93mrpW96IkRQ1zBcmhGqPQ",
+    "latitude": 40.959536,
+    "longitude": -72.3098529,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "1927",
+          "short_name": "1927",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Scuttle Hole Road",
+          "short_name": "Scuttle Hole Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Bridgehampton",
+          "short_name": "Bridgehampton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11932",
+          "short_name": "11932",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">1927 Scuttle Hole Rd</span>, <span class=\"locality\">Bridgehampton</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11932</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1927 Scuttle Hole Rd, Bridgehampton, NY 11932, USA",
+      "formatted_phone_number": "(631) 537-7224",
+      "geometry": {
+        "location": {
+          "lat": 40.959536,
+          "lng": -72.3098529
+        },
+        "viewport": {
+          "south": 40.9583648197085,
+          "west": -72.3110846302915,
+          "north": 40.96106278029149,
+          "east": -72.3083866697085
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "international_phone_number": "+1 631-537-7224",
+      "name": "Channing Daughters Winery",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1616965200000
+            },
+            "open": {
+              "day": 0,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616943600000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617051600000
+            },
+            "open": {
+              "day": 1,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617030000000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617138000000
+            },
+            "open": {
+              "day": 2,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617116400000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617224400000
+            },
+            "open": {
+              "day": 3,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617202800000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1617310800000
+            },
+            "open": {
+              "day": 4,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617289200000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1616792400000
+            },
+            "open": {
+              "day": 5,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616770800000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "1700",
+              "hours": 17,
+              "minutes": 0,
+              "nextDate": 1616878800000
+            },
+            "open": {
+              "day": 6,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616857200000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 11:00 am – 5:00 pm",
+          "Tuesday: 11:00 am – 5:00 pm",
+          "Wednesday: 11:00 am – 5:00 pm",
+          "Thursday: 11:00 am – 5:00 pm",
+          "Friday: 11:00 am – 5:00 pm",
+          "Saturday: 11:00 am – 5:00 pm",
+          "Sunday: 11:00 am – 5:00 pm"
+        ]
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103455080487483074807\">Devon Maguire</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105679176290013023878\">Misha schmidt</a>"
+          ],
+          "width": 2448
+        },
+        {
+          "height": 2952,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114057689479385147486\">Peter Pappas</a>"
+          ],
+          "width": 5248
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115414130650410264769\">Mary Penny</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1350,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102379389039427422221\">Derek Kinnear</a>"
+          ],
+          "width": 1080
+        },
+        {
+          "height": 3372,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101248297472248654555\">Yekyung Cho</a>"
+          ],
+          "width": 4500
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107227300601576305944\">Alexander Provenza</a>"
+          ],
+          "width": 5312
+        },
+        {
+          "height": 2448,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100574213764777645657\">Joyful Day</a>"
+          ],
+          "width": 3264
+        },
+        {
+          "height": 3264,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106421548616728976075\">Charlie Friedman</a>"
+          ],
+          "width": 2448
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113293139387283745351\">Elnaz E</a>"
+          ],
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJr93mrpW96IkRQ1zBcmhGqPQ",
+      "plus_code": {
+        "compound_code": "XM5R+R3 Bridgehampton, NY, USA",
+        "global_code": "87G9XM5R+R3"
+      },
+      "rating": 4.7,
+      "reference": "ChIJr93mrpW96IkRQ1zBcmhGqPQ",
+      "reviews": [
+        {
+          "author_name": "Erica Moldashel",
+          "author_url": "https://www.google.com/maps/contrib/106883051832924708652/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-lKg6g5xksEU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucl3tKVSVxsfxM-IHm83PCNXn8xz1w/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "The first time I went to Channing Daughters with my family Stacy assisted us. She was so knowledgeable about every wine and went above and beyond to let us try so many different wines. We loved them all and became wine club members. Then we went back a month later and met Anthony and Laura who, once again, made our experience so intimidate and simple. We shared great conversation and laughs and loved all the wines. Channing Daughters has delicious wines with an atmosphere that lacks pretension and is staffed by such kind and knowledgeable people. We will go back time and time again!",
+          "time": 1581287333
+        },
+        {
+          "author_name": "Charlie Friedman",
+          "author_url": "https://www.google.com/maps/contrib/106421548616728976075/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiCiyUOWEToVKR-22bH8v-gWOhR68CugjKeIxEQ-Q=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "Came around noon on a Saturday in off season. Exceptional wine tasting. Anthony was super friendly and knowledgeable, and he hooked us up! Wines and vermouths were solid across the board, and we ended up grabbing a pair to take home with us. One of the best tasting experiences we’ve had. Well worth a stop.",
+          "time": 1583608699
+        },
+        {
+          "author_name": "Elnaz E",
+          "author_url": "https://www.google.com/maps/contrib/113293139387283745351/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GhakfNfS2Nqbck9C80rMTxmAQo2Pd_6a8Za-5UwtA=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "Beautiful place unfortunately they don’t have wine tasting, only buy at the location or preorder #wine #vinyard  #longIsland #NY",
+          "time": 1598722876
+        },
+        {
+          "author_name": "Thomas G",
+          "author_url": "https://www.google.com/maps/contrib/110604100197075994502/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Gj_koSeZJZccQM4sRlCcu2p9DUJV8ZHaH2ai0Ah2Q=s128-c0x00000000-cc-rp-mo-ba2",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "Awesome winery to stop by! A wine flight is a must! There is a sculpture park in the back with some awesome views! Ian was a great wine host with much knowledge of the winerys history and wines!",
+          "time": 1569088447
+        },
+        {
+          "author_name": "Ryan Grzes",
+          "author_url": "https://www.google.com/maps/contrib/103113733931466926805/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-l1fe55izRAI/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmic89m3vj4BAAVcR_ur0tH0RxPkA/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "Great location and great wine! The gentleman helping us with the tasting was very knowledgeable about the wine and had a lot of great stories about the grounds, sculptures, and how everything there came to be! Would go back again for sure!",
+          "time": 1562004719
+        }
+      ],
+      "types": [
+        "tourist_attraction",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=17629418155757624387",
+      "user_ratings_total": 68,
+      "utc_offset": -240,
+      "vicinity": "1927 Scuttle Hole Road, Bridgehampton",
+      "website": "http://www.channingdaughters.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

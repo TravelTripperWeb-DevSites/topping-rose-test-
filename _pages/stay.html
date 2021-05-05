@@ -1,0 +1,85 @@
+---
+layout: default
+sync_room_content: true
+title_localized:
+  en: Stay at Topping Rose House | Historic Rooms in the Hamptons
+meta_description_localized:
+  en: The collection of guestrooms at Topping Rose are the combination of history and updated luxury. Learn more about our accommodations and book a stay today.
+permalink_localized:
+  en: "/stay/"
+meta_tags:
+  robots:
+published_localized:
+  en: true
+---
+
+{% region inner_hero, type:hero %}
+
+<section class="common-tiles mb-4">
+  <div class="common-tiles__row">
+    {% assign items = site.data._models.room_categories | sort: 'order' %}
+    {% for item in items %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
+      </div>
+      <div class="common-tiles__content">
+        <h3 class="h2">{{ item.name }}</h3>
+        <div tabindex="0">
+          {{ item.short_description }}
+        </div>
+        {% assign roomsItems = site.data._models.rooms | sort: 'order' %}
+        {% for roomItem in roomsItems %}
+        {% if roomItem.category.name == item.name %}
+        <a href="/stay/{{ roomItem.url_friendly_name }}/" class="secondary-cta mr-3">Explore {% if item.name != 'Studio' %}{{ roomItem.sub_category }}{% endif %}</a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+<div class="common-listing">
+  <div class="common-listing__block">
+    <div class="common-listing__block__img image-height">
+      {% regionblock two_col_img_1, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+      {% endregionblock %}
+    </div>
+    <div class="common-listing__block__content">
+      {% regionblock two_col_title_1, type: header %}
+      <h3 class="h2">Property Map</h3>
+      {% endregionblock %}
+      <div class="">
+        {% regionblock two_col_description_1, type: text %}
+        <p>We invite you to view our property map to see where accommodations are located. The House has two One-Bedroom Suites, three King Rooms, and two Twin Rooms. Our three Studio King Rooms are located on the second floor with stunning views (just two floors above the Spa). Our four Cottages offer the ultimate luxury experience with private outdoor space, a patio or roofdeck, and easy access to the fitness center below.</p>
+        <a href="/experience/property-map/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+  <div class="common-listing__block">
+    <div class="common-listing__block__img image-height">
+      {% regionblock two_col_img_2, type: image %}
+      <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584426478/jsovsplznbjy09j1xygf.jpg" alt="our-story">
+      {% endregionblock %}
+    </div>
+    <div class="common-listing__block__content">
+      {% regionblock two_col_title_2, type: header %}
+      <h6 class="h2">Plan Your Stay</h6>
+      {% endregionblock %}
+      <div class="">
+        {% regionblock two_col_description_2, type: text %}
+        <p>Find out everything you need to know to plan your stay at Topping Rose, including how to get here, our location in the Hamptons, an area map, FAQs, and more.</p>
+        <a href="/plan-your-stay/" class="primary-cta">Learn More</a>
+        {% endregionblock %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="common-accessibility">
+  <p>Topping Rose’s accommodations are ADA compliant with the Department of Justice 2010 ADA Standards for Accessible Design. Accessible rooms are available. We also invite you to view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

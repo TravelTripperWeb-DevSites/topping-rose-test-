@@ -1,0 +1,18 @@
+{
+  "name": "keswick-hotel",
+  "content_type": "image/jpeg",
+  "date_added": "2020-06-03-134320",
+  "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "width": 2000,
+  "height": 1300,
+  "format": "jpg",
+  "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1591206200/obsqtzcebylcyja9hdio.jpg",
+  "resource_type": "image",
+  "size": 799359
+}

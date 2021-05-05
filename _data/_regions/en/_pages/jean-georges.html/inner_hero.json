@@ -1,0 +1,16 @@
+[
+  {
+    "advanced_options": {
+      "custom_classes": "inner-hero"
+    },
+    "_template": "hero",
+    "hero_title": {
+      "content": "",
+      "_template": "header"
+    },
+    "skip_h1": true,
+    "hero_html": {
+      "content": "<h1 class=\"h6\">Meetings and Event Venues in Bridgehampton, NY</h1>\n<h2 class=\"h1\">CELEBRATE. MINGLE. UNITE.</h2>"
+    }
+  }
+]

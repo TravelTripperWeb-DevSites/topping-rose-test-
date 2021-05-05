@@ -1,0 +1,16 @@
+[
+  {
+    "advanced_options": {
+      "custom_classes": "inner-hero"
+    },
+    "_template": "hero",
+    "hero_title": {
+      "content": "Gather. Regroup. Connect. Celebrate. Mingle.",
+      "_template": "header"
+    },
+    "skip_h1": true,
+    "hero_html": {
+      "content": "<h1 class=\"h2\">Page not found</h1>\n<h2 class=\"h6\">The page you're looking for doesn't exist. Please go through the below sitemap.</h2>"
+    }
+  }
+]

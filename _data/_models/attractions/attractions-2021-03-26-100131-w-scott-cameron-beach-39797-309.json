@@ -1,0 +1,242 @@
+{
+  "order": 6,
+  "name": "W.Scott Cameron Beach",
+  "category": [
+    "attractions_categories-2021-03-26-094830-beaches-39797-309"
+  ],
+  "location": {
+    "name": "W. Scott Cameron Beach",
+    "address": "425 Dune Rd, Bridgehampton, NY 11932, USA",
+    "phone": "(631) 537-3634",
+    "place_id": "ChIJvePmH9e_6IkRoznjTgptz3U",
+    "reference": "ChIJvePmH9e_6IkRoznjTgptz3U",
+    "latitude": 40.8931749,
+    "longitude": -72.3267656,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "425",
+          "short_name": "425",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Dune Road",
+          "short_name": "Dune Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Bridgehampton",
+          "short_name": "Bridgehampton",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11932",
+          "short_name": "11932",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">425 Dune Rd</span>, <span class=\"locality\">Bridgehampton</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11932</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "425 Dune Rd, Bridgehampton, NY 11932, USA",
+      "formatted_phone_number": "(631) 537-3634",
+      "geometry": {
+        "location": {
+          "lat": 40.8931749,
+          "lng": -72.3267656
+        },
+        "viewport": {
+          "south": 40.89182726970851,
+          "west": -72.3281100302915,
+          "north": 40.8945252302915,
+          "east": -72.32541206970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "international_phone_number": "+1 631-537-3634",
+      "name": "W. Scott Cameron Beach",
+      "photos": [
+        {
+          "height": 3096,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107043137733855081332\">L. MKR</a>"
+          ],
+          "width": 4128
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100776173915887796194\">Andreas Schuster</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116655468677625783701\">mario Ochoa</a>"
+          ],
+          "width": 4160
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100776173915887796194\">Andreas Schuster</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115444897004661653481\">Rich Decker</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106875532012586085102\">Massbaum</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104349923837125417286\">jillian ross</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112854048167093874932\">이명분</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 1440,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117057585855961736624\">Bunji Fromartz</a>"
+          ],
+          "width": 2560
+        },
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103692497468421208893\">Ori Boyum</a>"
+          ],
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJvePmH9e_6IkRoznjTgptz3U",
+      "plus_code": {
+        "compound_code": "VMVF+77 Bridgehampton, NY, USA",
+        "global_code": "87G9VMVF+77"
+      },
+      "rating": 4.6,
+      "reference": "ChIJvePmH9e_6IkRoznjTgptz3U",
+      "reviews": [
+        {
+          "author_name": "William Hart",
+          "author_url": "https://www.google.com/maps/contrib/114762624486617294852/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgMSI_EF_MdbE9HFZx9mPEXEgfjaEDa0KPa-IrQbR4=s128-c0x00000000-cc-rp-mo-ba5",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "Beautiful beach somewhat off the main trail. Great surfing, fishing, and just about anything beach. Mecox Bay is right across the sand. Sometimes it's kept open to drain out the bay. I don't recommend trying to swim in it because of the tides and depth. Wonderful place for kids, animals, and families.",
+          "time": 1580167746
+        },
+        {
+          "author_name": "pokio55",
+          "author_url": "https://www.google.com/maps/contrib/108399965618969168378/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiWPLYDyK7AKH15jrInZXmV6JDI4ZuFWqTOPMMtBQ=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "in the last week",
+          "text": "Great private beach",
+          "time": 1616717117
+        },
+        {
+          "author_name": "Davide Gentile",
+          "author_url": "https://www.google.com/maps/contrib/112911219517812718877/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.googleusercontent.com/-aNZRRmCH4fM/AAAAAAAAAAI/AAAAAAAAZ_s/AMZuucnDpXi1hx00lTYn5yCtAZhHYd5UoQ/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 1,
+          "relative_time_description": "10 months ago",
+          "text": "Worst beach ever. Not worth the trip. Just terrible.",
+          "time": 1590193021
+        },
+        {
+          "author_name": "Julie Murphy",
+          "author_url": "https://www.google.com/maps/contrib/108192892848888830029/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-6B-2ZlM6OPA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucl_-3Oz2riiwTr8Am9tvoCtBa4s_w/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "a year ago",
+          "text": "Need a resident sticker, but this is the best ocean beach for little kids cuz of ocean on one side & calmer, shallower inlet on the other. Gets crowded summer weekends: even with a sticker sometimes have to wait to get into parking lot. After 5 can drive vehicles on beach & have pets & there are groups having barbecues. Rest rooms open til 5 or 6; also spot-a-pot 24/7. Not sure if there's still a food truck in parking lot.",
+          "time": 1567004257
+        },
+        {
+          "author_name": "Clara Rossilli",
+          "author_url": "https://www.google.com/maps/contrib/108613746063607097473/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiP2b3VM9th_vyGWzhjhv-CDKgk_o_hK4-EQdcZ=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "4 months ago",
+          "text": "Beautiful beach",
+          "time": 1604236308
+        }
+      ],
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=8489123713657289123",
+      "user_ratings_total": 93,
+      "utc_offset": -240,
+      "vicinity": "425 Dune Road, Bridgehampton",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

@@ -1,3 +1,47 @@
+// Our colors
+$primary: #76722e !default;
+$secondary: #756e68 !default;
+$success-color: #008670 !default;
+$failure-color: #d0021b !default;
+$dark: #231f20 !default;
+$disabled: #d1d0cd !default;
+$light-grey: #f1efec !default;
+$input-border: #979797;
+$white: #fff !default;
+$black: #000 !default;
+$gray-100: #f3f3f3;
+
+// Our fonts
+$family-primary: 'Grotesque MT W01 Light';
+$family-secondary: 'Perpetua MT W03 Regular';
+$family-tertiary: 'Grotesque MT W01 Regular';
+$family-quaternary: 'Grotesque MT W01 Black';
+$family-quinary: 'Perpetua MT W03 Italic';
+$family-senary: 'Perpetua MT W03 Bold';
+
+// Our font sizes
+$display1-size: 2.625rem !default; //42px
+$display2-size: 2.25rem !default; //36px
+$display3-size: 1.5rem !default; //24px
+$display4-size: 1.125rem !default; //18px
+$display5-size: .875rem !default; //14px
+$display6-size: .75rem !default; //12px
+$display7-size: .625rem !default; //10px
+$display8-size: 1.875rem !default; //30px
+$display9-size: 1.063rem !default; //17px
+
+// font weights
+$display1-weight: 100 !default;
+$display2-weight: 200 !default;
+$display3-weight: 300 !default;
+$display4-weight: 400 !default;
+$display5-weight: 500 !default;
+$display6-weight: 600 !default;
+$display7-weight: 700 !default;
+$display8-weight: 800 !default;
+$display9-weight: 900 !default;
+
+
 //    //grays
 //    $gray-100: #f8f9fa !default;
 //    $gray-200: #e9ecef !default;
@@ -69,11 +113,11 @@
 //    // Fonts
 //    $family-primary: "Open Sans", sans-serif;
 //    $family-secondary: "Playfair Display", serif;
-//    $family-terciary: "Roboto", sans-serif;
+//    $family-tertiary: "Roboto", sans-serif;
 //
 //    $base-font-color: $base-text-color;
 //    $base-body-font: $family-primary;
-//    $base-font-size: 1rem; //1rem = 16px
+$base-font-size: 1rem; //1rem = 16px
 //    $base-line-height: 1.5;
 //    $font-size-lg: ($base-font-size * 1.25) !default;
 //    $font-size-sm: ($base-font-size * 0.875) !default;

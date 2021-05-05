@@ -1,27 +1,47 @@
 items:
   - id: __pages__
   - id: __menus__
-  # - id: room_data
-  #   label:
-  #     en: Rooms
-  #   items:
-  #   - id: rooms
-  #   - id: room_amenities
-  #   - id: room_bed_types
-      
-  # - id: offers
-  - id: attractions
+  - id: attractions_data
+    label: Attractions
+    items:
+    - id: attractions
+    - id: attractions_categories
+  - id: bar_lounge_slider
   - id: blogs
     label: Blogs
     items:
-      - id: posts
-        label: Blog Posts
-      - id: post_categories
-        label: Categories
-      - id: post_tags
-        label: Tags
-  # - id: conversion_plus_messages
-  - id: events
+    - id: posts
+      label: Blog Posts
+    - id: post_categories
+      label: Categories
+    - id: post_tags
+      label: Tags
   - id: dining
+  - id: events
+  - id: event_calendar
+  - id: experience
+  - id: faq
+  - id: press_data
+    label: Press
+    items:
+    - id: press
+    - id: press_categories
   - id: __galleries__
+  - id: gather
+  - id: gather_menus
+  - id: jean_georges_slider
+  # - id: offers
+  - id: plan_your_visit
+  - id: property_highlights
   - id: reviews
+  #- id: attractions
+  - id: room_data
+    label:
+      en: Rooms
+    items:
+    - id: rooms
+    - id: room_categories
+  # - id: conversion_plus_messages
+  - id: things_to_do
+
+

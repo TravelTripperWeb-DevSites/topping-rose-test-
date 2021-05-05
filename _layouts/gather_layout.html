@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% assign item = page.data %}
+
+<section class="hero inner-hero">
+  <div class="hero__body">
+    <h1 class="h6" tabindex="0">Meetings and Event Venues in Bridgehampton, NY</h1>
+    <h2 class="h1" tabindex="0">CELEBRATE. MINGLE. UNITE.</h2>
+  </div>
+</section>
+
+<div class="inner-banner">
+  <div class="inner-banner__slider">
+    {% assign slides = item.banner_image %}
+    {% for slide in slides %}
+    <div class="inner-banner__slider__item">
+      <img src="{{ slide.url_xlarge }}" alt="{{ slide.alt }}">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<section class="common-details">
+  <div class="common-details__inner">
+    <h1 class="h2" tabindex="0">{{ item.name }}</h1>
+    <div class="common-details__description" tabindex="0">
+    {{ item.description }}
+    {% for btn in item.buttons %}
+      {% if btn.button_url == "packages" %}
+      <a href="javascript:void;" class="primary-cta" id="modalPopupBtn">{{ btn.button_label }}</a><br><br>
+      {% else %}
+      <a href="/{{ btn.button_url }}/" class="primary-cta" {% if btn.button_url contains 'http' %}target="_blank"{% endif %}>{{ btn.button_label }}</a><br><br>
+      {% endif %}
+    {% endfor %}
+    <a href="https://toppingrosehouse.tripleseat.com/party_request/5145" class="primary-cta" target="_blank">Request for Proposal</a>
+    </div>
+  </div>
+</section>
+
+<div class="modal-popup">
+  <div class="modal-popup__inner">
+    <a href="javascript:void;" class="close-btn" id="modalPopupCloseBtn">X</a>
+    <div class="mt-3">
+      {% for package in item.packages_images %}
+      <img src="{{ package.url }}" class="w-100" alt="Packages">
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% if item.url_friendly_name == "weddings" %}
+<div class="common-accessibility">
+  <p>Topping Rose House offers accessible wedding spaces. For more information on accessibility, please view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>
+{% else %}
+<div class="common-accessibility">
+  <p>Topping Rose House offers accessible meeting and event spaces. For more information on accessibility, please view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>
+{% endif %}

@@ -1,0 +1,54 @@
+---
+layout: default
+sync_room_content: true
+title_localized:
+  en: Experience Topping Rose House | A Hamptons Experience
+meta_description_localized:
+  en: From yoga to poolside drinks, Topping Rose House is more than rooms in the Hamptons. Bicycles, a spa, events and luxurious accommodations. Book a stay today.
+permalink_localized:
+  en: "/experience/"
+meta_tags:
+  robots:
+published_localized:
+  en: true
+---
+
+{% region inner_hero, type:hero %}
+
+<section class="common-tiles">
+  <div class="common-tiles__row">
+    {% assign items = site.data._models.experience | sort: 'order' %}
+    {% for item in items %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        <img src="{{ item.featured_image.url_large }}" alt="{{ item.name }}">
+      </div>
+      <div class="common-tiles__content">
+        <h3 class="h2">{{ item.name }}</h3>
+        <div class="experience-description" tabindex="0">
+          {{ item.short_description }}
+        </div>
+        <a href="/experience/{{ item.url_friendly_name }}/" class="secondary-cta mr-3">Explore</a>
+      </div>
+    </div>
+    {% if forloop.index == 3 %}
+    <div class="common-tiles__item">
+      <div class="common-tiles__image">
+        <img src="//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1614947161/ykeervllthxvykqqa0yn.jpg" alt="Event Calendar">
+      </div>
+      <div class="common-tiles__content">
+        <h3 class="h2">Event Calendar</h3>
+        <div tabindex="0">
+          <p>View upcoming weddings and special occasions, as well as fun seasonal events organized by Topping Rose House throughout the year. Our Event Calendar will keep you up to date on everything that’s going on at our luxury hotel in the Hamptons.</p>
+        </div>
+        <a href="/experience/event-calendar/" class="secondary-cta mr-3">Explore</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<div class="common-accessibility">
+  <p>Topping Rose House’s accommodations, gathering areas, pool and Spa are accessible. For more information on accessibility, please view our <a href="/accessibility/">Accessibility Statement</a>.</p>
+</div>

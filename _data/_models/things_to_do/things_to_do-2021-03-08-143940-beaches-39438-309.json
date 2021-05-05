@@ -1,0 +1,76 @@
+{
+  "order": 2,
+  "name": "Beaches",
+  "meta_title": "Beaches | Topping Rose House",
+  "meta_description": "The beaches in the Hamptons never disappoint. Sink into a bath or nap afterward at Topping Rose House, the luxury hotel option in the Hamptons. Book a stay.",
+  "header_overline": "RELAX ON THE SANDS OF LONG ISLAND  ",
+  "header_title": "BEAUTIFUL BEACHES IN THE HAMPTONS",
+  "url_friendly_name": "beaches",
+  "featured_image": {
+    "name": "beaches",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-08-091438",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "width": 784,
+    "height": 1008,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "resource_type": "image",
+    "size": 330079,
+    "git_file_name": "_assets/image_data/beaches.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615212878/kf6krfkvdfkc6glwufvw.jpg",
+    "file_size": null,
+    "alt": "Beaches",
+    "caption": "",
+    "description": ""
+  },
+  "locations": [
+    {
+      "title": "Ocean Road Beach",
+      "address": "<p>Ocean Road, Bridgehampton</p>"
+    },
+    {
+      "address": "<p>Job's Lane, Bridgehampton5</p>",
+      "title": "Mecox Beach"
+    },
+    {
+      "address": "<p>Dune Road, Bridgehampton</p>",
+      "title": "W.Scott Cameron Beach"
+    },
+    {
+      "address": "<p>Bay Street, Sag Harbour</p>",
+      "title": "Sag Harbor Village Beach"
+    }
+  ],
+  "banner_image": {
+    "name": "beaches-hero",
+    "content_type": "image/jpeg",
+    "date_added": "2021-03-08-093856",
+    "url_thumb": "//res.cloudinary.com/traveltripperweb/image/upload/c_fill,f_auto,g_faces,h_140,q_auto,w_140/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "url_xsmall": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_300,q_auto,w_300/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "url_small": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_768,q_auto,w_768/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "url_medium": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_992,q_auto,w_992/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "url_large": "//res.cloudinary.com/traveltripperweb/image/upload/c_fit,f_auto,h_1200,q_auto,w_1200/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "url_xlarge": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_1920,q_auto,w_1920/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "url": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "width": 2448,
+    "height": 1056,
+    "format": "jpg",
+    "url_raw": "//res.cloudinary.com/traveltripperweb/image/upload/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "resource_type": "image",
+    "size": 1189463,
+    "git_file_name": "_assets/image_data/beaches-hero.jpg.json",
+    "path": "//res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1615214336/ir19qa7dpufozt7utshv.jpg",
+    "file_size": null,
+    "alt": "Beaches",
+    "caption": "",
+    "description": ""
+  },
+  "description": "<p>Southampton Town Parking Permit is required. <br />Please inquire about the complimentary beach shuttle.</p>"
+}

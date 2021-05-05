@@ -1,0 +1,347 @@
+{
+  "order": 9,
+  "name": "Duck Walk Vineyards",
+  "category": [
+    "attractions_categories-2021-03-26-095052-vineyards-39797-309"
+  ],
+  "location": {
+    "name": "Duck Walk Vineyard",
+    "address": "231 Montauk Hwy, Water Mill, NY 11976, USA",
+    "phone": "(631) 726-7555",
+    "place_id": "ChIJ5apmqQiV6IkR3BgnBgeZqWk",
+    "reference": "ChIJ5apmqQiV6IkR3BgnBgeZqWk",
+    "latitude": 40.902964,
+    "longitude": -72.36655499999999,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "231",
+          "short_name": "231",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Montauk Highway",
+          "short_name": "Montauk Hwy",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Water Mill",
+          "short_name": "Water Mill",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Southampton",
+          "short_name": "Southampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11976",
+          "short_name": "11976",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "2639",
+          "short_name": "2639",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">231 Montauk Hwy</span>, <span class=\"locality\">Water Mill</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11976-2639</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "231 Montauk Hwy, Water Mill, NY 11976, USA",
+      "formatted_phone_number": "(631) 726-7555",
+      "geometry": {
+        "location": {
+          "lat": 40.902964,
+          "lng": -72.36655499999999
+        },
+        "viewport": {
+          "south": 40.9014422697085,
+          "west": -72.3680121302915,
+          "north": 40.9041402302915,
+          "east": -72.3653141697085
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "international_phone_number": "+1 631-726-7555",
+      "name": "Duck Walk Vineyard",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1616968800000
+            },
+            "open": {
+              "day": 0,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616943600000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1617055200000
+            },
+            "open": {
+              "day": 1,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617030000000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1617314400000
+            },
+            "open": {
+              "day": 4,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1617289200000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1616796000000
+            },
+            "open": {
+              "day": 5,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616770800000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "1800",
+              "hours": 18,
+              "minutes": 0,
+              "nextDate": 1616882400000
+            },
+            "open": {
+              "day": 6,
+              "time": "1100",
+              "hours": 11,
+              "minutes": 0,
+              "nextDate": 1616857200000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 11:00 am – 6:00 pm",
+          "Tuesday: Closed",
+          "Wednesday: Closed",
+          "Thursday: 11:00 am – 6:00 pm",
+          "Friday: 11:00 am – 6:00 pm",
+          "Saturday: 11:00 am – 6:00 pm",
+          "Sunday: 11:00 am – 6:00 pm"
+        ]
+      },
+      "photos": [
+        {
+          "height": 1200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103058615797928425207\">MARK CHILDERS</a>"
+          ],
+          "width": 1600
+        },
+        {
+          "height": 3096,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101201798212963761174\">Mighty Mick</a>"
+          ],
+          "width": 5504
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112296657124355337555\">Len Mormando</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112296657124355337555\">Len Mormando</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3036,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109086017587021426358\">Robert Guernick Jr.</a>"
+          ],
+          "width": 4048
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112296657124355337555\">Len Mormando</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3036,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109086017587021426358\">Robert Guernick Jr.</a>"
+          ],
+          "width": 4048
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117965582982399511749\">Barrie Sardoff Roman</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112889512645487872674\">Life in New York নিউ ইয়র্কের জীবন</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 1824,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115273047479118202541\">William Montolio</a>"
+          ],
+          "width": 3483
+        }
+      ],
+      "place_id": "ChIJ5apmqQiV6IkR3BgnBgeZqWk",
+      "plus_code": {
+        "compound_code": "WJ3M+59 Water Mill, NY, USA",
+        "global_code": "87G9WJ3M+59"
+      },
+      "rating": 4.2,
+      "reference": "ChIJ5apmqQiV6IkR3BgnBgeZqWk",
+      "reviews": [
+        {
+          "author_name": "Igor Balagulov",
+          "author_url": "https://www.google.com/maps/contrib/108336034087975455531/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh6.googleusercontent.com/-EUCfUZscsL8/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnhuZ-81FtLztamCc1pd3lDt5v12g/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 4,
+          "relative_time_description": "6 months ago",
+          "text": "Great vineyard. We came here on late afternoon, you can sit at the outdoor tables and enjoy the view. They let you walk thorough the vine rows with no issues. The wine tastings are reasonable and they pour good amount of wine. Overall a good experience in a place (Hamptons) that doesn't have a lot of vineyards to begin with.",
+          "time": 1600707676
+        },
+        {
+          "author_name": "Miah Arif",
+          "author_url": "https://www.google.com/maps/contrib/117074108483909665087/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiTaznCZT_J7h0P6Q9aM-aa_wjFw1Y0AuKgxdwydaA=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "There's a lot of choices and big area for sit down.  Employees are very friendly. Under 6 usually not necessary to call.  Great options for wine.   Will recommend their penoit noir.",
+          "time": 1600404896
+        },
+        {
+          "author_name": "Brette Grice",
+          "author_url": "https://www.google.com/maps/contrib/109275405762695172999/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-aexZxKAL9xk/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckN-DQj7Cl19Q-zV8T8Ji5-J_n1cg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "2 months ago",
+          "text": "Just went in early January. Grounds are nice, the inside was quaint & clean. Eileen really made the experience worth the stop! Knowledgeable and so friendly! We liked the reds, loved the whites! The Pinot Grigio & Sauv Blanc were our faves! Would love to come back!",
+          "time": 1610310728
+        },
+        {
+          "author_name": "DONNA QUACKENBUSH",
+          "author_url": "https://www.google.com/maps/contrib/111159013789791436256/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjY1IWo9L-unH7n6EQm6BhcaWlraO4isz0kAWjs=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "3 months ago",
+          "text": "Enjoyed our visit tremendously. Tara was so informative and personable. We are sure to visit again.",
+          "time": 1607635838
+        },
+        {
+          "author_name": "William “Cup O' Comics” Montolio",
+          "author_url": "https://www.google.com/maps/contrib/115273047479118202541/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/-RZFKZiwSJQw/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclp6XzIIlhtTrEGljANlsQeKbb3qA/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "5 months ago",
+          "text": "The wine was good and the service was excellent. The outdoor area is picturesque and spaced nicely. Glad to have stopped here for a tasting.",
+          "time": 1602299566
+        }
+      ],
+      "types": [
+        "tourist_attraction",
+        "liquor_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=7613784900493580508",
+      "user_ratings_total": 66,
+      "utc_offset": -240,
+      "vicinity": "231 Montauk Highway, Water Mill",
+      "website": "http://www.duckwalk.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

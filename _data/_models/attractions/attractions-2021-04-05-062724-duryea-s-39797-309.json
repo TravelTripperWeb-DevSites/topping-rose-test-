@@ -1,0 +1,245 @@
+{
+  "order": 21,
+  "name": "Duryea's",
+  "category": [
+    "attractions_categories-2021-03-11-151832-dining-39438-309"
+  ],
+  "location": {
+    "name": "Duryea's Lobster Deck",
+    "address": "65 Tuthill Rd, Montauk, NY 11954, USA",
+    "phone": "(631) 668-2410",
+    "place_id": "ChIJYwkR6Uur6IkR_Cn8OZQWnro",
+    "reference": "ChIJYwkR6Uur6IkR_Cn8OZQWnro",
+    "latitude": 41.050971,
+    "longitude": -71.9573636,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "65",
+          "short_name": "65",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Tuthill Road",
+          "short_name": "Tuthill Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Montauk",
+          "short_name": "Montauk",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "East Hampton",
+          "short_name": "East Hampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11954",
+          "short_name": "11954",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">65 Tuthill Rd</span>, <span class=\"locality\">Montauk</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11954</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "65 Tuthill Rd, Montauk, NY 11954, USA",
+      "formatted_phone_number": "(631) 668-2410",
+      "geometry": {
+        "location": {
+          "lat": 41.050971,
+          "lng": -71.9573636
+        },
+        "viewport": {
+          "south": 41.0498333697085,
+          "west": -71.9587676302915,
+          "north": 41.0525313302915,
+          "east": -71.95606966970848
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "international_phone_number": "+1 631-668-2410",
+      "name": "Duryea's Lobster Deck",
+      "photos": [
+        {
+          "height": 953,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116658992947499439787\">Duryea&#39;s Lobster Deck</a>"
+          ],
+          "width": 976
+        },
+        {
+          "height": 3328,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116658992947499439787\">Duryea&#39;s Lobster Deck</a>"
+          ],
+          "width": 4992
+        },
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106610127726855454319\">Jay Tsulis</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115874222914658841586\">Jenn L</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 1211,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111793083337343900092\">Vishal Tiru</a>"
+          ],
+          "width": 1080
+        },
+        {
+          "height": 4096,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109720750891436428987\">Michele Michael</a>"
+          ],
+          "width": 3072
+        },
+        {
+          "height": 3034,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107989494760947015908\">Sokol K</a>"
+          ],
+          "width": 3372
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108634295062837513871\">Mary Macallister</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108645666493161946440\">Matt Soslow</a>"
+          ],
+          "width": 4032
+        },
+        {
+          "height": 3454,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115116535937831936685\">Stacy Geisinger</a>"
+          ],
+          "width": 2672
+        }
+      ],
+      "place_id": "ChIJYwkR6Uur6IkR_Cn8OZQWnro",
+      "plus_code": {
+        "compound_code": "322V+93 Montauk, NY, USA",
+        "global_code": "87HC322V+93"
+      },
+      "price_level": 3,
+      "rating": 3.8,
+      "reference": "ChIJYwkR6Uur6IkR_Cn8OZQWnro",
+      "reviews": [
+        {
+          "author_name": "Lorena Garcia",
+          "author_url": "https://www.google.com/maps/contrib/113225079450687187212/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GhllCvMkBte5UMs5MhtnwTcGoc0Wp6VtNxPQUguzA=s128-c0x00000000-cc-rp-mo",
+          "rating": 3,
+          "relative_time_description": "6 months ago",
+          "text": "The location is beautiful but service varies. the wait they quoted for lunch was longer than it took but I ended up forgoing the deck reservations and taking one of the seat yourself locations inside where you order from a window. It was still a great view. I had the peel yourself shrimp and tuna (steak) sandwich which were both great. When ordering at the window you pay and tip. They encouraged me to tip 20% stating I would have a full server at my table but did not have one once. Afterwards I looked at my tab and noticed a water charge and did not receive water. I asked for a bottle to go but turns out the $4 charge was for tap water refilled in a glass bottle. I felt deceived. I will go back but will know better than to tip 20% on a self service table.",
+          "time": 1599590595
+        },
+        {
+          "author_name": "Lani Crescenzi",
+          "author_url": "https://www.google.com/maps/contrib/107633394231580257005/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh5.googleusercontent.com/-oO_0OkzZvMU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn9HrO_UkVri_8LTlSjfO7kd34gYg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "5 star great ambiance... as close to euro seaside beach lunch as you get. Food is a 3 star but so beautiful you won’t care. Nice music and staff. No reservation and about 1-2 hour wait for table. Good for large groups with deep pockets because of shared plates. Can dock boat. Great for kids. Gourmet market and coffee shop as well.",
+          "time": 1600034272
+        },
+        {
+          "author_name": "Robert Golda",
+          "author_url": "https://www.google.com/maps/contrib/109814959393030391096/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GhlQJW-kH1B4fC80I6mn2U2UTF9SYDX25ZqiyVbIWo=s128-c0x00000000-cc-rp-mo-ba4",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "A truly special place and dining experience.  The service is excellent, and still maintains the ideal and feel of a traditional sea food deck!  The portions are generous and everything is family size.  Highly recommended for a nice lunch with beautiful people watching.  Walk in service only so arrive early!",
+          "time": 1599572437
+        },
+        {
+          "author_name": "Christopher Hibbert",
+          "author_url": "https://www.google.com/maps/contrib/116111143948581112771/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Gju9q3yG5WTww7FUK7meHIfdgzn7M5b1z6MrCOB5Sk=s128-c0x00000000-cc-rp-mo",
+          "rating": 1,
+          "relative_time_description": "6 months ago",
+          "text": "Beautiful Sunset, Nice view, Nice Company,  Rip-off food. New England is embarrassed about there $12 Clam chowder. No clams, No potatoes, no vegetables... Lobster roll $35 3oz of Lobster salad and small roll makes it look bigger than you get. Sad day for Seafood. They only had take-out, because of little wind. I will be surprised if this place will be open for long. Their was about thirty people they turned away because they closed for table service. Let me know when you are selling the restaurant. I will triple the profits doing it the right way. 😪",
+          "time": 1600819903
+        },
+        {
+          "author_name": "Jiyoung Jamie Park",
+          "author_url": "https://www.google.com/maps/contrib/112435637407935286071/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GiOJTAXBJ59zsNpCspSiH7RLEmNBm0POJ_yAy6irQ=s128-c0x00000000-cc-rp-mo-ba3",
+          "rating": 2,
+          "relative_time_description": "7 months ago",
+          "text": "Great view and good food (oysters, clams, fish if the day) but one of the waitresses in white uniform was not attentive, rude and even took our food without asking when we were not done. Gratuity was paid before food was served so I guess she didn't care.",
+          "time": 1597720187
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=13447210363258677756",
+      "user_ratings_total": 189,
+      "utc_offset": -240,
+      "vicinity": "65 Tuthill Road, Montauk",
+      "website": "http://duryealobsters.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

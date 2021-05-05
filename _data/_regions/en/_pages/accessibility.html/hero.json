@@ -1,0 +1,12 @@
+[
+  {
+    "hero_title": {
+      "content": "ACCESSIBILITY STATEMENT",
+      "_template": "header"
+    },
+    "_template": "hero",
+    "advanced_options": {
+      "custom_classes": "staticpage-hero"
+    }
+  }
+]

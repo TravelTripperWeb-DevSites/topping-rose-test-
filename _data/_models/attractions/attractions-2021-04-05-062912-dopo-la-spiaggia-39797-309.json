@@ -1,0 +1,371 @@
+{
+  "order": 23,
+  "name": "DOPO La Spiaggia",
+  "category": [
+    "attractions_categories-2021-03-11-151832-dining-39438-309"
+  ],
+  "location": {
+    "name": "DOPO La Spiaggia",
+    "address": "6 Bay St, Sag Harbor, NY 11963, USA",
+    "phone": "(631) 725-7009",
+    "place_id": "ChIJwcE7FCW96IkRYnhoeArGLJQ",
+    "reference": "ChIJwcE7FCW96IkRYnhoeArGLJQ",
+    "latitude": 41.001636,
+    "longitude": -72.2938631,
+    "google_place": {
+      "address_components": [
+        {
+          "long_name": "6",
+          "short_name": "6",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Bay Street",
+          "short_name": "Bay St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sag Harbor",
+          "short_name": "Sag Harbor",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "East Hampton",
+          "short_name": "East Hampton",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "11963",
+          "short_name": "11963",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "adr_address": "<span class=\"street-address\">6 Bay St</span>, <span class=\"locality\">Sag Harbor</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">11963</span>, <span class=\"country-name\">USA</span>",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6 Bay St, Sag Harbor, NY 11963, USA",
+      "formatted_phone_number": "(631) 725-7009",
+      "geometry": {
+        "location": {
+          "lat": 41.001636,
+          "lng": -72.2938631
+        },
+        "viewport": {
+          "south": 41.00036456970851,
+          "west": -72.2951701802915,
+          "north": 41.00306253029151,
+          "east": -72.29247221970849
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "international_phone_number": "+1 631-725-7009",
+      "name": "DOPO La Spiaggia",
+      "opening_hours": {
+        "open_now": false,
+        "periods": [
+          {
+            "close": {
+              "day": 0,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618192800000
+            },
+            "open": {
+              "day": 0,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1618176600000
+            }
+          },
+          {
+            "close": {
+              "day": 1,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1617674400000
+            },
+            "open": {
+              "day": 1,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1617658200000
+            }
+          },
+          {
+            "close": {
+              "day": 2,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1617760800000
+            },
+            "open": {
+              "day": 2,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1617744600000
+            }
+          },
+          {
+            "close": {
+              "day": 3,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1617847200000
+            },
+            "open": {
+              "day": 3,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1617831000000
+            }
+          },
+          {
+            "close": {
+              "day": 4,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1617933600000
+            },
+            "open": {
+              "day": 4,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1617917400000
+            }
+          },
+          {
+            "close": {
+              "day": 5,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618020000000
+            },
+            "open": {
+              "day": 5,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1618003800000
+            }
+          },
+          {
+            "close": {
+              "day": 6,
+              "time": "2200",
+              "hours": 22,
+              "minutes": 0,
+              "nextDate": 1618106400000
+            },
+            "open": {
+              "day": 6,
+              "time": "1730",
+              "hours": 17,
+              "minutes": 30,
+              "nextDate": 1618090200000
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 5:30 – 10:00 pm",
+          "Tuesday: 5:30 – 10:00 pm",
+          "Wednesday: 5:30 – 10:00 pm",
+          "Thursday: 5:30 – 10:00 pm",
+          "Friday: 5:30 – 10:00 pm",
+          "Saturday: 5:30 – 10:00 pm",
+          "Sunday: 5:30 – 10:00 pm"
+        ]
+      },
+      "photos": [
+        {
+          "height": 750,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103457105014041111348\">DOPO La Spiaggia</a>"
+          ],
+          "width": 1000
+        },
+        {
+          "height": 1200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112657330923221317128\">BYSTEFANYdotCOM LLC</a>"
+          ],
+          "width": 1600
+        },
+        {
+          "height": 610,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103457105014041111348\">DOPO La Spiaggia</a>"
+          ],
+          "width": 609
+        },
+        {
+          "height": 1200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112657330923221317128\">BYSTEFANYdotCOM LLC</a>"
+          ],
+          "width": 1600
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109159326999556824821\">stefano antonio arcoleo</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 3840,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103846222472267112072\">Christina Collada</a>"
+          ],
+          "width": 2159
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103339803973597267233\">Erek Shumway</a>"
+          ],
+          "width": 3024
+        },
+        {
+          "height": 4608,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109159326999556824821\">stefano antonio arcoleo</a>"
+          ],
+          "width": 3456
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117775950992059784969\">Barry Downs</a>"
+          ],
+          "width": 1960
+        },
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117775950992059784969\">Barry Downs</a>"
+          ],
+          "width": 1960
+        }
+      ],
+      "place_id": "ChIJwcE7FCW96IkRYnhoeArGLJQ",
+      "plus_code": {
+        "compound_code": "2P24+MF Sag Harbor, NY, USA",
+        "global_code": "87H92P24+MF"
+      },
+      "price_level": 3,
+      "rating": 4.5,
+      "reference": "ChIJwcE7FCW96IkRYnhoeArGLJQ",
+      "reviews": [
+        {
+          "author_name": "Susan Elliott",
+          "author_url": "https://www.google.com/maps/contrib/115392717919471189522/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-h3SMvfg1wD4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclOanCMa5Yvn0OXn6Mu3jIcbgT86Q/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "8 months ago",
+          "text": "Excellent food. Comfortable outdoor seating. Lovely service. Expensive but worth it.",
+          "time": 1595802643
+        },
+        {
+          "author_name": "JP G",
+          "author_url": "https://www.google.com/maps/contrib/104058943651638951955/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/-WYW2q_BoRdM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnbR8vXzKWlvMqNrmZK6WnZJKS24A/s128-c0x00000000-cc-rp-mo/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "Fantastic environment, lights, heater, staff and the fish was as good as it meant to be. Fresh and healthy with spinach. Pricy but at least the fish was above average. The only complaint is the 14.00 for the bread. That’s the price of almost 3 sourdough breads in Manhattan.",
+          "time": 1600494141
+        },
+        {
+          "author_name": "Lawrence Werner",
+          "author_url": "https://www.google.com/maps/contrib/108031177863094125141/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjP_nbm4aX4SrlASlx2T2LgRfElDpsf32cW_OOrWA=s128-c0x00000000-cc-rp-mo",
+          "rating": 5,
+          "relative_time_description": "9 months ago",
+          "text": "Great meal and everyone wore a mask and tables socially distant, felt very safe and the drinks were good too!",
+          "time": 1593956315
+        },
+        {
+          "author_name": "Dr. JoAnna Fasulo",
+          "author_url": "https://www.google.com/maps/contrib/117585345936094881816/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14Ghqy_gsVqRuX8ezE7IZRRDPl51M5KDIfEAVMYqc=s128-c0x00000000-cc-rp-mo",
+          "rating": 4,
+          "relative_time_description": "6 months ago",
+          "text": "Very disappointing with the food and the service  was not special.    For the price we expected food that wasn’t overcooked and tasteless.   The Pasta with Beef Wagyu was not  special at all.   For the prices I would expect home made pasta too.",
+          "time": 1599878232
+        },
+        {
+          "author_name": "Ciprian VP7",
+          "author_url": "https://www.google.com/maps/contrib/105426156992804242715/reviews",
+          "language": "en",
+          "profile_photo_url": "https://lh4.googleusercontent.com/--AtvdG8qBdQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclA_jdLvF4QTxZYVzeQUAPdo7LmZQ/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+          "rating": 5,
+          "relative_time_description": "6 months ago",
+          "text": "Love the food and service here\nVery warm and welcoming",
+          "time": 1601241238
+        }
+      ],
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=10677126564860688482",
+      "user_ratings_total": 108,
+      "utc_offset": -240,
+      "vicinity": "6 Bay Street, Sag Harbor",
+      "website": "http://www.dopolaspiaggia.com/",
+      "html_attributions": null,
+      "utc_offset_minutes": -240
+    }
+  }
+}

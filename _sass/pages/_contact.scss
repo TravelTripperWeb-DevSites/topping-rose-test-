@@ -1,0 +1,132 @@
+.centered-intro {
+  @include make-container;
+  max-width: 848px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 0 12px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 24px;
+  }
+
+  &__content {
+    text-align: center;
+
+    .h2 {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.common-form {
+  @include make-container;
+  max-width: 1224px;
+  padding: 0 12px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 48px;
+  }
+
+  .common-form__inner {
+    max-width: 476px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 12px;
+
+    &__wrap {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: $gray-100;
+
+      label {
+        margin-top: 0;
+        padding: 14px 0 12px 12px;
+        font-family: $family-tertiary;
+        font-size: $base-font-size;
+        line-height: 24px;
+        color: $primary;
+        text-transform: uppercase;
+        letter-spacing: 1.33px;
+      }
+    }
+  }
+
+  .form-control {
+    width: 65%;
+    height: 48px;
+    padding-left: 16px;
+    font-family: $family-secondary;
+    font-size: $base-font-size;
+    line-height: 24px;
+    color: $secondary;
+    text-transform: none;
+    letter-spacing: normal;
+    border: 0;
+
+    @include media-breakpoint-up(sm) {
+      width: 75%;
+    }
+
+    &:focus {
+      color: $secondary;
+      border: 0;
+    }
+
+    &:-webkit-input-placeholder {
+      color: $secondary;
+      opacity: .5;
+    }
+
+    &:-ms-input-placeholder {
+      color: $secondary;
+      opacity: .5;
+    }
+
+    &::placeholder {
+      color: $secondary;
+      opacity: .5;
+    }
+  }
+
+  textarea {
+    &.form-control {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+
+  .chck-cstm {
+    margin-bottom: 24px;
+  }
+
+
+  .checkmark {
+    border-color: $secondary;
+  }
+
+  .cstm-checkbox {
+    margin-top: 0;
+    color: $primary;
+
+    a {
+      color: $primary;
+    }
+
+    input {
+      &:checked {
+        & ~ .checkmark {
+          &:after {
+            display: block;
+            border-color: $secondary;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

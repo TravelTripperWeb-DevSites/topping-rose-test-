@@ -1,0 +1,5 @@
+<span ttweb-component="BookingWidgetButton">
+   <a href="{{ site.booking_url }}" role="button" class="btn btn--primary" target="_blank">
+     Reserve
+   </a>
+</span>
