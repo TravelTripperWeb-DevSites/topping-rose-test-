@@ -1,17 +1,15 @@
-<form action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.newsletter-id }}/" method="post" name="form_{{ site.data.forms.jotform.newsletter-id }}"
-    id="{{ site.data.forms.jotform.newsletter-id }}" accept-charset="utf-8">
-    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.newsletter-id }}">
-  <div class="d-flex justify-content-between">
-    <input type="text" class="form-control" name="q5_firstName" placeholder="First Name" aria-label="First Name" required>
-    <input type="text" class="form-control" name="q6_lastName" placeholder="Last Name" aria-label="Last Name">
-    <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email contact" aria-label="Enter your email ID" required>
+  <form id="ema_signup_form" target="_blank" action="https://madmimi.com/signups/subscribe/4bd0f7d216ed4f9c8440ab248ae1c99c" accept-charset="UTF-8" method="post">
+ <input name="utf8" type="hidden" value="✓"/>
+ <div class="d-flex justify-content-between">
+     <input id="signup_email" name="signup[email]" type="text" class="form-control" data-required-field="This field is required" placeholder="Email Address"/>
+
     <div class="form-btn">
-      <button type="submit" class="primary-cta">sign up</button>
+         <input type="submit" class="submit primary-cta" value="Sign up" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending..." data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list" data-thanks="Thank you!"/>
     </div>
   </div>
   <div class="form-group chck-cstm mb-0">
     <label class="cstm-checkbox">
-      <input type="checkbox" name="q4_iAgree4[]" id="PPASAgree" value="Agree" required> I have read and agree to the <a href="/privacy/">privacy policy</a>.
+      <input type="checkbox" name="beacon" id="PPASAgree" value="Agree" required> I have read and agree to the <a href="/privacy/">privacy policy</a>.
       <span class="checkmark"></span>
     </label>
   </div>
