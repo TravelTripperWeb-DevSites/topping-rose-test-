@@ -61,12 +61,6 @@ footer:
     items: 
   - folder: false
     target: ''
-    page_id: _pages/contact.html
-    label_localized:
-      en: Contact
-    items: 
-  - folder: false
-    target: ''
     page_id: _pages/sitemap.html
     label_localized:
       en: Sitemap
