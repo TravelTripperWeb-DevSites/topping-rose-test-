@@ -9,26 +9,26 @@ main:
     label_localized:
       en: Stay
     items:
-      - url: "/plan-your-stay/"
-        label: Plan your stay
+    - url: "/plan-your-stay/"
+      label: Plan your stay
   - folder: false
     target: ''
     page_id: _pages/dine.html
     label_localized:
       en: Dine
-    items:
+    items: 
   - folder: true
     target: ''
     page_id: _pages/experience.html
     label_localized:
       en: Experience
     items:
-      - url: "/experience/wellness/"
-        label: Wellness
-        items:
-      - url: "/experience/things-to-do/"
-        label: Things to do
-        items:
+    - url: "/experience/wellness/"
+      label: Wellness
+      items: 
+    - url: "/experience/things-to-do/"
+      label: Things to do
+      items: 
   - folder: true
     target: ''
     page_id: _pages/gather.html
@@ -37,24 +37,16 @@ main:
     items:
     - url: "/gather/weddings/"
       label: Weddings
-      items:
+      items: 
     - url: "/gather/meetings/"
       label: Meetings
-      items:
+      items: 
     - url: "/gather/special-events/"
       label: Special Events
-      items:
+      items: 
     - url: "/gather/event-spaces/"
       label: Event Spaces
-      items:
-  # - folder: false
-  #   target: ''
-  #   page_id: _pages/reside.html
-  #   url_localized:
-  #     en: "/reside/"
-  #   label_localized:
-  #     en: Reside
-  #   items:
+      items: 
 footer:
   depth: 2
   name: Footer Menu
@@ -66,7 +58,7 @@ footer:
       en: Press
     url_localized:
       en: "/press/"
-    items:
+    items: 
   - folder: false
     target: ''
     page_id: _pages/sitemap.html
@@ -74,7 +66,7 @@ footer:
       en: Sitemap
     url_localized:
       en: "/sitemap/"
-    items:
+    items: 
   - folder: false
     target: ''
     page_id: _pages/privacy.html
@@ -82,7 +74,7 @@ footer:
       en: Privacy Policy
     url_localized:
       en: "/privacy/"
-    items:
+    items: 
   - folder: false
     target: ''
     page_id: _pages/accessibility.html
@@ -90,4 +82,9 @@ footer:
       en: Accessibility
     url_localized:
       en: "/accessibility/"
-    items:
+    items: 
+  - folder: false
+    target: ''
+    page_id: _pages/contact.html
+    label_localized:
+      en: Contact
