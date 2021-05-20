@@ -29,6 +29,7 @@
   }
 
   &__subheader {
+    margin-bottom: 48px;
     text-align: center;
   }
 
@@ -38,7 +39,7 @@
 
   &__item {
     @include make-col-ready;
-    text-align: center;
+    // text-align: center;
 
     @include media-breakpoint-up(sm) {
       @include make-col(6);
@@ -49,7 +50,7 @@
     }
 
     .overline {
-      margin-bottom: 0;
+      margin-bottom: 12px;
     }
   }
 }

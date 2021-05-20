@@ -21,7 +21,7 @@ published_localized:
 </div>
 
 <section class="menus">
-  {% assign items = site.data._models.jean_georges_menu %}
+  {% assign items = site.data._models.jean_georges_menu | sort: 'order' %}
   {% for item in items %}
   <div class="menus__wrap">
     <div class="menus__header">
@@ -41,8 +41,13 @@ published_localized:
         {% assign menuList = menuType.menu_items %}
         {% for menuListItem in menuList %}
         <div class="menus__item">
-          <p class="overline">{{ menuListItem.menu_name }}</p>
-          {{ menuListItem.menu_description }}
+          <div class="d-flex justifi-space-between mr-md-3">
+            <p class="overline mr-3">{{ menuListItem.menu_name }}</p>
+            <p class="overline ml-auto">{{ menuListItem.menu_price }}</p>
+          </div>
+          <div class="mr-5">
+            {{ menuListItem.menu_description }}
+          </div>
         </div>
         {% endfor %}
       </div>
@@ -50,4 +55,8 @@ published_localized:
     {% endfor %}
   </div>
   {% endfor %}
+  <div class="text-center">
+    <p class="h6 mb-4">Chef/Proprietor Jean-Georges Vongerichten<br>Executive Chef Emily Giauque </p>
+    <p class="small-paragraph">Before Placing your Order, Please Inform your Server if a Person in your Party has a Food Allergy. These Menu Items Contain Raw*or undercooked Foods**. Consuming raw or undercooked meats, fish, shellfish or fresh shell eggs may increase your risk of food-borne illness especially if you have certain medical conditions.</p>
+  </div>
 </section>
