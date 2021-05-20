@@ -21,6 +21,9 @@
           "menu_name": {
             "type": "text"
           },
+          "menu_price": {
+            "type": "text"
+          },
           "menu_description": {
             "type": "richtext"
           }
