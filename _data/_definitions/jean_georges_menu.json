@@ -1,0 +1,37 @@
+{
+  "name": {
+    "required": true
+  },
+  "short_description": {
+  },
+  "menus_list": {
+    "type": "nested",
+    "multiple": true,
+    "fields": {
+      "menu_type": {
+        "type": "text"
+      },
+      "menu_type_description": {
+        "type": "richtext"
+      },
+      "menu_items": {
+        "type": "nested",
+        "multiple": true,
+        "fields": {
+          "menu_name": {
+            "type": "text"
+          },
+          "menu_price": {
+            "type": "text"
+          },
+          "menu_description": {
+            "type": "richtext"
+          }
+        }
+      }
+    }
+  },
+  "order": {
+    "type": "order"
+  }
+}

@@ -1,11 +1,11 @@
 ---
 layout: default
 title_localized:
-  en: Gather at Topping Rose House | Hamptons Weddings & Events
+  en: Jean-Georges Restaurant | Topping Rose Dining in the Hamptons
 meta_description_localized:
-  en: Gather your friends and family at Topping Rose House for an unforgettable event or wedding in the Hamptons. Poolside, rustic barn and more. Schedule with us now.
+  en: Jean-Georges at Topping Rose House is a casually elegant restaurant featuring seasonal local farm to table cuisine. See the full menu and book with us today.
 permalink_localized:
-  en: "/gather/menus/"
+  en: "/dine/jean-georges/menu/"
 meta_tags:
   robots:
 published_localized:
@@ -21,7 +21,7 @@ published_localized:
 </div>
 
 <section class="menus">
-  {% assign items = site.data._models.gather_menus | sort: 'order' %}
+  {% assign items = site.data._models.jean_georges_menu | sort: 'order' %}
   {% for item in items %}
   <div class="menus__wrap">
     <div class="menus__header">
@@ -33,16 +33,23 @@ published_localized:
     {% assign menuTypes = item.menus_list %}
     {% for menuType in menuTypes %}
     <div class="menus__inner">
+      {% if menuType.menu_type %}
       <div class="menus__subheader">
         <p class="h2">{{ menuType.menu_type }}</p>
         {{ menuType.menu_type_description }}
       </div>
+      {% endif %}
       <div class="menus__row">
         {% assign menuList = menuType.menu_items %}
         {% for menuListItem in menuList %}
         <div class="menus__item">
-          <p class="overline">{{ menuListItem.menu_name }}</p>
-          <p>{{ menuListItem.menu_description }}</p>
+          <div class="d-flex justifi-space-between mr-md-3">
+            <p class="overline mr-3">{{ menuListItem.menu_name }}</p>
+            <p class="overline ml-auto">{{ menuListItem.menu_price }}</p>
+          </div>
+          <div class="mr-5">
+            {{ menuListItem.menu_description }}
+          </div>
         </div>
         {% endfor %}
       </div>
@@ -50,4 +57,8 @@ published_localized:
     {% endfor %}
   </div>
   {% endfor %}
+  <div class="text-center">
+    <p class="h6 mb-4">Chef/Proprietor Jean-Georges Vongerichten<br>Executive Chef Emily Giauque </p>
+    <p class="small-paragraph">Before Placing your Order, Please Inform your Server if a Person in your Party has a Food Allergy. These Menu Items Contain Raw*or undercooked Foods**. Consuming raw or undercooked meats, fish, shellfish or fresh shell eggs may increase your risk of food-borne illness especially if you have certain medical conditions.</p>
+  </div>
 </section>
