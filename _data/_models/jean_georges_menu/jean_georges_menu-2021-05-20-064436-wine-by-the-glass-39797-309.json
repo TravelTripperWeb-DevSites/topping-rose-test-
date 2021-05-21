@@ -1,0 +1,115 @@
+{
+  "order": 11,
+  "name": "Wine by the Glass",
+  "menus_list": [
+    {
+      "menu_type": "Sparkling Wine and Champagne",
+      "menu_items": [
+        {
+          "menu_name": "Prosecco Luca Paretti NV, Veneto, IT",
+          "menu_price": "12"
+        },
+        {
+          "menu_name": "Taittinger NV, Brut Reserve, FR",
+          "menu_price": "25"
+        },
+        {
+          "menu_name": "Veuve Clicquot, Brut Rosé NV, FR",
+          "menu_price": "30"
+        }
+      ]
+    },
+    {
+      "menu_type": "White",
+      "menu_items": [
+        {
+          "menu_name": "Riseling, Basserman-Jordan 2018, GER",
+          "menu_price": "16"
+        },
+        {
+          "menu_name": "Sauvignon Blanc, LoveBlock 2019, NZ",
+          "menu_price": "16"
+        },
+        {
+          "menu_name": "Sancerre, Roger Champault 2019, FR",
+          "menu_price": "18"
+        },
+        {
+          "menu_name": "Pinot Grigio, Torresella 2018, IT",
+          "menu_price": "14"
+        },
+        {
+          "menu_name": "Chardonnay, Frank Family 2017, CA",
+          "menu_price": "18"
+        }
+      ]
+    },
+    {
+      "menu_type": "Red",
+      "menu_items": [
+        {
+          "menu_name": "Pinot Noir, Carneros Estate 2017, CA",
+          "menu_price": "22"
+        },
+        {
+          "menu_name": "Super Tuscan, Fattoria Sardi Rosso 2016, IT",
+          "menu_price": "17"
+        },
+        {
+          "menu_name": "Copertino Copertino, Rosso Riseva 2011, IT",
+          "menu_price": "17"
+        },
+        {
+          "menu_name": "Malbec, Bodega Poesia, Clos Des Andes 2016, AR",
+          "menu_price": "16"
+        },
+        {
+          "menu_name": "Cabernet Sauvignon, Carpe Diem 2017 Dominus 2nd Label, CA ",
+          "menu_price": "25"
+        }
+      ]
+    },
+    {
+      "menu_type": "Cocktails",
+      "menu_items": [
+        {
+          "menu_name": "La Pinta Royale",
+          "menu_price": "16",
+          "menu_description": "<p>Luca Paretti Prosecco, Pomegranate Liqueur, Orange Twist</p>"
+        },
+        {
+          "menu_name": "Yuzu Drop",
+          "menu_price": "20",
+          "menu_description": "<p>Ketel One Vodka, Cointreau, Yuzu, Lemongrass, Lemon</p>"
+        },
+        {
+          "menu_name": "Ginger Margarita",
+          "menu_price": "18",
+          "menu_description": "<p>El Jimador Tequila, Cointreau, Ginger, Lime</p>"
+        },
+        {
+          "menu_name": "Passion Chili Whiskey Fizz",
+          "menu_price": "18",
+          "menu_description": "<p>Maker&rsquo;s Mark Whiskey Passion Fruit, Lime, Ginger</p>"
+        }
+      ]
+    },
+    {
+      "menu_type": "Beer",
+      "menu_items": [
+        {
+          "menu_name": "Montauk Pilsner, Montauk, NY",
+          "menu_price": "5"
+        },
+        {
+          "menu_name": "Sierra Nevada, Brut IPA, CA",
+          "menu_price": "7"
+        },
+        {
+          "menu_name": "Peroni, IT",
+          "menu_price": "5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "order": 1,
+  "name": "Breakfast",
+  "menus_list": [
+    {
+      "menu_type": "Juices",
+      "menu_items": [
+        {
+          "menu_name": "Green Juice - Spinach, Cucumber, Kale, Apple, Lemon",
+          "menu_price": "14"
+        },
+        {
+          "menu_name": "Ruby Red - Carrot, Beet, Lemon, Orange ",
+          "menu_price": "14"
+        },
+        {
+          "menu_name": "Fresh Squeezed Orange or Grapefruit Juice ",
+          "menu_price": "14"
+        }
+      ]
+    },
+    {
+      "menu_type": "Hot Beverages",
+      "menu_items": [
+        {
+          "menu_name": "Cappuccino or Latte",
+          "menu_price": "8"
+        },
+        {
+          "menu_name": "Espresso",
+          "menu_price": "6"
+        },
+        {
+          "menu_name": "Tea",
+          "menu_price": "6",
+          "menu_description": "<p>English Breakfast, Chamomile, Mint, Japanese Sencha, Earl Grey</p>"
+        }
+      ]
+    },
+    {
+      "menu_type": "Light and Healthy ",
+      "menu_items": [
+        {
+          "menu_name": "Seasonal Fruit Plate",
+          "menu_price": "16"
+        },
+        {
+          "menu_name": "Coconut Chia Pudding, Mixed Berries",
+          "menu_price": "18"
+        },
+        {
+          "menu_name": "Steel Cut Irish Oatmeal, Cinnamon, Berries and Bananas",
+          "menu_price": "12"
+        }
+      ]
+    },
+    {
+      "menu_type": "Pancakes, Toasts",
+      "menu_items": [
+        {
+          "menu_name": "Buttermilk Pancakes, Berries and Bananas",
+          "menu_price": "17"
+        },
+        {
+          "menu_name": "Avocado Toast, Virgin Coconut & Argan Oils\nCrunchy Seeds and Sprouts",
+          "menu_price": "19",
+          "menu_description": "<p>add Poached Egg* 24<br />add Smoked Salmon 27</p>"
+        }
+      ]
+    },
+    {
+      "menu_type": "Eggs",
+      "menu_items": [
+        {
+          "menu_name": "Eggs Benedict",
+          "menu_description": "<p>Choice of Ham 19, Smoked Salmon 21 or Spinach 17</p>"
+        },
+        {
+          "menu_name": "Two Eggs Any Style, Crispy Herb Potatoes, Mixed Greens",
+          "menu_price": "16"
+        },
+        {
+          "menu_name": "Egg White Omelet with Herbs, Mixed Greens ",
+          "menu_price": "16"
+        },
+        {
+          "menu_name": "Three Egg Omelet, Crispy Herb Potatoes, Mixed Greens",
+          "menu_price": "18",
+          "menu_description": "<p>Three Egg Omelet, Crispy Herb Potatoes, Mixed Greens</p>"
+        },
+        {
+          "menu_name": "Baked Organic Eggs",
+          "menu_price": "17",
+          "menu_description": "<p>Asparagus Crispy Bacon, Cheddar and Dill</p>"
+        }
+      ]
+    },
+    {
+      "menu_type": "Sides",
+      "menu_items": [
+        {
+          "menu_name": "Pork or Chicken Sausage",
+          "menu_price": "10"
+        },
+        {
+          "menu_name": "Bacon",
+          "menu_price": "10"
+        },
+        {
+          "menu_name": "Smoked Salmon",
+          "menu_price": "10"
+        },
+        {
+          "menu_name": "Crispy Herb Potatoes",
+          "menu_price": "8"
+        },
+        {
+          "menu_name": "Croissant or Pain au Chocolat",
+          "menu_price": "8"
+        },
+        {
+          "menu_name": "Blueberry Muffin",
+          "menu_price": "6"
+        },
+        {
+          "menu_name": "Toast",
+          "menu_price": "5",
+          "menu_description": "<p>White, Wheat, Sourdough, Whole Wheat, Gluten Free</p>"
+        }
+      ]
+    }
+  ]
+}
