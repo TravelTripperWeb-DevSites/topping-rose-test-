@@ -1,0 +1,19 @@
+{
+  "order": 4,
+  "name": "Salads",
+  "short_description": "Add Chicken 12, Salmon** 17 or Shrimp 15 to any salad",
+  "menus_list": [
+    {
+      "menu_items": [
+        {
+          "menu_name": "Kale Salad*",
+          "menu_description": "<p>Serrano Chili, Parmesan and Lemon 21</p>"
+        },
+        {
+          "menu_name": "Warm Shrimp Salad",
+          "menu_description": "<p>Avocado, Tomato, Champagne Vinegar Dressing 23</p>"
+        }
+      ]
+    }
+  ]
+}

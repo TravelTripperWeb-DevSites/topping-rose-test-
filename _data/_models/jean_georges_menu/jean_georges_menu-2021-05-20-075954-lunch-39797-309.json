@@ -1,0 +1,92 @@
+{
+  "order": 2,
+  "name": "Lunch",
+  "short_description": "Add Shrimp 12, Salmon 17, or Chicken* 15 to Any Salad",
+  "menus_list": [
+    {
+      "menu_items": [
+        {
+          "menu_name": "Crispy Salmon Sushi, Chipotle Mayonnaise, Soy Glaze*",
+          "menu_price": "21"
+        },
+        {
+          "menu_name": "Tuna Tartare",
+          "menu_description": "<p>Avocado, Spicy Radish, Ginger Marinade* 25</p>",
+          "menu_price": ""
+        },
+        {
+          "menu_name": "Avocado Toast, Virgin Coconut & Argan Oils",
+          "menu_description": "<p>Crunchy Seeds and Sprouts 19<br />add poached egg 24<br />add smoked salmon* 27</p>"
+        },
+        {
+          "menu_name": "Kale Salad*",
+          "menu_description": "<p>Serrano Chili, Parmesan and Lemon 21</p>"
+        },
+        {
+          "menu_name": "Burrata with Rhubarb Compote",
+          "menu_description": "<p>Black Pepper and Basil 20</p>"
+        },
+        {
+          "menu_name": "Warm Shrimp Salad",
+          "menu_description": "<p>Avocado, Truffle Vinaigrette, Champagne Dressing 23</p>"
+        },
+        {
+          "menu_name": "Thai Spiced Broccoli Soup",
+          "menu_description": "<p>Coconut and Lime 20</p>"
+        },
+        {
+          "menu_name": "Black Truffle and Fontina Cheese",
+          "menu_price": "24"
+        },
+        {
+          "menu_name": "Mozzarella, Tomato and Basil",
+          "menu_price": "19"
+        },
+        {
+          "menu_name": "Crispy Fried Chicken Sandwich",
+          "menu_description": "<p>Calabrian Chili Mayonnaise, Yuzu Pickles, French Fries 34</p>"
+        },
+        {
+          "menu_name": "Salmon in Mushroom Crust",
+          "menu_description": "<p>Lemon Emulsion, Herbs** 41</p>"
+        },
+        {
+          "menu_name": "Cheddar Cheeseburger",
+          "menu_description": "<p>Passion Fruit BBQ Sauce, Grilled Onions** 26</p>"
+        }
+      ]
+    },
+    {
+      "menu_type": "Dessert",
+      "menu_items": [
+        {
+          "menu_name": "Almond Cake, Strawberry Preserves",
+          "menu_price": "14"
+        },
+        {
+          "menu_name": "Warm Chocolate Cake",
+          "menu_price": "14"
+        },
+        {
+          "menu_name": "LADURÉE Macarons (2.80 each or 15 for Full Assortment)"
+        },
+        {
+          "menu_name": "Chocolate, Salted Caramel, Raspberry, Vanilla, Pistachio or Lemon"
+        }
+      ]
+    },
+    {
+      "menu_type": "Sorbet & Ice Cream",
+      "menu_items": [
+        {
+          "menu_name": "Passionfruit, Cranberry, Raspberry - Sorbet",
+          "menu_price": "3"
+        },
+        {
+          "menu_name": "Vanilla, Cinnamon, Salted Caramel - Ice cream",
+          "menu_price": "3"
+        }
+      ]
+    }
+  ]
+}

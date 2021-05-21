@@ -30,6 +30,7 @@ items:
   - id: gather
   - id: gather_menus
   - id: jean_georges_slider
+  - id: jean_georges_menu
   # - id: offers
   - id: plan_your_visit
   - id: property_highlights
@@ -43,5 +44,3 @@ items:
     - id: room_categories
   # - id: conversion_plus_messages
   - id: things_to_do
-
-

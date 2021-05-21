@@ -1,0 +1,99 @@
+{
+  "order": 10,
+  "name": "Dessert",
+  "menus_list": [
+    {
+      "menu_type": "",
+      "menu_items": [
+        {
+          "menu_name": "Almond Cake, Strawberry Preserves",
+          "menu_price": ""
+        },
+        {
+          "menu_name": "Warm Chocolate Cake",
+          "menu_price": "14"
+        },
+        {
+          "menu_name": "Rhubarb Almond Tart with Vanilla Ice Cream"
+        },
+        {
+          "menu_name": "Jumbo Chocolate Chip Cookie",
+          "menu_price": "9"
+        }
+      ]
+    },
+    {
+      "menu_type": "Sorbet & Ice Cream",
+      "menu_items": [
+        {
+          "menu_name": "Passionfruit, Cranberry, Raspberry - Sorbet",
+          "menu_price": "3"
+        },
+        {
+          "menu_name": "Vanilla, Cinnamon, Salted Caramel - Ice cream",
+          "menu_price": "3"
+        }
+      ]
+    },
+    {
+      "menu_type": "Laduree",
+      "menu_items": [
+        {
+          "menu_name": "Macarons (2.80 each or 15 for Full Assortment)",
+          "menu_description": "<p>Chocolate, Salted Caramel, Raspberry, Vanilla, Pistachio or Lemon</p>"
+        }
+      ]
+    },
+    {
+      "menu_type": "Dessert Wines & Ports",
+      "menu_items": [
+        {
+          "menu_name": "Carmes De Rieussec Sauternse 2016, FR 22"
+        },
+        {
+          "menu_name": "Moscato D’Asti Moncalvina, 2016, Fiori, IT. 12"
+        },
+        {
+          "menu_name": "Inniskillin Vidale Icewine 2017, CA 30"
+        },
+        {
+          "menu_name": "Van Zellers 10 Year Tawny Port, NV, Portugal 19"
+        }
+      ]
+    },
+    {
+      "menu_type": "Organic Teas",
+      "menu_items": [
+        {
+          "menu_name": "Chamomile",
+          "menu_price": "6"
+        },
+        {
+          "menu_name": "Mint",
+          "menu_price": "6"
+        },
+        {
+          "menu_name": "Sencha",
+          "menu_price": "6"
+        }
+      ]
+    },
+    {
+      "menu_type": "Coffee",
+      "menu_items": [
+        {
+          "menu_name": "Coffee",
+          "menu_price": "6"
+        },
+        {
+          "menu_name": "Cappuccino",
+          "menu_price": "8"
+        },
+        {
+          "menu_name": "Espresso",
+          "menu_price": "6"
+        }
+      ]
+    }
+  ]
+}
