@@ -1,4 +1,37 @@
 {
   "order": 7,
-  "name": "Brunch"
+  "name": "Brunch",
+  "menus_list": [
+    {
+      "menu_items": [
+        {
+          "menu_name": "Coconut Chia Pudding",
+          "menu_description": "<p>Market Berries 18</p>"
+        },
+        {
+          "menu_name": "Eggs Benedict",
+          "menu_price": "",
+          "menu_description": "<p>Choice of Ham 19, Smoked Salmon 21, Spinach 17</p>"
+        },
+        {
+          "menu_name": "Three Egg Omelet, Crispy Herb Potatoes, Mixed Greens",
+          "menu_description": "<p>Choice of Ham, Tomato, Onion, Spinach, Cheddar Cheese or Peppers 18</p>"
+        },
+        {
+          "menu_name": "Baked Organic Eggs",
+          "menu_description": "<p>Asparagus Crispy Bacon, Cheddar and Dill</p>"
+        },
+        {
+          "menu_name": "Buttermilk Pancakes",
+          "menu_description": "<p>Berries and Banana 17</p>"
+        },
+        {
+        },
+        {
+          "menu_name": "Avocado Toast, Virgin Coconut & Argan Oils",
+          "menu_description": "<p>Crunchy Seeds and Sprouts 19<br />add Poached Egg** 24<br />add Smoked Salmon 27</p>"
+        }
+      ]
+    }
+  ]
 }

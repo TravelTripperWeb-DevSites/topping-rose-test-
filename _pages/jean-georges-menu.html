@@ -33,10 +33,12 @@ published_localized:
     {% assign menuTypes = item.menus_list %}
     {% for menuType in menuTypes %}
     <div class="menus__inner">
+      {% if menuType.menu_type %}
       <div class="menus__subheader">
         <p class="h2">{{ menuType.menu_type }}</p>
         {{ menuType.menu_type_description }}
       </div>
+      {% endif %}
       <div class="menus__row">
         {% assign menuList = menuType.menu_items %}
         {% for menuListItem in menuList %}
