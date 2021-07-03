@@ -7,11 +7,13 @@
       "menu_items": [
         {
           "menu_name": "Tuna Tartare",
-          "menu_description": "<p>Avocado, Spicy Radish, Ginger Marinade* 25</p>"
+          "menu_description": "<p>Avocado, Spicy Radish, Ginger Marinade* 25</p>",
+          "menu_price": "25"
         },
         {
-          "menu_name": "Burrata with Rhubarb Compote",
-          "menu_description": "<p>Black Pepper and Basil 20</p>"
+          "menu_name": "Burrata with Strawberry Compote",
+          "menu_description": "<p>Black Pepper and Basil 20</p>",
+          "menu_price": "20"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
