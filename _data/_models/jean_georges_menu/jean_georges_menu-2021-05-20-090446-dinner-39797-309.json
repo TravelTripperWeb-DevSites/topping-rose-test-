@@ -7,37 +7,42 @@
       "menu_items": [
         {
           "menu_name": "Tuna Tartare",
-          "menu_description": "<p>Avocado, Spicy Radish, Ginger Marinade* 25</p>",
+          "menu_description": "<p>Corn, Scallion, Fragrant Lime-Corn Broth*</p>",
           "menu_price": "25"
         },
         {
           "menu_name": "Burrata with Strawberry Compote",
-          "menu_description": "<p>Black Pepper and Basil 20</p>",
+          "menu_description": "<p>Spring Peas, Ginger-Scallion Condiment and Lime&nbsp;</p>",
           "menu_price": "20"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
-          "menu_description": "<p>Chipotle Mayonnaise, Soy Glaze* 21</p>"
+          "menu_description": "<p>Gruyere Emulsion, Spring Peas</p>",
+          "menu_price": "21"
         },
         {
           "menu_name": "Kale Salad",
-          "menu_description": "<p>Serrano Chili, Parmesan and Lemon 21</p>"
+          "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese</p>",
+          "menu_price": "21"
         },
         {
-          "menu_name": "Escarole and Strawberry Salad",
-          "menu_description": "<p>Goat Cheese and Basil 24</p>"
+          "menu_name": "Little Gem Salad",
+          "menu_description": "<p>Yuzu Ranch Dressing, Avocado and Crispy Potatoes</p>",
+          "menu_price": "18"
         },
         {
-          "menu_name": "Thai Spiced Broccoli Soup",
-          "menu_description": "<p>Coconut and Lime</p>"
+          "menu_name": "Sweet Pea Soup",
+          "menu_description": "<p>Croutons and Parmasean Cheese</p>",
+          "menu_price": "20"
         },
         {
-          "menu_name": "Warm White Asparagus",
-          "menu_description": "<p>Jalape&ntilde;o-Coriander Vinaigrette 20</p>"
+          "menu_name": "Warm Asparagus",
+          "menu_description": "<p>Green Asparagus, Mushroom Vinaigrette and Herbs</p>",
+          "menu_price": "21"
         },
         {
           "menu_name": "Crispy Calamari",
-          "menu_description": "<p>Yuzu Dipping Sauce and Sesame* 21</p>"
+          "menu_description": "<p>Yuzu Dipping Sauce and Sesame*</p>"
         }
       ]
     },
@@ -79,36 +84,44 @@
       "menu_type": "Entrees",
       "menu_items": [
         {
-          "menu_name": "Salmon in Mushroom Crust",
-          "menu_description": "<p>Lemon Emulsion, Herbs** 41</p>"
+          "menu_name": "Roasted Faroe Island Salmon ",
+          "menu_description": "<p>Lemon Emulsion, Herbs** 41</p>",
+          "menu_price": "38"
         },
         {
           "menu_name": "Steamed Black Sea Bass",
-          "menu_description": "<p>Roasted Fennel,Spiced Rhubarb-Carrot Jus 40</p>"
+          "menu_description": "<p>Roasted Fennel,Spiced Rhubarb-Carrot Jus 40</p>",
+          "menu_price": "40"
         },
         {
           "menu_name": "Steamed Maine Lobster",
-          "menu_description": "<p>Gruyere Emulsion, Spring Peas 48</p>"
+          "menu_description": "<p>Gruyere Emulsion, Spring Peas 48</p>",
+          "menu_price": "60"
         },
         {
           "menu_name": "Rigatoni with Meatballs",
-          "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese 32</p>"
+          "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese 32</p>",
+          "menu_price": "32"
         },
         {
           "menu_name": "Cheddar Cheeseburger",
-          "menu_description": "<p>Passion Fruit BBQ Sauce, Grilled Onions** 26</p>"
+          "menu_description": "<p>Passion Fruit BBQ Sauce, Grilled Onions** 26</p>",
+          "menu_price": "26"
         },
         {
           "menu_name": "Roasted Organic Chicken",
-          "menu_description": "<p>Ramp Spaeztle, Fava Beans and Grainy Mustard Sauce 39</p>"
+          "menu_description": "<p>Ramp Spaeztle, Fava Beans and Grainy Mustard Sauce 39</p>",
+          "menu_price": "39"
         },
         {
-          "menu_name": "Beef Tenderloin",
-          "menu_description": "<p>Spring Vegetables, Salsa Verde with Lime** 47</p>"
+          "menu_name": "Pepper Crusted Beef Tenderloin",
+          "menu_description": "<p>Spring Vegetables, Salsa Verde with Lime** 47</p>",
+          "menu_price": "47"
         },
         {
           "menu_name": "28 Day Dry Aged Ribeye for Two",
-          "menu_description": "<p>Crispy Potato, Herbal Greens, JG Steak Sauce** 138</p>"
+          "menu_description": "<p>Crispy Potato, Herbal Greens, JG Steak Sauce** 138</p>",
+          "menu_price": "148"
         }
       ]
     },
@@ -117,7 +130,7 @@
       "menu_items": [
         {
           "menu_name": "Maine Lobster",
-          "menu_price": "48"
+          "menu_price": "58"
         },
         {
           "menu_name": "Faroe Island Salmon**",
