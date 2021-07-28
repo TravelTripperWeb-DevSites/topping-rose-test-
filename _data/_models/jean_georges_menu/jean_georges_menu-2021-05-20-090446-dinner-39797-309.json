@@ -7,22 +7,22 @@
       "menu_items": [
         {
           "menu_name": "Tuna Tartare",
-          "menu_description": "<p>Avocado, Spicy Radish, Ginger Marinade*</p>",
+          "menu_description": "<p>Corn, Scallion, Fragrant Lime-Corn Broth*</p>",
           "menu_price": "25"
         },
         {
           "menu_name": "Burrata with Strawberry Compote",
-          "menu_description": "<p>Black Pepper and Basil</p>",
+          "menu_description": "<p>Summer Peas, Ginger-Scallion Condiment and Lime</p>",
           "menu_price": "20"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
-          "menu_description": "<p>Gruyere Emulsion, Summer Peas</p>",
+          "menu_description": "<p>Chipotle Mayonnaise, Soy Glaze*</p>",
           "menu_price": "21"
         },
         {
           "menu_name": "Kale Salad",
-          "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese</p>",
+          "menu_description": "<p>Serrano Chili, Parmesan and Lemon</p>",
           "menu_price": "21"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
           "menu_name": "Sweet Pea Soup",
-          "menu_description": "<p>Croutons and Parmasean Cheese</p>",
+          "menu_description": "<p>Croutons and Parmesan Cheese</p>",
           "menu_price": "20"
         },
         {
