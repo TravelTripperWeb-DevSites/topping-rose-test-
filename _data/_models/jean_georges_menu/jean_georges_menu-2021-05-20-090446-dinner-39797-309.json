@@ -7,17 +7,17 @@
       "menu_items": [
         {
           "menu_name": "Tuna Tartare",
-          "menu_description": "<p>Lemon Emulsion, Herbs**&nbsp;</p>",
+          "menu_description": "<p>Corn, Scallion, Fragrant Lime-Corn Broth*</p>",
           "menu_price": "25"
         },
         {
           "menu_name": "Burrata with Strawberry Compote",
-          "menu_description": "<p>Spring Peas, Ginger-Scallion Condiment and Lime&nbsp;</p>",
+          "menu_description": "<p>Summer Peas, Ginger-Scallion Condiment and Lime</p>",
           "menu_price": "20"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
-          "menu_description": "<p>Gruyere Emulsion, Spring Peas</p>",
+          "menu_description": "<p>Gruyere Emulsion, Summer Peas</p>",
           "menu_price": "21"
         },
         {
@@ -42,7 +42,8 @@
         },
         {
           "menu_name": "Crispy Calamari",
-          "menu_description": "<p>Yuzu Dipping Sauce and Sesame*</p>"
+          "menu_description": "<p>Yuzu Dipping Sauce and Sesame*</p>",
+          "menu_price": "21"
         }
       ]
     },
@@ -63,15 +64,15 @@
       "menu_type": "Sides",
       "menu_items": [
         {
-          "menu_name": "Roasted Asparagus with Green Chili,Garlic and Mint",
+          "menu_name": "Summer Peas, Fava Beans and Scallions",
           "menu_price": "10"
         },
         {
-          "menu_name": "Spring Peas, Fava Beans and Ramps",
+          "menu_name": "Roasted Broccolini, Dukkah Vinaigrette and Anise Hyssop",
           "menu_price": "10"
         },
         {
-          "menu_name": "Mashed Potatoes",
+          "menu_name": "Summer Corn, Scallion, Serrano Chili and Cilantro",
           "menu_price": "10"
         },
         {
@@ -109,7 +110,7 @@
           "menu_price": "26"
         },
         {
-          "menu_name": "Roasted Organic Chicken",
+          "menu_name": "Parmasean Crusted Chicken",
           "menu_description": "<p>Ramp Spaeztle, Fava Beans and Grainy Mustard Sauce 39</p>",
           "menu_price": "39"
         },
