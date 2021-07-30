@@ -95,6 +95,11 @@
           "menu_price": "38"
         },
         {
+          "menu_name": "Rigatoni with Meatballs",
+          "menu_price": "32",
+          "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese</p>"
+        },
+        {
           "menu_name": "Parmasean Crusted Chicken",
           "menu_description": "<p>Ramp Spaeztle, Fava Beans and Grainy Mustard Sauce 39</p>",
           "menu_price": "39"
@@ -103,11 +108,6 @@
           "menu_name": "Steamed Maine Lobster",
           "menu_description": "<p>Gruyere Emulsion, Spring Peas 48</p>",
           "menu_price": "60"
-        },
-        {
-          "menu_name": "Rigatoni with Meatballs",
-          "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese 32</p>",
-          "menu_price": "32"
         },
         {
           "menu_name": "Pepper Crusted Beef Tenderloin",
