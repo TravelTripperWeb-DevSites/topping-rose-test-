@@ -95,6 +95,11 @@
           "menu_price": "38"
         },
         {
+          "menu_name": "Steamed Maine Lobster",
+          "menu_price": "60",
+          "menu_description": "<p>Gruyere Emulsion, Summer Peas</p>"
+        },
+        {
           "menu_name": "Rigatoni with Meatballs",
           "menu_price": "32",
           "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese</p>"
