@@ -105,14 +105,24 @@
           "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese</p>"
         },
         {
-          "menu_name": "Parmasean Crusted Chicken",
-          "menu_description": "<p>Ramp Spaeztle, Fava Beans and Grainy Mustard Sauce 39</p>",
-          "menu_price": "39"
+          "menu_name": "Cheddar Cheeseburger",
+          "menu_price": "26",
+          "menu_description": "<p>Passion Fruit BBQ Sauce, Grilled Onions**</p>"
+        },
+        {
+          "menu_name": "Roaster Cauliflower",
+          "menu_price": "28",
+          "menu_description": "<p>Tumeric Tahini, Za'atar, Pomegranate, Fresh Herbs</p>"
+        },
+        {
+          "menu_name": "Parmesan Crusted Chicken",
+          "menu_price": "39",
+          "menu_description": "<p>Pattypan Squash and Basil Fondue</p>"
         },
         {
           "menu_name": "Pepper Crusted Beef Tenderloin",
-          "menu_description": "<p>Spring Vegetables, Salsa Verde with Lime** 47</p>",
-          "menu_price": "47"
+          "menu_price": "47",
+          "menu_description": "<p>B&eacute;arnaise Sauce, Tomato Confit, and Crispy Onions**</p>"
         },
         {
           "menu_name": "28 Day Dry Aged Ribeye for Two",
