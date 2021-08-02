@@ -7,7 +7,7 @@ main:
     target: ''
     page_id: _pages/stay.html
     label_localized:
-      en: Stay
+      en: Stays
     items:
     - url: "/plan-your-stay/"
       label: Plan your stay
