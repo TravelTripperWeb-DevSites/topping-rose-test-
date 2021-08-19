@@ -52,10 +52,6 @@
         {
           "menu_name": "Mozzarella, Tomato and Basil",
           "menu_price": "19"
-        },
-        {
-          "menu_name": "Testing Pizza",
-          "menu_price": "22"
         }
       ]
     },
@@ -63,19 +59,19 @@
       "menu_type": "Sides",
       "menu_items": [
         {
-          "menu_name": "Summer Peas, Fava Beans and Scallions",
-          "menu_price": "10"
-        },
-        {
           "menu_name": "Roasted Broccolini, Dukkah Vinaigrette and Anise Hyssop",
           "menu_price": "10"
         },
         {
-          "menu_name": "Summer Corn, Scallion, Serrano Chili and Cilantro",
+          "menu_name": "Sautéed Corn with Scallion and Serrano Chili",
           "menu_price": "10"
         },
         {
           "menu_name": "French Fries",
+          "menu_price": "10"
+        },
+        {
+          "menu_name": "Mashed Potatoes",
           "menu_price": "10"
         }
       ]
@@ -84,9 +80,9 @@
       "menu_type": "Entrees",
       "menu_items": [
         {
-          "menu_name": "Steamed Black Sea Bass",
-          "menu_price": "40",
-          "menu_description": "<p>Summer Peas, Ginger-Scallion Condiment and Lime</p>"
+          "menu_name": "Crispy Black Bass",
+          "menu_price": "41",
+          "menu_description": "<p>Slow Roasted Tomato, Summer Beans, Lime Yogurt</p>"
         },
         {
           "menu_name": "Roasted Faroe Island Salmon",
