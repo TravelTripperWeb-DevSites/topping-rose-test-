@@ -26,23 +26,18 @@
           "menu_price": "21"
         },
         {
-          "menu_name": "Little Gem Salad",
-          "menu_description": "<p>Yuzu Ranch Dressing, Avocado and Crispy Potatoes</p>",
-          "menu_price": "18"
-        },
-        {
-          "menu_name": "Sweet Pea Soup",
-          "menu_description": "<p>Croutons and Parmesan Cheese</p>",
-          "menu_price": "20"
-        },
-        {
-          "menu_name": "Warm Asparagus",
-          "menu_description": "<p>Green Asparagus, Mushroom Vinaigrette and Herbs</p>",
+          "menu_name": "Heirloom Tomato Salad",
+          "menu_description": "<p>Shaved Red Onions, Sherry Vinaigrette and Basil</p>",
           "menu_price": "21"
         },
         {
+          "menu_name": "Tomato Gazpacho",
+          "menu_description": "<p>Raspberry and Basil</p>",
+          "menu_price": "20"
+        },
+        {
           "menu_name": "Crispy Calamari",
-          "menu_description": "<p>Yuzu Dipping Sauce and Sesame*</p>",
+          "menu_description": "<p>Yuzu Dipping Sauce and Sesame</p>",
           "menu_price": "21"
         }
       ]
