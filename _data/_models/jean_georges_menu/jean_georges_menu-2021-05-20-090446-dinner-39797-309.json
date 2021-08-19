@@ -7,42 +7,37 @@
       "menu_items": [
         {
           "menu_name": "Tuna Tartare",
-          "menu_description": "<p>Corn, Scallion, Fragrant Lime-Corn Broth*</p>",
+          "menu_description": "<p>Avocado, Spicy Radish, Ginger Marinade*</p>",
           "menu_price": "25"
         },
         {
-          "menu_name": "Burrata with Strawberry Compote",
-          "menu_description": "",
+          "menu_name": "Burrata with Charred Peaches",
+          "menu_description": "<p>Brown Butter and Pickled Chili</p>",
           "menu_price": "20"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
-          "menu_description": "<p>Pattypan Squash and Basil Fondue</p>",
+          "menu_description": "<p>Chipotle Mayonnaise, Soy Glaze*</p>",
           "menu_price": "21"
         },
         {
           "menu_name": "Kale Salad",
-          "menu_description": "<p>Gruyere Emulsion, Summer Peas</p>",
+          "menu_description": "<p>Serrano Chili, Parmesan and Lemon</p>",
           "menu_price": "21"
         },
         {
-          "menu_name": "Little Gem Salad",
-          "menu_description": "<p>Yuzu Ranch Dressing, Avocado and Crispy Potatoes</p>",
-          "menu_price": "18"
+          "menu_name": "Heirloom Tomato Salad",
+          "menu_description": "<p>Shaved Red Onions, Sherry Vinaigrette and Basil</p>",
+          "menu_price": "21"
         },
         {
-          "menu_name": "Sweet Pea Soup",
-          "menu_description": "<p>Croutons and Parmesan Cheese</p>",
+          "menu_name": "Tomato Gazpacho",
+          "menu_description": "<p>Raspberry and Basil</p>",
           "menu_price": "20"
         },
         {
-          "menu_name": "Warm Asparagus",
-          "menu_description": "<p>Green Asparagus, Mushroom Vinaigrette and Herbs</p>",
-          "menu_price": "21"
-        },
-        {
           "menu_name": "Crispy Calamari",
-          "menu_description": "<p>Yuzu Dipping Sauce and Sesame*</p>",
+          "menu_description": "<p>Yuzu Dipping Sauce and Sesame</p>",
           "menu_price": "21"
         }
       ]
