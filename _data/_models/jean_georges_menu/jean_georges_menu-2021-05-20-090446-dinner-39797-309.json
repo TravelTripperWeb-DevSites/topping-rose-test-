@@ -17,7 +17,7 @@
         },
         {
           "menu_name": "Crispy Salmon Sushi",
-          "menu_description": "<p>Chipotle Mayonnaise, Soy Glaze*</p>",
+          "menu_description": "<p>Summer Squash, Aleoop Pepper and Sweet Garlic Broth</p>",
           "menu_price": "21"
         },
         {
@@ -95,6 +95,11 @@
           "menu_description": "<p>Gruyere Emulsion, Summer Peas</p>"
         },
         {
+          "menu_name": "Gigli Pasta with Sungold Tomato Sauce",
+          "menu_price": "30",
+          "menu_description": "<p>Chanterelle, Parmesan and Summer Truffle</p>"
+        },
+        {
           "menu_name": "Rigatoni with Meatballs",
           "menu_price": "32",
           "menu_description": "<p>Smoked Chili-Tomato Ragu, Parmesan Cheese</p>"
@@ -115,36 +120,14 @@
           "menu_description": "<p>Pattypan Squash and Basil Fondue</p>"
         },
         {
-          "menu_name": "Pepper Crusted Beef Tenderloin",
+          "menu_name": "Seared Beef Tenderloin",
           "menu_price": "47",
-          "menu_description": "<p>B&eacute;arnaise Sauce, Tomato Confit, and Crispy Onions**</p>"
+          "menu_description": "<p>Potato Puree, Broccolini, Sesame, Chili**</p>"
         },
         {
           "menu_name": "28 Day Dry Aged Ribeye for Two",
           "menu_price": "148",
           "menu_description": "<p>French Fries, Herbal Greens, JG Steak Sauce**</p>"
-        }
-      ]
-    },
-    {
-      "menu_type": "Simply Grilled",
-      "menu_items": [
-        {
-          "menu_name": "Maine Lobster",
-          "menu_price": "58"
-        },
-        {
-          "menu_name": "Faroe Island Salmon**",
-          "menu_price": "35"
-        },
-        {
-          "menu_name": "Black Bass",
-          "menu_price": "35"
-        },
-        {
-          "menu_name": "Beef Tenderloin**",
-          "menu_price": "45",
-          "menu_description": "<p>Served with blistered shishito peppers and choice of citrus chili emulsion, black pepper condiment, buttery hot sauce&nbsp;or green chili ferment</p>"
         }
       ]
     },
