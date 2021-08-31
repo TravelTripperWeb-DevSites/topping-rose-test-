@@ -12,8 +12,12 @@
         },
         {
           "menu_name": "Burrata with Charred Peaches",
-          "menu_description": "<p>Brown Butter and Pickled Chili</p>",
+          "menu_description": "<p>Brown Butter and Pickled Chiles</p>",
           "menu_price": "20"
+        },
+        {
+          "menu_name": "Watermelon and Fresh Ricotta",
+          "menu_price": "19"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
@@ -39,10 +43,6 @@
           "menu_name": "Crispy Calamari",
           "menu_description": "<p>Yuzu Dipping Sauce and Sesame</p>",
           "menu_price": "21"
-        },
-        {
-          "menu_name": "Watermelon and Fresh Ricotta",
-          "menu_price": "19"
         }
       ]
     },
