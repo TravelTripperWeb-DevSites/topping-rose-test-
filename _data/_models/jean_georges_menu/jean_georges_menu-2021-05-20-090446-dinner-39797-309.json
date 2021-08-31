@@ -17,7 +17,8 @@
         },
         {
           "menu_name": "Watermelon and Fresh Ricotta",
-          "menu_price": "19"
+          "menu_price": "19",
+          "menu_description": "<p>Nigella Seeds, Olive Oil and Mint</p>"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
