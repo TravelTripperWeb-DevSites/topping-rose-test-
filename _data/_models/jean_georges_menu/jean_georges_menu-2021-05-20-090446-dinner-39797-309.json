@@ -12,12 +12,17 @@
         },
         {
           "menu_name": "Burrata with Charred Peaches",
-          "menu_description": "<p>Brown Butter and Pickled Chili</p>",
+          "menu_description": "<p>Brown Butter and Pickled Chiles</p>",
           "menu_price": "20"
         },
         {
+          "menu_name": "Watermelon and Fresh Ricotta",
+          "menu_price": "19",
+          "menu_description": "<p>Summer Squash, Aleppo Pepper and Sweet Garlic Broth</p>"
+        },
+        {
           "menu_name": "Crispy Salmon Sushi",
-          "menu_description": "<p>Summer Squash, Aleoop Pepper and Sweet Garlic Broth</p>",
+          "menu_description": "<p>Chipotle Mayonnaise, Soy Glaze*</p>",
           "menu_price": "21"
         },
         {
