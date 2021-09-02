@@ -18,7 +18,7 @@
         {
           "menu_name": "Watermelon and Fresh Ricotta",
           "menu_price": "19",
-          "menu_description": "<p>Summer Squash, Aleppo Pepper and Sweet Garlic Broth</p>"
+          "menu_description": "<p>Nigella Seeds, Olive Oil and Mint</p>"
         },
         {
           "menu_name": "Crispy Salmon Sushi",
@@ -97,7 +97,7 @@
         {
           "menu_name": "Steamed Maine Lobster",
           "menu_price": "60",
-          "menu_description": "<p>Gruyere Emulsion, Summer Peas</p>"
+          "menu_description": "<p>Summer Squash, Aleppo Pepper and Sweet Garlic Broth</p>"
         },
         {
           "menu_name": "Gigli Pasta with Sungold Tomato Sauce",
@@ -138,6 +138,7 @@
     },
     {
       "menu_type": "Simply Grilled",
+      "menu_type_description": "<p>Served with blistered shishito peppers and citrus chili emulsion</p>",
       "menu_items": [
         {
           "menu_name": "Maine Lobster",
@@ -153,8 +154,7 @@
         },
         {
           "menu_name": "Beef Tenderloin**",
-          "menu_price": "45",
-          "menu_description": "<p>Served with blistered shishito peppers and choice of citrus chili emulsion, black pepper condiment, buttery hot sauce&nbsp;or green chili ferment</p>"
+          "menu_price": "45"
         }
       ]
     }
