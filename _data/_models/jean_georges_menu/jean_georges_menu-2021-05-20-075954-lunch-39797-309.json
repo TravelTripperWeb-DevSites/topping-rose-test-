@@ -53,6 +53,15 @@
         {
           "menu_name": "Cheddar Cheeseburger",
           "menu_description": "<p>Passion Fruit BBQ Sauce, Grilled Onions** 26</p>"
+        },
+        {
+          "menu_name": "Tomato Gazpacho",
+          "menu_price": "",
+          "menu_description": "<p>Raspberry and Basil 20</p>"
+        },
+        {
+          "menu_name": "Crispy Fried Chicken Sandwich",
+          "menu_description": "<p>Calabrian Chili Mayonnaise, Yuzu Pickles, French Fries 25</p>"
         }
       ]
     },
