@@ -1,7 +1,7 @@
 {
   "order": 2,
   "name": "Lunch",
-  "short_description": "Add Shrimp 12, Salmon 17, or Chicken* 15 to Any Salad",
+  "short_description": "Add Shrimp 15, Salmon** 17, or Chicken 15 to Any Salad",
   "menus_list": [
     {
       "menu_items": [
