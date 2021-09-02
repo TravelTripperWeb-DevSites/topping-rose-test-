@@ -1,7 +1,7 @@
 {
   "order": 2,
   "name": "Lunch",
-  "short_description": "Add Shrimp 12, Salmon 17, or Chicken* 15 to Any Salad",
+  "short_description": "Add Shrimp 15, Salmon** 17, or Chicken 15 to Any Salad",
   "menus_list": [
     {
       "menu_items": [
@@ -23,8 +23,8 @@
           "menu_description": "<p>Serrano Chili, Parmesan and Lemon 21</p>"
         },
         {
-          "menu_name": "Burrata with Rhubarb Compote",
-          "menu_description": "<p>Black Pepper and Basil 20</p>"
+          "menu_name": "Burrata with Charred Peaches",
+          "menu_description": "<p>Brown Butter and Pickled Chili 20</p>"
         },
         {
           "menu_name": "Warm Shrimp Salad",
@@ -53,6 +53,15 @@
         {
           "menu_name": "Cheddar Cheeseburger",
           "menu_description": "<p>Passion Fruit BBQ Sauce, Grilled Onions** 26</p>"
+        },
+        {
+          "menu_name": "Tomato Gazpacho",
+          "menu_price": "",
+          "menu_description": "<p>Raspberry and Basil 20</p>"
+        },
+        {
+          "menu_name": "Crispy Fried Chicken Sandwich",
+          "menu_description": "<p>Calabrian Chili Mayonnaise, Yuzu Pickles, French Fries 25</p>"
         }
       ]
     },
