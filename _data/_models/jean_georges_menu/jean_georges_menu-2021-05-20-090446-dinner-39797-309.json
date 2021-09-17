@@ -56,7 +56,13 @@
         },
         {
           "menu_name": "Mozzarella, Tomato and Basil",
-          "menu_price": "19"
+          "menu_price": "19",
+          "menu_description": "<p>Margherita</p>"
+        },
+        {
+          "menu_name": "Quattro Stagioni",
+          "menu_price": "44",
+          "menu_description": "<p>Four sections</p>"
         }
       ]
     },
