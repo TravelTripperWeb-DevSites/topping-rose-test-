@@ -48,6 +48,25 @@
       ]
     },
     {
+      "menu_type": "Pizza",
+      "menu_items": [
+        {
+          "menu_name": "Black Truffle and Fontina Cheese",
+          "menu_price": "24"
+        },
+        {
+          "menu_name": "Mozzarella, Tomato and Basil",
+          "menu_price": "19",
+          "menu_description": "<p>Margherita</p>"
+        },
+        {
+          "menu_name": "Quattro Stagioni",
+          "menu_price": "44",
+          "menu_description": "<p>Four sections</p>"
+        }
+      ]
+    },
+    {
       "menu_type": "Sides",
       "menu_items": [
         {
@@ -65,25 +84,6 @@
         {
           "menu_name": "Mashed Potatoes",
           "menu_price": "10"
-        }
-      ]
-    },
-    {
-      "menu_type": "Pizza",
-      "menu_items": [
-        {
-          "menu_name": "Black Truffle and Fontina Cheese",
-          "menu_price": "24"
-        },
-        {
-          "menu_name": "Mozzarella, Tomato and Basil",
-          "menu_price": "19",
-          "menu_description": "<p>Margherita</p>"
-        },
-        {
-          "menu_name": "Quattro Stagioni",
-          "menu_price": "44",
-          "menu_description": "<p>Four sections</p>"
         }
       ]
     },
