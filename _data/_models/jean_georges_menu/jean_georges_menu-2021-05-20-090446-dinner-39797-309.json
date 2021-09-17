@@ -45,7 +45,8 @@
           "menu_description": "<p>Yuzu Dipping Sauce and Sesame</p>",
           "menu_price": "21"
         }
-      ]
+      ],
+      "menu_type_description": "<p>Appetizer description</p>"
     },
     {
       "menu_type": "Pizza",
@@ -90,7 +91,8 @@
           "menu_name": "Mashed Potatoes",
           "menu_price": "10"
         }
-      ]
+      ],
+      "menu_type_description": "<p>Sides description</p>"
     },
     {
       "menu_type": "Entrees",
@@ -169,5 +171,6 @@
         }
       ]
     }
-  ]
+  ],
+  "short_description": "Dinner description"
 }
